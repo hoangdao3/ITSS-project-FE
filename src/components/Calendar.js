@@ -4,15 +4,25 @@ const Calendar = () => {
   const [currentMonth, setCurrentMonth] = useState(new Date().getMonth());
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
   const [showDialog, setShowDialog] = useState(false);
-  const [currentWeek, setCurrentWeek] = useState(0); 
+  const [currentWeek, setCurrentWeek] = useState(0);
   const [todayDate, setTodayDate] = useState(() => {
     const storedToday = localStorage.getItem('todayDate');
     return storedToday ? parseInt(storedToday, 10) : new Date().getDate();
   });
-  const [selectedDate, setSelectedDate] = useState(null); // Lưu trữ ngày được chọn
-  const [showExerciseDialog, setShowExerciseDialog] = useState(false); // Kiểm tra dialog thêm bài tập
-  const [showChooseExerciseDialog, setShowChooseExerciseDialog] = useState(false); // Kiểm tra dialog chọn loại bài tập
-  const [selectedExerciseType, setSelectedExerciseType] = useState(null); // Lưu trữ loại bài tập được chọn
+  const [selectedDate, setSelectedDate] = useState(null); 
+  const [showExerciseDialog, setShowExerciseDialog] = useState(false);
+  const [showChooseExerciseDialog, setShowChooseExerciseDialog] = useState(false); 
+  const [selectedExerciseType, setSelectedExerciseType] = useState(null); 
+  const [showHintExerciseDialog, setShowHintExerciseDialog] = useState(false); 
+  const [hintExerciseContent, setHintExerciseContent] = useState("");
+  const [showYourExerciseDialog, setShowYourExerciseDialog] = useState(false); 
+  const [exerciseName, setExerciseName] = useState(""); 
+  const [exerciseDescription, setExerciseDescription] = useState(""); 
+  const [exerciseNote, setExerciseNote] = useState(""); 
+  const [startDate, setStartDate] = useState('');
+  const [startTime, setStartTime] = useState('');
+  const [endDate, setEndDate] = useState('');
+  const [endTime, setEndTime] = useState('');
 
   useEffect(() => {
     localStorage.setItem('todayDate', todayDate);
@@ -24,8 +34,21 @@ const Calendar = () => {
   ];
 
   const dayNames = [
-    "CN", "Th 2", "Th 3", "Th 4", "Th 5", "Th 6", "Th 7"
+    "CN", "Th 2 ", "Th 3", "Th 4", "Th 5", "Th 6", "Th 7"
   ];
+  const [showWorkDialog, setShowWorkDialog] = useState(false); // Kiểm tra dialog thêm work
+  const [workDescription, setWorkDescription] = useState(""); // Lưu trữ mô tả của work
+  const [workNote, setWorkNote] = useState(""); // Lưu trữ ghi chú của work
+
+  const openWorkDialog = () => setShowWorkDialog(true);
+  const closeWorkDialog = () => setShowWorkDialog(false);
+
+  const handleWorkSubmit = () => {
+    alert(`Work Description: ${workDescription}\nWork Note: ${workNote}`);
+    closeWorkDialog();
+    setWorkDescription("");
+    setWorkNote("");
+  };
 
   const openDialog = () => setShowDialog(true);
   const closeDialog = () => setShowDialog(false);
@@ -62,13 +85,13 @@ const Calendar = () => {
 
     for (let i = firstDayOfWeek; i < firstDayOfWeek + 7; i++) {
       if (i >= 0 && i < daysInMonth) {
-        days.push(i + 1); 
+        days.push(i + 1);
       } else if (i < 0) {
         const dayFromPreviousMonth = getDaysInPreviousMonth(prevMonth, prevYear) + i + 1;
-        days.push(dayFromPreviousMonth); 
+        days.push(dayFromPreviousMonth);
       } else {
         const dayFromNextMonth = i - daysInMonth + 1;
-        days.push(dayFromNextMonth); 
+        days.push(dayFromNextMonth);
       }
     }
     return days;
@@ -106,18 +129,40 @@ const Calendar = () => {
   const closeExerciseDialog = () => setShowExerciseDialog(false);
   const openChooseExerciseDialog = () => setShowChooseExerciseDialog(true);
   const closeChooseExerciseDialog = () => setShowChooseExerciseDialog(false);
+  const openYourExerciseDialog = () => setShowYourExerciseDialog(true); 
+  const closeYourExerciseDialog = () => setShowYourExerciseDialog(false); 
 
   const handleExerciseSubmit = () => {
-    openChooseExerciseDialog(); // Mở dialog chọn loại bài tập
+    if (!startDate || !startTime || !endDate || !endTime) {
+      alert("Vui lòng chọn đầy đủ ngày và giờ bắt đầu, kết thúc.");
+      return;
+    }
+
+  
+    openChooseExerciseDialog();
     closeExerciseDialog();
   };
 
   const handleChooseExerciseSubmit = () => {
-    // Logic to handle the selected exercise type
-    alert(`Bạn đã chọn loại bài tập: ${selectedExerciseType}`);
+    if (selectedExerciseType === "exercise1") {
+      openWorkDialog();
+
+    } else if (selectedExerciseType === "exercise2") {
+      const exerciseHints = [
+        "Hint 1: Remember to use the correct keywords.",
+        "Hint 2: Check the documentation for more information.",
+      ];
+      const randomHintIndex = Math.floor(Math.random() * exerciseHints.length);
+      setHintExerciseContent(exerciseHints[randomHintIndex]);
+
+      setShowHintExerciseDialog(true);
+    } else if (selectedExerciseType === "exercise3") {
+      openYourExerciseDialog(); 
+    } else {
+      alert(`Bạn đã chọn loại bài tập: ${selectedExerciseType}`);
+    }
     closeChooseExerciseDialog();
   };
-
   return (
     <div className="flex-1 p-4">
       <div className="flex justify-between items-center mb-4">
@@ -129,13 +174,13 @@ const Calendar = () => {
         </button>
         <div className="flex items-center">
           <button className="px-2" onClick={goToPreviousWeek}>
-            &lt; 
+            &lt;
           </button>
           <span className="mx-2 cursor-pointer" onClick={openDialog}>
             {monthNames[currentMonth]} {currentYear}
           </span>
           <button className="px-2" onClick={goToNextWeek}>
-             &gt;
+            &gt;
           </button>
           <button className="bg-green-500 text-white px-4 py-2 rounded ml-4" onClick={openExerciseDialog}>
             New Exercise
@@ -148,9 +193,8 @@ const Calendar = () => {
         {dayNames.map((dayName, index) => (
           <div
             key={index}
-            className={`${
-              todayDate === (index + 1) ? 'text-blue- 500' : ''
-            }`}
+            className={`${todayDate === (index + 1) ? 'text-blue-500' : ''
+              }`}
           >
             {dayName}
           </div>
@@ -213,7 +257,7 @@ const Calendar = () => {
                 className="bg-gray-200 px-4 py-2 rounded"
                 onClick={closeDialog}
               >
-                Hủy
+                Cancel
               </button>
               <button
                 className="bg-blue-500 text-white px-4 py-2 rounded"
@@ -224,78 +268,235 @@ const Calendar = () => {
                   )
                 }
               >
-                Chọn
-              </button> 
+                Save
+              </button>
             </div>
           </div>
         </div>
       )}
 
-      {showExerciseDialog && (
+{showExerciseDialog && (
+  <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+    <div className="bg-white p-6 rounded shadow-lg w-80">
+      <h2 className="text-lg font-bold mb-4">Thêm bài tập mới</h2>
+      
+      {/* Ngày giờ bắt đầu */}
+      <div className="mb-4">
+        <label className="block mb-2">Ngày bắt đầu:</label>
+        <input
+          className="w-full border px-2 py-1"
+          type="date"
+          value={startDate}
+          onChange={(e) => setStartDate(e.target.value)}
+          required
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block mb-2">Giờ bắt đầu:</label>
+        <input
+          className="w-full border px-2 py-1"
+          type="time"
+          value={startTime}
+          onChange={(e) => setStartTime(e.target.value)}
+          required
+        />
+      </div>
+
+      {/* Ngày giờ kết thúc */}
+      <div className="mb-4">
+        <label className="block mb-2">Ngày kết thúc:</label>
+        <input
+          className="w-full border px-2 py-1"
+          type="date"
+          value={endDate}
+          onChange={(e) => setEndDate(e.target.value)}
+          required
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block mb-2">Giờ kết thúc:</label>
+        <input
+          className="w-full border px-2 py-1"
+          type="time"
+          value={endTime}
+          onChange={(e) => setEndTime(e.target.value)}
+          required
+        />
+      </div>
+
+      <div className="flex justify-between">
+        <button
+          className="bg-gray-200 px-4 py-2 rounded"
+          onClick={closeExerciseDialog}
+        >
+          Hủy
+        </button>
+        <button
+          className="bg-blue-500 text-white px-4 py-2 rounded"
+          onClick={handleExerciseSubmit}
+        >
+          Lưu
+        </button>
+      </div>
+    </div>
+  </div>
+)}
+
+
+      {showWorkDialog && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-white p-6 rounded shadow-lg w-80">
-            <h2 className="text-lg font-bold mb-4">Thêm bài tập mới</h2>
+            <h2 className="text-lg font-bold mb-4">Thêm Work</h2>
             <div className="mb-4">
-              <label className="block mb-2">Ngày:</label>
-              <input
-                className="w-full border px-2 py-1"
-                type="date"
-                onChange={(e) => setSelectedDate(e.target.value)}
+              <label className="block mb-2">Mô tả:</label>
+              <textarea
+                className="w-full border px-2 py-1 resize-none"
+                rows={4}
+                value={workDescription}
+                onChange={(e) => setWorkDescription(e.target.value)}
               />
             </div>
             <div className="mb-4">
-              <label className="block mb-2">Giờ:</label>
-              <input
-                className="w-full border px-2 py-1"
-                type="time"
+              <label className="block mb-2">Ghi chú:</label>
+              <textarea
+                className="w-full border px-2 py-1 resize-none"
+                rows={2}
+                value={workNote}
+                onChange={(e) => setWorkNote(e.target.value)}
               />
             </div>
             <div className="flex justify-between">
               <button
                 className="bg-gray-200 px-4 py-2 rounded"
-                onClick={closeExerciseDialog}
+                onClick={closeWorkDialog}
               >
-                Hủy
+                Cancel
               </button>
               <button
                 className="bg-blue-500 text-white px-4 py-2 rounded"
-                onClick={handleExerciseSubmit}
+                onClick={handleWorkSubmit}
               >
-                OK
+                Save
               </button>
             </div>
           </div>
         </div>
       )}
-
       {showChooseExerciseDialog && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-white p-6 rounded shadow-lg w-80">
             <h2 className="text-lg font-bold mb-4">Chọn loại bài tập</h2>
-            <div className="mb-4">
-              <label className="block mb-2">Loại bài tập:</label>
-              <select
-                className="w-full border px-2 py-1"
-                value={selectedExerciseType}
-                onChange={(e) => setSelectedExerciseType(e.target.value)}
+            <div className="grid grid-cols-3 gap-4">
+              <button
+                className="bg-gray-200 px-2 py-2 rounded"
+                onClick={() => {
+                  closeChooseExerciseDialog();
+
+                  setSelectedExerciseType("exercise1");
+                  openWorkDialog();
+
+                  setShowWorkDialog(true); 
+                }}
               >
-                <option value="exercise1">Work</option>
-                <option value="exercise2">Hint Exercise</option>
-                <option value="exercise3">Your exercise</option>
-              </select>
+                Work
+              </button>
+              <button
+                className="bg-gray-200 px-2 py-2 rounded"
+                onClick={() => {
+                  setSelectedExerciseType("exercise2");
+                  const exerciseHints = [
+                    "Hint 1: Remember to use the correct keywords.",
+                    "Hint 2: Check the documentation for more information.",
+                  ];
+                  const randomHintIndex = Math.floor(Math.random() * exerciseHints.length);
+                  closeChooseExerciseDialog();
+                  setHintExerciseContent(exerciseHints[randomHintIndex]);
+                  setShowHintExerciseDialog(true); 
+                }}
+              >
+                Hint Exercise
+              </button>
+              <button
+                className="bg-gray-200 px-2 py-2 rounded"
+                onClick={() => {
+                  closeChooseExerciseDialog();
+                  setSelectedExerciseType("exercise3");
+                  openYourExerciseDialog();
+                }}
+              >
+                Your exercise
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {showYourExerciseDialog && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+          <div className="bg-white p-6 rounded shadow-lg w-80">
+            <h2 className="text-lg font-bold mb-4">Your Exercise</h2>
+            <div className="mb-4">
+              <label className="block mb-2">Tên bài tập:</label>
+              <input
+                className="w-full border px-2 py-1"
+                type="text"
+                value={exerciseName}
+                onChange={(e) => setExerciseName(e.target.value)}
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block mb-2">Mô tả:</label>
+              <textarea
+                className="w-full border px-2 py-1 resize-none"
+                rows={4}
+                value={exerciseDescription}
+                onChange={(e) => setExerciseDescription(e.target.value)}
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block mb-2">Ghi chú:</label>
+              <textarea
+                className="w-full border px-2 py-1 resize-none"
+                rows={2}
+                value={exerciseNote}
+                onChange={(e) => setExerciseNote(e.target.value)}
+              />
             </div>
             <div className="flex justify-between">
               <button
                 className="bg-gray-200 px-4 py-2 rounded"
-                onClick={closeChooseExerciseDialog}
+                onClick={closeYourExerciseDialog}
               >
-                Hủy
+                Đóng
               </button>
               <button
                 className="bg-blue-500 text-white px-4 py-2 rounded"
-                onClick={handleChooseExerciseSubmit}
+                onClick={() => {
+                  alert(`Tên bài tập: ${exerciseName}\nMô tả: ${exerciseDescription}\nGhi chú: ${exerciseNote}`);
+                  closeYourExerciseDialog();
+                  setExerciseName("");
+                  setExerciseDescription("");
+                  setExerciseNote("");
+                }}
               >
                 OK
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {showHintExerciseDialog && (
+        <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center">
+          <div className="bg-white p-8 rounded-lg shadow-lg w-96">
+            <h2 className="text-xl font-semibold mb-4 text-center">Hint Exercise</h2>
+            <p className="text-gray-700 mb-6">{hintExerciseContent}</p>
+            <div className="flex justify-center">
+              <button
+                className=" bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-200"
+                onClick={() => setShowHintExerciseDialog(false)}
+              >
+                Đóng
               </button>
             </div>
           </div>

@@ -1,0 +1,50 @@
+/* Calendar.css */
+
+.calendar-container {
+  padding: 16px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.calendar-day-names,
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+}
+
+.calendar-day {
+  border: 1px solid #ccc;
+  text-align: center;
+  height: 80px; /* Chiều cao cho mỗi ngày */
+}
+
+.calendar-hour {
+  border-top: 1px solid #ccc;
+  height: 32px; /* Chiều cao cho mỗi giờ */
+}
+
+.today {
+  color: blue; /* Màu cho ngày hôm nay */
+}
+
+.dialog {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-content {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  width: 300px;
+}
