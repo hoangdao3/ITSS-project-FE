@@ -21,12 +21,12 @@ const ChangePassword = () => {
         <div className="max-w-md w-full">
           <div className="p-8 rounded-2xl bg-white shadow">
             <div className="text-gray-800 text-3xl font-bold flex items-center">
-              Change Password
+            パスワードを変更する
             </div>
             <form className="mt-8 space-y-4">
               <div>
                 <label className="text-gray-800 text-sm mb-2 block">
-                  Your Email
+                あなたのメールアドレス
                 </label>
                 <div className="relative flex items-center">
                   <input
@@ -58,7 +58,7 @@ const ChangePassword = () => {
               </div>
 
               <div>
-                <label className="text-gray-800 text-sm mb-2 block">Password</label>
+                <label className="text-gray-800 text-sm mb-2 block">パスワード</label>
                 <div className="relative flex items-center">
                   <input
                     name="password"
@@ -84,7 +84,7 @@ const ChangePassword = () => {
 
               <div>
                 <label className="text-gray-800 text-sm mb-2 block">
-                  Confirm Password
+                パスワードを認証する
                 </label>
                 <div className="relative flex items-center">
                   <input
@@ -119,12 +119,12 @@ const ChangePassword = () => {
                   for="remember-me"
                   className="text-gray-800 ml-3 block text-sm"
                 >
-                  I accept the{" "}
+                  私は受け入れます{" "}
                   <a
                     href="javascript:void(0);"
                     className="text-blue-600 font-semibold hover:underline ml-1"
                   >
-                    Terms and Conditions
+                    利用規約
                   </a>
                 </label>
               </div>
@@ -135,17 +135,17 @@ const ChangePassword = () => {
                   onClick={handleResetPassword}
                   className="w-full py-3 px-4 text-sm tracking-wide rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none"
                 >
-                  Reset Password
+                  パスワードをリセット
                 </button>
               </div>
               <p className="text-gray-800 text-sm !mt-8 text-center">
-                Back to Login?{" "}
+              ログインに戻る?{" "}
                 <a
                   onClick={handleLogin}
                   href="javascript:void(0);"
                   className="text-blue-600 hover:underline ml-1 whitespace-nowrap font-semibold"
                 >
-                  Login here
+                  ここからログイン
                 </a>
               </p>
             </form>

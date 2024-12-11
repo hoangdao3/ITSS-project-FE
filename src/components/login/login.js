@@ -36,7 +36,7 @@ const Login = () => {
       });
 
       if (!response.ok) {
-        throw new Error("Login failed");
+        throw new Error("ログインに失敗しました");
       }
 
       const data = await response.json();
@@ -54,7 +54,7 @@ const Login = () => {
         <div className="max-w-md w-full">
           <div className="p-8 rounded-2xl bg-white shadow">
             <div className="text-gray-800 text-2xl font-bold flex items-center">
-              Sign in with
+            サインイン
               <button type="button" className="border-none outline-none pl-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ const Login = () => {
               </button>
             </div>
             <div className="my-4 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300 dark:before:border-neutral-500 dark:after:border-neutral-500">
-              <p className="mx-4 mb-0 text-center font-semibold">Or</p>
+              <p className="mx-4 mb-0 text-center font-semibold">または</p>
             </div>
             <form
               className="mt-8 space-y-4"
@@ -122,7 +122,7 @@ const Login = () => {
             >
               <div>
                 <label className="text-gray-800 text-sm mb-2 block">
-                  User name
+                ユーザー名
                 </label>
                 <div className="relative flex items-center">
                   <input
@@ -157,7 +157,7 @@ const Login = () => {
 
               <div>
                 <label className="text-gray-800 text-sm mb-2 block">
-                  Password
+                パスワード
                 </label>
                 <div className="relative flex items-center">
                   <input
@@ -198,7 +198,7 @@ const Login = () => {
                     htmlFor="remember-me"
                     className="ml-3 block text-sm text-gray-800"
                   >
-                    Remember me
+                    私を覚えてますか
                   </label>
                 </div>
                 <div className="text-sm">
@@ -207,7 +207,7 @@ const Login = () => {
                     href="javascript:void(0);"
                     className="text-blue-600 hover:underline font-semibold"
                   >
-                    Forgot your password?
+                    パスワードをお忘れですか？
                   </a>
                 </div>
               </div>
@@ -218,17 +218,17 @@ const Login = () => {
                   onClick={handleLogin}
                   className="w-full py-3 px-4 text-sm tracking-wide rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none"
                 >
-                  Sign in
+                  サインイン
                 </button>
               </div>
               <p className="text-gray-800 text-sm !mt-8 text-center">
-                Don't have an account?{" "}
+              アカウントをお持ちでない?{" "}
                 <a
                   onClick={handleRegister}
                   href="javascript:void(0);"
                   className="text-blue-600 hover:underline ml-1 whitespace-nowrap font-semibold"
                 >
-                  Register here
+                  こちらから登録
                 </a>
               </p>
             </form>

@@ -103,11 +103,11 @@ const Header = () => {
               </div>
               <div className="pl-3">
                 <p className="text-sm leading-none">
-                  Reminder: You have a training session today at{" "}
+                リマインダー: 今日は次の場所でトレーニングセッションがあります{" "}
                   <span className="text-indigo-700">5:00 PM</span>
                 </p>
                 <p className="text-xs leading-3 pt-1 text-gray-500">
-                  Don't forget to bring your gear!
+                装備を忘れずにお持ちください!
                 </p>
               </div>
             </div>
@@ -128,11 +128,11 @@ const Header = () => {
               </div>
               <div className="pl-3">
                 <p className="text-sm leading-none">
-                  System maintenance scheduled at{" "}
+                システムメンテナンスの予定日時t{" "}
                   <span className="text-indigo-700">12:00 AM</span>
                 </p>
                 <p className="text-xs leading-3 pt-1 text-gray-500">
-                  Please save your work.
+                作業内容を保存してください。
                 </p>
               </div>
             </div>
@@ -153,11 +153,11 @@ const Header = () => {
               </div>
               <div className="pl-3">
                 <p className="text-sm leading-none">
-                  New feature release:{" "}
-                  <span className="text-indigo-700">Dark Mode</span>
+                新機能リリース:{" "}
+                  <span className="text-indigo-700">ダークモード</span>
                 </p>
                 <p className="text-xs leading-3 pt-1 text-gray-500">
-                  Try it out in settings.
+                設定で試してみてください。
                 </p>
               </div>
             </div>
@@ -178,10 +178,9 @@ const Header = () => {
               </div>
               <div className="pl-3">
                 <p className="text-sm leading-none">
-                  Task <span className="text-indigo-700">#12345</span> completed
-                  successfully
+                タスク <span className="text-indigo-700">#12345</span> 完了しました
                 </p>
-                <p className="text-xs leading-3 pt-1 text-gray-500">Just now</p>
+                <p className="text-xs leading-3 pt-1 text-gray-500">ちょうど今</p>
               </div>
             </div>
             <div className="w-full p-3 mt-4 bg-orange-100 rounded flex items-center">
@@ -201,16 +200,16 @@ const Header = () => {
               </div>
               <div className="pl-3">
                 <p className="text-sm leading-none">
-                  Reminder: Your meeting starts in{" "}
-                  <span className="text-indigo-700">30 minutes</span>
+                リマインダー: 会議の開始時間は{" "}
+                  <span className="text-indigo-700">30分</span>
                 </p>
                 <p className="text-xs leading-3 pt-1 text-gray-500">
-                  Don't be late!
+                遅れないように！
                 </p>
               </div>
             </div>
             <h2 className="text-sm leading-normal pt-8 border-b pb-2 border-gray-300 text-gray-600">
-              YESTERDAY
+            昨日
             </h2>
             <div className="w-full p-3 mt-6 bg-white rounded flex">
               <div className="w-8 h-8 border rounded-full border-gray-200 flex items-center justify-center">
@@ -229,12 +228,11 @@ const Header = () => {
               </div>
               <div className="pl-3">
                 <p className="text-sm leading-none">
-                  <span className="text-indigo-700">Sarah</span> posted in the
-                  thread:{" "}
-                  <span className="text-indigo-700">Update gone wrong</span>
+                  <span className="text-indigo-700">サラ</span>スレッドに投稿:{" "}
+                  <span className="text-indigo-700">アップデートが失敗しました</span>
                 </p>
                 <p className="text-xs leading-3 pt-1 text-gray-500">
-                  2 hours ago
+                2時間前
                 </p>
               </div>
             </div>
@@ -255,11 +253,11 @@ const Header = () => {
               </div>
               <div className="pl-3">
                 <p className="text-sm leading-none">
-                  Shipmet delayed for order
+                注文の発送が遅れています
                   <span className="text-indigo-700"> #25551</span>
                 </p>
                 <p className="text-xs leading-3 pt-1 text-gray-500">
-                  2 hours ago
+                2時間前
                 </p>
               </div>
             </div>
@@ -280,11 +278,10 @@ const Header = () => {
               </div>
               <div className="pl-3">
                 <p className="text-sm leading-none">
-                  <span className="text-indigo-700">James Doe</span> favourited
-                  an <span className="text-indigo-700">item</span>
+                  <span className="text-indigo-700">James Doe</span>お気に入りに追加<span className="text-indigo-700">アイテム</span>
                 </p>
                 <p className="text-xs leading-3 pt-1 text-gray-500">
-                  2 hours ago
+                2時間前
                 </p>
               </div>
             </div>
@@ -306,10 +303,10 @@ const Header = () => {
               <div className="pl-3 w-full">
                 <div className="flex items-center justify-between">
                   <p className="text-sm leading-none text-green-700">
-                    Design sprint completed
+                  デザインスプリント完了
                   </p>
                   <p className="text-xs leading-3 underline cursor-pointer text-green-700">
-                    View
+                  ビュー
                   </p>
                 </div>
               </div>
@@ -317,7 +314,7 @@ const Header = () => {
             <div className="flex items-center justiyf-between">
               <hr className="w-full" />
               <p className="text-sm flex flex-shrink-0 leading-normal px-3 py-16 text-gray-500">
-                Thats it for now :)
+              今のところはこれで終わりです :)
               </p>
               <hr className="w-full" />
             </div>
@@ -329,16 +326,16 @@ const Header = () => {
       {showProfile && (
         <div className="absolute right-0 top-16 w-64 bg-white shadow-lg rounded-lg p-4 z-50">
           <p className="text-xl font-semibold leading-6 text-gray-800">
-            User Profile
+          ユーザープロフィール
           </p>
           <div className="mt-4">
-            <p className="text-sm text-gray-600">Name: John Doe</p>
-            <p className="text-sm text-gray-600">Email: john.doe@example.com</p>
+            <p className="text-sm text-gray-600">名前: John Doe</p>
+            <p className="text-sm text-gray-600">メール: john.doe@example.com</p>
             <button
               className="mt-3 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
               onClick={() => alert("Profile Settings")}
             >
-              Edit Profile
+              プロフィールを編集
             </button>
           </div>
         </div>

@@ -147,7 +147,7 @@ const Calendar = () => {
 
   const handleExerciseSubmit = () => {
     if (!startDate || !startTime || !endDate || !endTime) {
-      alert("Vui lòng chọn đầy đủ ngày và giờ bắt đầu, kết thúc.");
+      alert("完全な開始日時と終了日時を選択してください。");
       return;
     }
 
@@ -156,21 +156,21 @@ const Calendar = () => {
   };
 
   const handleChooseExerciseSubmit = () => {
-    if (selectedExerciseType === "exercise1") {
+    if (selectedExerciseType === "練習1") {
       openWorkDialog();
-    } else if (selectedExerciseType === "exercise2") {
+    } else if (selectedExerciseType === "練習2") {
       const exerciseHints = [
-        "Hint 1: Remember to use the correct keywords.",
-        "Hint 2: Check the documentation for more information.",
+        "ヒント 1: 正しいキーワードを使用することを忘れないでください。",
+        "ヒント2: 詳細についてはドキュメントを確認してください.",
       ];
       const randomHintIndex = Math.floor(Math.random() * exerciseHints.length);
       setHintExerciseContent(exerciseHints[randomHintIndex]);
 
       setShowHintExerciseDialog(true);
-    } else if (selectedExerciseType === "exercise3") {
+    } else if (selectedExerciseType === "練習3") {
       openYourExerciseDialog();
     } else {
-      alert(`Bạn đã chọn loại bài tập: ${selectedExerciseType}`);
+      alert(`エクササイズの種類を選択しました: ${selectedExerciseType}`);
     }
     closeChooseExerciseDialog();
   };
@@ -182,7 +182,7 @@ const Calendar = () => {
           className="bg-gray-200 px-4 py-2 rounded"
           onClick={handleTodayClick}
         >
-          Hôm nay
+          今日
         </button>
         <div>
           <button className="px-2" onClick={goToPreviousWeek}>
@@ -200,7 +200,7 @@ const Calendar = () => {
             className="bg-green-500 text-white px-4 py-2 rounded ml-4"
             onClick={openExerciseDialog}
           >
-            New Exercise
+            新しいエクササイズ
           </button>
         </div>
       </div>
@@ -250,9 +250,9 @@ const Calendar = () => {
       {showDialog && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-white p-6 rounded shadow-lg w-80">
-            <h2 className="text-lg font-bold mb-4">Chọn ngày</h2>
+            <h2 className="text-lg font-bold mb-4">日付を選択してください</h2>
             <div className="mb-4">
-              <label className="block mb-2">Tháng:</label>
+              <label className="block mb-2">月:</label>
               <select
                 className="w-full border px-2 py-1"
                 defaultValue={currentMonth}
@@ -266,7 +266,7 @@ const Calendar = () => {
               </select>
             </div>
             <div className="mb-4">
-              <label className="block mb-2">Năm:</label>
+              <label className="block mb-2">年:</label>
               <input
                 className="w-full border px-2 py-1"
                 type="number"
@@ -279,7 +279,7 @@ const Calendar = () => {
                 className="bg-gray-200 px-4 py-2 rounded"
                 onClick={closeDialog}
               >
-                Cancel
+                キャンセル
               </button>
               <button
                 className="bg-blue-500 text-white px-4 py-2 rounded"
@@ -290,7 +290,7 @@ const Calendar = () => {
                   )
                 }
               >
-                Save
+                保存
               </button>
             </div>
           </div>
@@ -300,11 +300,11 @@ const Calendar = () => {
       {showExerciseDialog && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-white p-6 rounded shadow-lg w-80">
-            <h2 className="text-lg font-bold mb-4">Thêm bài tập mới</h2>
+            <h2 className="text-lg font-bold mb-4">新しい演習を追加する</h2>
 
             {/* Ngày giờ bắt đầu */}
             <div className="mb-4">
-              <label className="block mb-2">Ngày bắt đầu:</label>
+              <label className="block mb-2">開始日:</label>
               <input
                 className="w-full border px-2 py-1"
                 type="date"
@@ -314,7 +314,7 @@ const Calendar = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="block mb-2">Giờ bắt đầu:</label>
+              <label className="block mb-2">開始時間:</label>
               <input
                 className="w-full border px-2 py-1"
                 type="time"
@@ -326,7 +326,7 @@ const Calendar = () => {
 
             {/* Ngày giờ kết thúc */}
             <div className="mb-4">
-              <label className="block mb-2">Ngày kết thúc:</label>
+              <label className="block mb-2">終了日:</label>
               <input
                 className="w-full border px-2 py-1"
                 type="date"
@@ -336,7 +336,7 @@ const Calendar = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="block mb-2">Giờ kết thúc:</label>
+              <label className="block mb-2">終了時刻:</label>
               <input
                 className="w-full border px-2 py-1"
                 type="time"
@@ -351,13 +351,13 @@ const Calendar = () => {
                 className="bg-gray-200 px-4 py-2 rounded"
                 onClick={closeExerciseDialog}
               >
-                Hủy
+                キャンセル
               </button>
               <button
                 className="bg-blue-500 text-white px-4 py-2 rounded"
                 onClick={handleExerciseSubmit}
               >
-                Lưu
+                保存
               </button>
             </div>
           </div>
@@ -367,9 +367,9 @@ const Calendar = () => {
       {showWorkDialog && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-white p-6 rounded shadow-lg w-80">
-            <h2 className="text-lg font-bold mb-4">Thêm Work</h2>
+            <h2 className="text-lg font-bold mb-4">作業を追加する</h2>
             <div className="mb-4">
-              <label className="block mb-2">Mô tả:</label>
+              <label className="block mb-2">説明する:</label>
               <textarea
                 className="w-full border px-2 py-1 resize-none"
                 rows={4}
@@ -391,13 +391,13 @@ const Calendar = () => {
                 className="bg-gray-200 px-4 py-2 rounded"
                 onClick={closeWorkDialog}
               >
-                Cancel
+                キャンセル
               </button>
               <button
                 className="bg-blue-500 text-white px-4 py-2 rounded"
                 onClick={handleWorkSubmit}
               >
-                Save
+                保存
               </button>
             </div>
           </div>
@@ -406,7 +406,7 @@ const Calendar = () => {
       {showChooseExerciseDialog && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-white p-6 rounded shadow-lg w-80">
-            <h2 className="text-lg font-bold mb-4">Chọn loại bài tập</h2>
+            <h2 className="text-lg font-bold mb-4">エクササイズの種類を選択してください</h2>
             <div className="grid grid-cols-3 gap-4">
               <button
                 className="bg-gray-200 px-2 py-2 rounded"
@@ -419,7 +419,7 @@ const Calendar = () => {
                   setShowWorkDialog(true);
                 }}
               >
-                Work
+                仕事
               </button>
               <button
                 className="bg-gray-200 px-2 py-2 rounded"
@@ -437,7 +437,7 @@ const Calendar = () => {
                   setShowHintExerciseDialog(true);
                 }}
               >
-                Hint Exercise
+                ヒント練習
               </button>
               <button
                 className="bg-gray-200 px-2 py-2 rounded"
@@ -447,7 +447,7 @@ const Calendar = () => {
                   openYourExerciseDialog();
                 }}
               >
-                Your exercise
+               あなたのエクササイズ
               </button>
             </div>
           </div>
@@ -457,9 +457,9 @@ const Calendar = () => {
       {showYourExerciseDialog && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-white p-6 rounded shadow-lg w-80">
-            <h2 className="text-lg font-bold mb-4">Your Exercise</h2>
+            <h2 className="text-lg font-bold mb-4">あなたのエクササイズ</h2>
             <div className="mb-4">
-              <label className="block mb-2">Tên bài tập:</label>
+              <label className="block mb-2">エクササイズ名:</label>
               <input
                 className="w-full border px-2 py-1"
                 type="text"
@@ -468,7 +468,7 @@ const Calendar = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="block mb-2">Mô tả:</label>
+              <label className="block mb-2">説明する：</label>
               <textarea
                 className="w-full border px-2 py-1 resize-none"
                 rows={4}
@@ -477,7 +477,7 @@ const Calendar = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="block mb-2">Ghi chú:</label>
+              <label className="block mb-2">注記:</label>
               <textarea
                 className="w-full border px-2 py-1 resize-none"
                 rows={2}
@@ -490,7 +490,7 @@ const Calendar = () => {
                 className="bg-gray-200 px-4 py-2 rounded"
                 onClick={closeYourExerciseDialog}
               >
-                Đóng
+                近い
               </button>
               <button
                 className="bg-blue-500 text-white px-4 py-2 rounded"
@@ -504,7 +504,7 @@ const Calendar = () => {
                   setExerciseNote("");
                 }}
               >
-                OK
+                保存
               </button>
             </div>
           </div>
@@ -515,7 +515,7 @@ const Calendar = () => {
         <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center">
           <div className="bg-white p-8 rounded-lg shadow-lg w-96">
             <h2 className="text-xl font-semibold mb-4 text-center">
-              Hint Exercise
+            ヒント練習
             </h2>
             <p className="text-gray-700 mb-6">{hintExerciseContent}</p>
             <div className="flex justify-center">
@@ -523,7 +523,7 @@ const Calendar = () => {
                 className=" bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-200"
                 onClick={() => setShowHintExerciseDialog(false)}
               >
-                Đóng
+                近い
               </button>
             </div>
           </div>

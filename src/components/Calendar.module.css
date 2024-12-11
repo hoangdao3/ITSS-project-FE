@@ -1,7 +1,9 @@
-/* Calendar.css */
-
 .calendar-container {
   padding: 16px;
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden; /* Hide overflow */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
 }
 
 .calendar-header {
@@ -16,41 +18,34 @@
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   gap: 8px;
+  flex-grow: 1; /* Allow the grid to grow and fill available space */
 }
 
 .calendar-day {
   border: 1px solid #ccc;
   text-align: center;
-  height: 80px; /* Chiều cao cho mỗi ngày */
+  height: calc((100vh - 200px) / 6); /* Adjust height based on available space */
+  display: flex; /* Center content vertically */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
 }
 
 .calendar-hour {
   border-top: 1px solid #ccc;
-  height: 32px; /* Chiều cao cho mỗi giờ */
+  height: 32px; /* Keep hour height constant */
 }
 
 .today {
-  color: blue; /* Màu cho ngày hôm nay */
+  color: blue; /* Highlight today's date */
 }
 
-.dialog {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Responsive styles */
+@media (max-width: 768px) {
+  .calendar-day {
+    height: calc((100vh - 200px) / 6); /* Adjust height for smaller screens */
+  }
+
+  .calendar-hour {
+    height: 28px; /* Reduce hour height for smaller screens */
+  }
 }
-
-.dialog-content {
-  background: white;
-  padding: 24px;
-  border-radius: 8px;
-  width: 300px;
-}
-
-svg {
-  font-size: 25px;
-}
-
-

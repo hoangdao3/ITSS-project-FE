@@ -12,7 +12,7 @@ const Register = () => {
   const handleCreateAccount = () => {
     // Logic tạo tài khoản thành công
     navigate("/login", {
-      state: { message: "Đăng ký thành công! Vui lòng đăng nhập." },
+      state: { message: "無事に登録されました！ログインしてください." },
     });
   };
 
@@ -23,7 +23,7 @@ const Register = () => {
           <div className="max-md:order-1 space-y-6">
             <div className="md:mb-16 mb-8">
               <h3 className="text-gray-800 text-2xl font-bold">
-                Instant Access
+              即時アクセス
               </h3>
             </div>
 
@@ -44,7 +44,7 @@ const Register = () => {
                     data-original="#010002"
                   />
                 </svg>
-                Continue with Facebook
+                Facebookで続ける
               </button>
               <button
                 type="button"
@@ -88,7 +88,7 @@ const Register = () => {
                     data-original="#eb4132"
                   />
                 </svg>
-                Continue with Google
+                Googleで続行
               </button>
               <button
                 type="button"
@@ -106,19 +106,19 @@ const Register = () => {
                     data-original="#000000"
                   />
                 </svg>
-                Continue with Apple
+                Appleで続ける
               </button>
             </div>
           </div>
 
           <form className="w-full">
             <div className="mb-8">
-              <h3 className="text-gray-800 text-2xl font-bold">Register</h3>
+              <h3 className="text-gray-800 text-2xl font-bold">登録する</h3>
             </div>
 
             <div className="space-y-6">
               <div>
-                <label className="text-gray-800 text-sm mb-2 block">Name</label>
+                <label className="text-gray-800 text-sm mb-2 block">名前</label>
                 <div className="relative flex items-center">
                   <input
                     name="name"
@@ -149,7 +149,7 @@ const Register = () => {
               </div>
               <div>
                 <label className="text-gray-800 text-sm mb-2 block">
-                  Email Id
+                メールID
                 </label>
                 <div className="relative flex items-center">
                   <input
@@ -195,7 +195,7 @@ const Register = () => {
               </div>
               <div>
                 <label className="text-gray-800 text-sm mb-2 block">
-                  Password
+                パスワード
                 </label>
                 <div className="relative flex items-center">
                   <input
@@ -230,12 +230,12 @@ const Register = () => {
                   for="remember-me"
                   className="text-gray-800 ml-3 block text-sm"
                 >
-                  I accept the{" "}
+                  私は受け入れます{" "}
                   <a
                     href="javascript:void(0);"
                     className="text-blue-600 font-semibold hover:underline ml-1"
                   >
-                    Terms and Conditions
+                    利用規約
                   </a>
                 </label>
               </div>
@@ -247,17 +247,17 @@ const Register = () => {
                 type="button"
                 className="w-full py-2.5 px-4 text-sm tracking-wider font-semibold rounded-md bg-blue-600 hover:bg-blue-700 text-white focus:outline-none"
               >
-                Create Account
+                アカウントを作成する
               </button>
             </div>
             <p className="text-gray-800 text-sm mt-6 text-center">
-              Already have an account?{" "}
+            すでにアカウントをお持ちの場合?{" "}
               <a
                 onClick={handleLogin}
                 href="javascript:void(0);"
                 className="text-blue-600 font-semibold hover:underline ml-1"
               >
-                Login here
+                ここからログイン
               </a>
             </p>
           </form>

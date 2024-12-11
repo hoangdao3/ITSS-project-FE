@@ -34,22 +34,22 @@ const Sidebar = () => {
             <li className="mb-4 flex items-center cursor-pointer">
               <i className="fas fa-calendar-alt text-xl"></i>
               <FaCalendarAlt />
-              <span className="ml-2 text-xl flex">Calendar</span>
+              <span className="ml-2 text-xl flex">カレンダー</span>
             </li>
             <li className="mb-4 flex items-center cursor-pointer">
               <i className="fas fa-dumbbell text-xl"></i>
               <FaListUl />
-              <span className="ml-2 text-xl">List Of Exercises</span>
+              <span className="ml-2 text-xl">練習リスト</span>
             </li>
             <li className="mb-4 flex items-center cursor-pointer">
               <i className="fas fa-comments text-xl"></i>
               <MdSupportAgent />
-              <span className="ml-2 text-xl">Consults</span>
+              <span className="ml-2 text-xl">相談する</span>
             </li>
             <li className="mb-4 flex items-center cursor-pointer">
               <i className="fas fa-cog text-xl"></i>
               <IoSettingsOutline />
-              <span className="ml-2 text-xl">Settings</span>
+              <span className="ml-2 text-xl">設定</span>
             </li>
           </ul>
         </nav>
@@ -60,7 +60,7 @@ const Sidebar = () => {
         className="bg-gray-500 text-white py-2 px-4 rounded flex items-center"
       >
         <IoIosLogOut />
-        <span className="ml-2 text-xl">Logout</span>
+        <span className="ml-2 text-xl">ログアウト</span>
       </button>
     </div>
   );
