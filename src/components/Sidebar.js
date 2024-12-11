@@ -11,9 +11,11 @@ const Sidebar = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    navigate("/login");
+    const isConfirmed = window.confirm("Are you sure you want to log out?");
+    if (isConfirmed) {
+      navigate("/login");
+    }
   };
-
   return (
     <div className="bg-gray-100 w-74 h-screen p-4 flex flex-col justify-between">
       <div>
