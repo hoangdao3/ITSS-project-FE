@@ -1,19 +1,46 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import { useState } from "react";
 const Register = () => {
   const navigate = useNavigate();
-
+  const [fullname, setFullname] = useState("");
+  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [phone, setPhone] = useState("");
+  const [error, setError] = useState("");
   // Chuyển hướng đến trang login khi ấn Login here
   const handleLogin = () => {
     navigate("/login");
   };
 
-  const handleCreateAccount = () => {
-    // Logic tạo tài khoản thành công
-    navigate("/login", {
-      state: { message: "無事に登録されました！ログインしてください." },
-    });
+  const handleCreateAccount = async () => {
+    try {
+      const response = await fetch("http://localhost:8080/api/auth/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+          username,
+          password,
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || "Đăng ký không thành công");
+      }
+
+      const data = await response.json();
+      alert(data.message); 
+      navigate("/login", {
+        state: { message: "無事に登録されました！ログインしてください." },
+      });
+    } catch (err) {
+      setError(err.message);
+    }
   };
 
   return (
@@ -126,6 +153,8 @@ const Register = () => {
                     required
                     className="bg-white border border-gray-300 w-full text-sm text-gray-800 pl-4 pr-10 py-2.5 rounded-md outline-blue-500"
                     placeholder="Enter name"
+                    value={username}
+                  onChange={(e) => setUsername(e.target.value)}
                   />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -158,6 +187,8 @@ const Register = () => {
                     required
                     className="bg-white border border-gray-300 w-full text-sm text-gray-800 pl-4 pr-10 py-2.5 rounded-md outline-blue-500"
                     placeholder="Enter email"
+                    value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -204,6 +235,8 @@ const Register = () => {
                     required
                     className="bg-white border border-gray-300 w-full text-sm text-gray-800 pl-4 pr-10 py-2.5 rounded-md outline-blue-500"
                     placeholder="Enter password"
+                    value={password }
+                  onChange={(e) => setPassword(e.target.value)}
                   />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

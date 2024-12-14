@@ -1,16 +1,38 @@
-import React from "react";
+import React, { useState} from "react";
 import { useNavigate } from "react-router-dom";
 
 const ChangePassword = () => {
   const navigate = useNavigate();
+  const [username, setUsername] = useState("");
+  const [oldPassword, setOldPassword] = useState("");
+  const [newPassword, setNewPassword] = useState("");
+  const [error, setError] = useState("");
 
-  //Chuyển hướng đến trang login
-  const handleResetPassword = () => {
-    // Thêm code xử lý reset password ở đây
-    navigate("/login");
-  };
+const handleResetPassword = async () => {
+    try {
+        const response = await fetch("http://localhost:8080/api/auth/change-password", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ username, oldPassword, newPassword }),
+        });
 
-  //Chuyển hướng đến trang login
+        if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(errorData.message || "パスワードの変更に失敗しました");
+        }
+
+        const data = await response.json();
+        alert(data.message); 
+        if (data.message === "Password changed successfully") {
+            navigate("/login"); 
+        }
+    } catch (err) {
+        setError(err.message); 
+    }
+};
+
   const handleLogin = () => {
     navigate("/login");
   };
@@ -26,7 +48,7 @@ const ChangePassword = () => {
             <form className="mt-8 space-y-4">
               <div>
                 <label className="text-gray-800 text-sm mb-2 block">
-                あなたのメールアドレス
+                あなたのユーザー名
                 </label>
                 <div className="relative flex items-center">
                   <input
@@ -34,7 +56,9 @@ const ChangePassword = () => {
                     type="text"
                     required
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Enter your email"
+                    placeholder="Enter your username"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
                   />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -58,14 +82,16 @@ const ChangePassword = () => {
               </div>
 
               <div>
-                <label className="text-gray-800 text-sm mb-2 block">パスワード</label>
+                <label className="text-gray-800 text-sm mb-2 block">以前のパスワード</label>
                 <div className="relative flex items-center">
                   <input
                     name="password"
                     type="password"
                     required
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Enter password"
+                    placeholder="Enter old password"
+                    value={oldPassword}
+                  onChange={(e) => setOldPassword(e.target.value)}
                   />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +118,9 @@ const ChangePassword = () => {
                     type="password"
                     required
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Confirm password"
+                    placeholder="Enter new password"
+                    value={newPassword}
+                  onChange={(e) => setNewPassword(e.target.value)}
                   />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -108,26 +136,7 @@ const ChangePassword = () => {
                   </svg>
                 </div>
               </div>
-              <div className="flex items-center">
-                <input
-                  id="remember-me"
-                  name="remember-me"
-                  type="checkbox"
-                  className="h-4 w-4 shrink-0 text-blue-600 focus:ring-blue-500 border-gray-300 rounded-md"
-                />
-                <label
-                  for="remember-me"
-                  className="text-gray-800 ml-3 block text-sm"
-                >
-                  私は受け入れます{" "}
-                  <a
-                    href="javascript:void(0);"
-                    className="text-blue-600 font-semibold hover:underline ml-1"
-                  >
-                    利用規約
-                  </a>
-                </label>
-              </div>
+        
 
               <div className="!mt-8">
                 <button

@@ -27,7 +27,7 @@ const Login = () => {
 
   const handleLoginn = async () => {
     try {
-      const response = await fetch("/api/login", {
+      const response = await fetch("http://localhost:8080/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -36,15 +36,14 @@ const Login = () => {
       });
 
       if (!response.ok) {
-        throw new Error("ログインに失敗しました");
+        const errorData = await response.json();
+        throw new Error(errorData.message || "ログインに失敗しました");
       }
-
       const data = await response.json();
-      // Assuming the response contains a token
-      localStorage.setItem("token", data.token);
-      navigate("/home");
+      localStorage.setItem("token", data.token); // Lưu token vào localStorage
+      navigate("/home"); // Chuyển hướng đến trang home
     } catch (err) {
-      setError(err.message);
+      setError(err.message); // Hiển thị thông báo lỗi
     }
   };
 
@@ -118,7 +117,10 @@ const Login = () => {
             </div>
             <form
               className="mt-8 space-y-4"
-              onSubmit={(e) => e.preventDefault()}
+              onSubmit={(e) => {
+                e.preventDefault();
+                handleLoginn(); 
+              }}
             >
               <div>
                 <label className="text-gray-800 text-sm mb-2 block">
@@ -213,9 +215,8 @@ const Login = () => {
               </div>
 
               <div className="!mt-8">
-                <button
-                  type="button"
-                  onClick={handleLogin}
+              <button
+                  type="submit" // Đổi thành type="submit" để gọi handleLoginn
                   className="w-full py-3 px-4 text-sm tracking-wide rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none"
                 >
                   サインイン
