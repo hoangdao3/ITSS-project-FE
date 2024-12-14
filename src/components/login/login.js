@@ -5,12 +5,10 @@ import { useState } from "react";
 const Login = () => {
   const navigate = useNavigate();
 
-  //Chuyển hướng đến trang home khi ấn login
   const handleLogin = () => {
     navigate("/home");
   };
 
-  //Chuyển hướng đến trang register khi ấn register
   const handleRegister = () => {
     navigate("/register");
   };
@@ -34,13 +32,15 @@ const Login = () => {
         },
         body: JSON.stringify({ username, password }),
       });
-
+  
       if (!response.ok) {
         const errorData = await response.json();
         throw new Error(errorData.message || "ログインに失敗しました");
       }
+  
       const data = await response.json();
       localStorage.setItem("token", data.token); // Lưu token vào localStorage
+      localStorage.setItem("isLoggedIn", "true"); // Lưu trạng thái đăng nhập
       navigate("/home"); // Chuyển hướng đến trang home
     } catch (err) {
       setError(err.message); // Hiển thị thông báo lỗi

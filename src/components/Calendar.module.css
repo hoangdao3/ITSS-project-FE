@@ -49,3 +49,10 @@
     height: 28px; /* Reduce hour height for smaller screens */
   }
 }
+.hour-cell {
+  border: 1px solid #e0e0e0; /* Đường viền cho ô giờ */
+  height: 40px; /* Chiều cao của ô giờ */
+  display: flex;
+  align-items: center; /* Căn giữa nội dung theo chiều dọc */
+  justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+}

@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./Calendar.module.css";
+import { Navigate } from "react-router-dom";
 
 const Calendar = () => {
+
+
   const [currentMonth, setCurrentMonth] = useState(new Date().getMonth());
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
   const [showDialog, setShowDialog] = useState(false);
@@ -29,7 +32,7 @@ const Calendar = () => {
   useEffect(() => {
     localStorage.setItem("todayDate", todayDate);
   }, [todayDate]);
-
+  
   const monthNames = [
     "Tháng 1",
     "Tháng 2",
@@ -77,6 +80,11 @@ const Calendar = () => {
   const getDaysInMonth = (month, year) => {
     return new Date(year, month + 1, 0).getDate();
   };
+  const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+
+  if (!isLoggedIn) {
+    return <Navigate to="/login" />;
+  }
 
   const getDaysInPreviousMonth = (month, year) => {
     const prevMonth = month === 0 ? 11 : month - 1;
