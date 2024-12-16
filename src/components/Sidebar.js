@@ -34,22 +34,30 @@ const Sidebar = () => {
             <li className="mb-4 flex items-center cursor-pointer">
               <i className="fas fa-calendar-alt text-xl"></i>
               <FaCalendarAlt />
-              <span className="ml-2 text-xl flex">カレンダー</span>
+              <a href="/home" className="ml-2 text-xl flex">
+                カレンダー
+              </a>
             </li>
             <li className="mb-4 flex items-center cursor-pointer">
               <i className="fas fa-dumbbell text-xl"></i>
               <FaListUl />
-              <span className="ml-2 text-xl">練習リスト</span>
+              <a href="/list-exercises" className="ml-2 text-xl flex">
+                練習リスト
+              </a>
             </li>
             <li className="mb-4 flex items-center cursor-pointer">
               <i className="fas fa-comments text-xl"></i>
               <MdSupportAgent />
-              <span className="ml-2 text-xl">相談する</span>
+              <a href="/support" className="ml-2 text-xl">
+                相談する
+              </a>
             </li>
             <li className="mb-4 flex items-center cursor-pointer">
               <i className="fas fa-cog text-xl"></i>
               <IoSettingsOutline />
-              <span className="ml-2 text-xl">設定</span>
+              <a href="/setting" className="ml-2 text-xl">
+                設定
+              </a>
             </li>
           </ul>
         </nav>
