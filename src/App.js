@@ -70,7 +70,7 @@ const App = () => {
                 <Sidebar />
                 <div className="flex-1 flex flex-col">
                   <Header />
-                  <Calendar />
+                  <Calendar2 />
                 </div>
               </div>
             ) : (
