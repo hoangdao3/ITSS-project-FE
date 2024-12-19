@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const SettingPage = () => {
   const [isEditing, setIsEditing] = useState(false);
 
-  const handleEditClick = () => {
+  const handleSave = () => {
     setIsEditing(!isEditing);
   };
 
@@ -28,10 +28,10 @@ const SettingPage = () => {
           </div>
           <div>
             <button
-              onClick={handleEditClick}
+              onClick={handleSave}
               className="bg-blue-500 text-white px-7 py-3 mr-14 rounded"
             >
-              {isEditing ? "Save" : "Edit"}
+              Save
             </button>
           </div>
         </div>
