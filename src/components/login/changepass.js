@@ -25,7 +25,7 @@ const handleResetPassword = async () => {
 
         const data = await response.json();
         alert(data.message); 
-        if (data.message === "Password changed successfully") {
+        if (data.message === "パスワードが正常に変更されました") {
             navigate("/login"); 
         }
     } catch (err) {
@@ -52,11 +52,11 @@ const handleResetPassword = async () => {
                 </label>
                 <div className="relative flex items-center">
                   <input
-                    name="username"
+                    name="ユーザー名"
                     type="text"
                     required
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Enter your username"
+                    placeholder="ユーザー名を入力してください"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                   />
@@ -85,11 +85,11 @@ const handleResetPassword = async () => {
                 <label className="text-gray-800 text-sm mb-2 block">以前のパスワード</label>
                 <div className="relative flex items-center">
                   <input
-                    name="password"
+                    name="パスワード"
                     type="password"
                     required
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Enter old password"
+                    placeholder="古いパスワードを入力してください"
                     value={oldPassword}
                   onChange={(e) => setOldPassword(e.target.value)}
                   />
@@ -114,11 +114,11 @@ const handleResetPassword = async () => {
                 </label>
                 <div className="relative flex items-center">
                   <input
-                    name="password"
+                    name="パスワード"
                     type="password"
                     required
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Enter new password"
+                    placeholder="新しいパスワードを入力してください"
                     value={newPassword}
                   onChange={(e) => setNewPassword(e.target.value)}
                   />

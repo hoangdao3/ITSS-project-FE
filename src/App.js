@@ -22,50 +22,16 @@ const App = () => {
   return (
     <Router>
       <Routes>
+        {/* Public routes */}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgotpassword" element={<ForgotPassword />} />
-        <Route path="/calen2" element={<Calendar2 />} />
+
+        {/* Protected routes - Require login */}
         <Route
-          path="/support"
+          path="/calen2"
           element={
-            <div className="flex h-screen">
-              <Sidebar />
-              <div className="flex-1 flex flex-col">
-                <Header />
-                <MemberSupport />
-              </div>
-            </div>
-          }
-        />
-        <Route
-          path="/list-exercises"
-          element={
-            <div className="flex h-screen">
-              <Sidebar />
-              <div className="flex-1 flex flex-col">
-                <Header />
-                <LisExercises />
-              </div>
-            </div>
-          }
-        />
-        <Route
-          path="/setting"
-          element={
-            <div className="flex h-screen">
-              <Sidebar />
-              <div className="flex-1 flex flex-col">
-                <Header />
-                <SettingPage />
-              </div>
-            </div>
-          }
-        />
-        <Route
-          path="/home"
-          element={
-            isLoggedIn ? ( // Nếu đã đăng nhập, hiển thị trang home
+            isLoggedIn ? (
               <div className="flex h-screen">
                 <Sidebar />
                 <div className="flex-1 flex flex-col">
@@ -74,13 +40,77 @@ const App = () => {
                 </div>
               </div>
             ) : (
-              // Nếu chưa đăng nhập, chuyển hướng đến trang đăng nhập
               <Navigate to="/login" />
             )
           }
         />
-        <Route path="/" element={<Navigate to="/login" />} />{" "}
-        {/* Chuyển hướng đến trang đăng nhập nếu truy cập vào trang gốc */}
+        <Route
+          path="/support"
+          element={
+            isLoggedIn ? (
+              <div className="flex h-screen">
+                <Sidebar />
+                <div className="flex-1 flex flex-col">
+                  <Header />
+                  <MemberSupport />
+                </div>
+              </div>
+            ) : (
+              <Navigate to="/login" />
+            )
+          }
+        />
+        <Route
+          path="/list-exercises"
+          element={
+            isLoggedIn ? (
+              <div className="flex h-screen">
+                <Sidebar />
+                <div className="flex-1 flex flex-col">
+                  <Header />
+                  <LisExercises />
+                </div>
+              </div>
+            ) : (
+              <Navigate to="/login" />
+            )
+          }
+        />
+        <Route
+          path="/setting"
+          element={
+            isLoggedIn ? (
+              <div className="flex h-screen">
+                <Sidebar />
+                <div className="flex-1 flex flex-col">
+                  <Header />
+                  <SettingPage />
+                </div>
+              </div>
+            ) : (
+              <Navigate to="/login" />
+            )
+          }
+        />
+        <Route
+          path="/home"
+          element={
+            isLoggedIn ? (
+              <div className="flex h-screen">
+                <Sidebar />
+                <div className="flex-1 flex flex-col">
+                  <Header />
+                  <Calendar2 />
+                </div>
+              </div>
+            ) : (
+              <Navigate to="/login" />
+            )
+          }
+        />
+        
+        {/* Default route */}
+        <Route path="/" element={<Navigate to="/login" />} />
       </Routes>
     </Router>
   );

@@ -6,18 +6,27 @@ import { FaListUl } from "react-icons/fa";
 import { IoIosLogOut } from "react-icons/io";
 import "./Calendar.module.css";
 import { useNavigate } from "react-router-dom";
-
+import { useEffect } from 'react';
 const Sidebar = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    const isConfirmed = window.confirm("Are you sure you want to log out?");
+    const isConfirmed = window.confirm("本当にログアウトしますか?");
     if (isConfirmed) {
+      localStorage.removeItem("token");
       navigate("/login");
     }
   };
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (!token) {
+      alert("このページにアクセスするにはログインする必要があります.");
+      navigate("/login");
+    }
+  }, [navigate]);
+
   return (
-    <div className="bg-gray-100 w-74 h-screen p-4 flex flex-col justify-between">
+    <div className="bg-gray-100 w-74 h-full p-4 flex flex-col justify-between">
       <div>
         <div className="flex items-center mb-8">
           <div className="w-12 h-12">
