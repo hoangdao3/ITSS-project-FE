@@ -15,9 +15,14 @@ import MemberSupport from "./components/support/index.js";
 import LisExercises from "./components/exercises/index.js";
 import SettingPage from "./components/setting/index.js";
 import Calendar2 from "./components/calendar2";
+import ExerciseDetail from "./components/DetailExercise.js";
 
 const App = () => {
   const isLoggedIn = localStorage.getItem("isLoggedIn") === "true"; // Kiểm tra trạng thái đăng nhập
+
+  const ProtectedRoute = ({ element }) => {
+    return isLoggedIn ? element : <Navigate to="/login" />;
+  };
 
   return (
     <Router>
@@ -31,84 +36,100 @@ const App = () => {
         <Route
           path="/calen2"
           element={
-            isLoggedIn ? (
-              <div className="flex h-screen">
-                <Sidebar />
-                <div className="flex-1 flex flex-col">
-                  <Header />
-                  <Calendar2 />
+            <ProtectedRoute
+              element={
+                <div className="flex h-screen">
+                  <Sidebar />
+                  <div className="flex-1 flex flex-col">
+                    <Header />
+                    <Calendar2 />
+                  </div>
                 </div>
-              </div>
-            ) : (
-              <Navigate to="/login" />
-            )
+              }
+            />
           }
         />
         <Route
           path="/support"
           element={
-            isLoggedIn ? (
-              <div className="flex h-screen">
-                <Sidebar />
-                <div className="flex-1 flex flex-col">
-                  <Header />
-                  <MemberSupport />
+            <ProtectedRoute
+              element={
+                <div className="flex h-screen">
+                  <Sidebar />
+                  <div className="flex-1 flex flex-col">
+                    <Header />
+                    <MemberSupport />
+                  </div>
                 </div>
-              </div>
-            ) : (
-              <Navigate to="/login" />
-            )
+              }
+            />
           }
         />
         <Route
           path="/list-exercises"
           element={
-            isLoggedIn ? (
-              <div className="flex h-screen">
-                <Sidebar />
-                <div className="flex-1 flex flex-col">
-                  <Header />
-                  <LisExercises />
+            <ProtectedRoute
+              element={
+                <div className="flex h-screen">
+                  <Sidebar />
+                  <div className="flex-1 flex flex-col">
+                    <Header />
+                    <LisExercises />
+                  </div>
                 </div>
-              </div>
-            ) : (
-              <Navigate to="/login" />
-            )
+              }
+            />
+          }
+        />
+        <Route
+          path="/list-exercises/id=:id"
+          element={
+            <ProtectedRoute
+              element={
+                <div className="flex h-screen">
+                  <Sidebar />
+                  <div className="flex-1 flex flex-col">
+                    <Header />
+                    <ExerciseDetail />
+                  </div>
+                </div>
+              }
+            />
           }
         />
         <Route
           path="/setting"
           element={
-            isLoggedIn ? (
-              <div className="flex h-screen">
-                <Sidebar />
-                <div className="flex-1 flex flex-col">
-                  <Header />
-                  <SettingPage />
+            <ProtectedRoute
+              element={
+                <div className="flex h-screen">
+                  <Sidebar />
+                  <div className="flex-1 flex flex-col">
+                    <Header />
+                    <SettingPage />
+                  </div>
                 </div>
-              </div>
-            ) : (
-              <Navigate to="/login" />
-            )
+              }
+            />
           }
         />
         <Route
           path="/home"
           element={
-            isLoggedIn ? (
-              <div className="flex h-screen">
-                <Sidebar />
-                <div className="flex-1 flex flex-col">
-                  <Header />
-                  <Calendar2 />
+            <ProtectedRoute
+              element={
+                <div className="flex h-screen">
+                  <Sidebar />
+                  <div className="flex-1 flex flex-col">
+                    <Header />
+                    <Calendar2 />
+                  </div>
                 </div>
-              </div>
-            ) : (
-              <Navigate to="/login" />
-            )
+              }
+            />
           }
         />
-        
+
         {/* Default route */}
         <Route path="/" element={<Navigate to="/login" />} />
       </Routes>

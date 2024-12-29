@@ -92,13 +92,21 @@ const Header = () => {
         <div className="flex justify-end items-center p-4 border-b pr-10">
           <div className="flex items-center">
             <div
-              className="cursor-pointer flex items-center"
+              className="cursor-pointer flex items-center relative"
               onClick={toggleNotifications}
             >
               <IoMdNotifications
                 className="svg-big pr-4"
                 style={{ fontSize: "50px", color: "#000000" }}
               />
+              {notifications.length > 0 && (
+                <span
+                  className="absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full px-1"
+                  style={{ top: '5px', right: '5px' }} // Điều chỉnh vị trí ở đây
+                >
+                  {notifications.length}
+                </span>
+              )}
             </div>
             <div className="w-10 h-10 cursor-pointer" onClick={toggleProfile}>
               <img
@@ -116,13 +124,13 @@ const Header = () => {
             id="notification"
             style={{
               maxHeight: "550px",
-              overflowY: "auto",
+              overflow: "auto",
               width: "450px",
             }}
           >
             <div className="flex items-center justify-between">
               <p className="text-2xl font-semibold leading-6 text-gray-800">
-              通知
+                通知
               </p>
               <div
                 className="cursor-pointer"
@@ -182,9 +190,8 @@ const Header = () => {
           </div>
         )}
 
-
         {showProfile && (
-          <div className="absolute right-0 top-16 w-64 bg-white shadow-lg rounded-lg p-4 z-50">
+          <div className=" absolute right-0 top-16 w-64 bg-white shadow-lg rounded-lg p-4 z-50">
             <p className="text-xl font-semibold leading-6 text-gray-800">
               ユーザープロフィール
             </p>
