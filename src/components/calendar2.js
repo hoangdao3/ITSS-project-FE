@@ -324,23 +324,21 @@ const Calendar2 = () => {
     return rows;
   };
   const handlePrevMonth = () => {
-    setCurrentMonth(prev => {
-      if (prev === 0) {
-        setCurrentYear(year => year - 1);
-        return 11;
-      }
-      return prev - 1;
-    });
+    if (currentMonth === 0) {
+      setCurrentYear(currentYear - 1);
+      setCurrentMonth(11);
+    } else {
+      setCurrentMonth(currentMonth - 1);
+    }
   };
-
+  
   const handleNextMonth = () => {
-    setCurrentMonth(prev => {
-      if (prev === 11) {
-        setCurrentYear(year => year + 1);
-        return 0;
-      }
-      return prev + 1;
-    });
+    if (currentMonth === 11) {
+      setCurrentYear(currentYear + 1);
+      setCurrentMonth(0);
+    } else {
+      setCurrentMonth(currentMonth + 1);
+    }
   };
 
   const DateTimeInputs = () => (

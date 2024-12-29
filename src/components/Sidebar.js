@@ -1,12 +1,10 @@
-import React from "react";
-import { FaCalendarAlt } from "react-icons/fa";
+import React, { useEffect } from "react";
+import { FaCalendarAlt, FaListUl } from "react-icons/fa";
 import { IoSettingsOutline } from "react-icons/io5";
 import { MdSupportAgent } from "react-icons/md";
-import { FaListUl } from "react-icons/fa";
 import { IoIosLogOut } from "react-icons/io";
-import "./Calendar.module.css";
 import { useNavigate } from "react-router-dom";
-import { useEffect } from 'react';
+
 const Sidebar = () => {
   const navigate = useNavigate();
 
@@ -17,6 +15,7 @@ const Sidebar = () => {
       navigate("/login");
     }
   };
+
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (!token) {
@@ -36,34 +35,35 @@ const Sidebar = () => {
               className="w-full h-full object-contain"
             />
           </div>
-          <span className="ml-4 text-3xl font-bold">運動カレンダー</span>
+          <span
+            className="ml-4 text-3xl font-bold cursor-pointer"
+            onClick={() => navigate("/home")}
+          >
+            運動カレンダー
+          </span>
         </div>
         <nav>
           <ul>
-            <li className="mb-4 flex items-center cursor-pointer">
-              <i className="fas fa-calendar-alt text-xl"></i>
-              <FaCalendarAlt />
-              <a href="/home" className="ml-2 text-xl flex">
+            <li className="mb-4 flex items-center cursor-pointer hover:bg-gray-200 p-2 rounded">
+              <FaCalendarAlt className="text-xl" />
+              <a href="/home" className="ml-2 text-xl">
                 カレンダー
               </a>
             </li>
-            <li className="mb-4 flex items-center cursor-pointer">
-              <i className="fas fa-dumbbell text-xl"></i>
-              <FaListUl />
-              <a href="/list-exercises" className="ml-2 text-xl flex">
+            <li className="mb-4 flex items-center cursor-pointer hover:bg-gray-200 p-2 rounded">
+              <FaListUl className="text-xl" />
+              <a href="/list-exercises" className="ml-2 text-xl">
                 練習リスト
               </a>
             </li>
-            <li className="mb-4 flex items-center cursor-pointer">
-              <i className="fas fa-comments text-xl"></i>
-              <MdSupportAgent />
+            <li className="mb-4 flex items-center cursor-pointer hover:bg-gray-200 p-2 rounded">
+              <MdSupportAgent className="text-xl" />
               <a href="/support" className="ml-2 text-xl">
                 相談する
               </a>
             </li>
-            <li className="mb-4 flex items-center cursor-pointer">
-              <i className="fas fa-cog text-xl"></i>
-              <IoSettingsOutline />
+            <li className="mb-4 flex items-center cursor-pointer hover:bg-gray-200 p-2 rounded">
+              <IoSettingsOutline className="text-xl" />
               <a href="/setting" className="ml-2 text-xl">
                 設定
               </a>
@@ -74,9 +74,9 @@ const Sidebar = () => {
       <button
         type="button"
         onClick={handleLogout}
-        className="bg-gray-500 text-white py-2 px-4 rounded flex items-center"
+        className="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded flex items-center transition duration-200"
       >
-        <IoIosLogOut />
+        <IoIosLogOut className="text-xl" />
         <span className="ml-2 text-xl">ログアウト</span>
       </button>
     </div>

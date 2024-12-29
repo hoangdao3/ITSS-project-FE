@@ -1,51 +1,1082 @@
-[
-  { "id": 1, "name": "Yoga", "time": "10 min", "calories": "70 kcal", "youtube": "https://www.youtube.com/watch?v=v7AYKMP6rOE" },
-  { "id": 2, "name": "Aerobics", "time": "15 min", "calories": "100 kcal", "youtube": "https://www.youtube.com/watch?v=5if4cjO5nxo" },
-  { "id": 3, "name": "Zumba", "time": "8 min", "calories": "30 kcal", "youtube": "https://www.youtube.com/watch?v=ymigWt5TOV8" },
-  { "id": 4, "name": "Pilates", "time": "8 min", "calories": "30 kcal", "youtube": "https://www.youtube.com/watch?v=lCg_gh_fppI" },
-  { "id": 5, "name": "Cardio Kickboxing", "time": "8 min", "calories": "30 kcal", "youtube": "https://www.youtube.com/watch?v=ml6cT4AZdqI" },
-  { "id": 6, "name": "Weight Training", "time": "8 min", "calories": "30 kcal", "youtube": "https://www.youtube.com/watch?v=U0bhE67HuDY" },
-  { "id": 7, "name": "Spinning", "time": "8 min", "calories": "30 kcal", "youtube": "https://www.youtube.com/watch?v=wBurKQX7h4Q&pp=ygUQc3Bpbm5pbmcgd29ya291dA%3D%3D" },
-  { "id": 8, "name": "Stretching", "time": "5 min", "calories": "25 kcal", "youtube": "https://www.youtube.com/watch?v=R0eqxnSyRkM&pp=ygUKU3RyZXRjaGluZw%3D%3D" },
-  { "id": 9, "name": "HIIT", "time": "10 min", "calories": "70 kcal", "youtube": "https://www.youtube.com/watch?v=ml6cT4AZdqI" },
-  { "id": 10, "name": "Swimming", "time": "15 min", "calories": "100 kcal", "youtube": "https://www.youtube.com/watch?v=LijdyVaaDnY&pp=ygUIc3dpbW1pbmc%3D" },
-  { "id": 11, "name": "Running", "time": "8 min", "calories": "30 kcal", "youtube": "https://www.youtube.com/watch?v=c1mBu4tK90k&pp=ygUPcnVubmluZyB3b3Jrb3V0" },
-  { "id": 12, "name": "Cycling", "time": "8 min", "calories": "30 kcal", "youtube": "https://www.youtube.com/watch?v=ZiGE3-L4vyg&pp=ygUPQ3ljbGluZyB3b3Jrb3V0" },
-  { "id": 13, "name": "Rowing", "time": "8 min", "calories": "30 kcal", "youtube": "https://www.youtube.com/watch?v=uqs9A0B6s9U&pp=ygUOUm93aW5nIHdvcmtvdXQ%3D" },
-  { "id": 14, "name": "Dance Fitness", "time": "8 min", "calories": "30 kcal", "youtube": "https://www.youtube.com/watch?v=Cw-Wt4xKD2s&pp=ygUNRGFuY2UgRml0bmVzcw%3D%3D" },
-  { "id": 15, "name": "Tai Chi", "time": "8 min", "calories": "30 kcal", "youtube": "https://www.youtube.com/watch?v=pNYHVe7nC3I&pp=ygUPdGFpIGNoaSB3b3Jrb3V0" },
-  { "id": 16, "name": "Jump Rope", "time": "10 min", "calories": "50 kcal", "youtube": "https://www.youtube.com/watch?v=1BZM2Vre5oc&pp=ygURSnVtcCBSb3BlIHdvcmtvdXQ%3D" },
-  { "id": 17, "name": "Bodyweight Exercises", "time": "12 min", "calories": "60 kcal", "youtube": "https://www.youtube.com/watch?v=30PqX2zvK88&pp=ygUUQm9keXdlaWdodCBFeGVyY2lzZXM%3D" },
-  { "id": 18, "name": "Hiking", "time": "14 min", "calories": "70 kcal", "youtube": "https://www.youtube.com/watch?v=Kz5JL8cxKh4&pp=ygUOaGlraW5nIHdvcmtvdXQ%3D" },
-  { "id": 19, "name": "Stair Climbing", "time": "16 min", "calories": "80 kcal", "youtube": "https://www.youtube.com/watch?v=BPFCwoD5iYg&pp=ygUVU3RhaXIgQ2xpbWJpbmd3b3Jrb3V0" },
-  { "id": 20, "name": "CrossFit", "time": "18 min", "calories": "90 kcal", "youtube": "https://www.youtube.com/watch?v=1tEB51DDN34&pp=ygUQQ3Jvc3NGaXQgd29ya291dA%3D%3D" },
-  { "id": 21, "name": "Martial Arts", "time": "20 min", "calories": "100 kcal", "youtube": "https://www.youtube.com/watch?v=9ZPWb6h64ts&pp=ygUUTWFydGlhbCBBcnRzIHdvcmtvdXQ%3D" },
-  { "id": 22, "name": "Barre Workout", "time": "22 min", "calories": "110 kcal", "youtube": "https://www.youtube.com/watch?v=Y_e85p7MuEw&pp=ygUOQmFycmUgV29ya291dCI%3D" },
-  { "id": 23, "name": "Mountain Biking", "time": "24 min", "calories": "120 kcal", "youtube": "https://www.youtube.com/watch?v=zWndfg5gn0E&pp=ygUPTW91bnRhaW4gQmlraW5n" },
-  { "id": 24, "name": "Bootcamp Training", "time": "26 min", "calories": "130 kcal", "youtube": "https://www.youtube.com/watch?v=o-MNJQJNtac&pp=ygURQm9vdGNhbXAgVHJhaW5pbmc%3D" },
-  { "id": 25, "name": "Functional Training", "time": "28 min", "calories": "140 kcal", "youtube": "https://www.youtube.com/watch?v=xDMhWRCHsFohttps://www.youtube.com/watch?v=Em7_zNoD0-w&pp=ygUTRnVuY3Rpb25hbCBUcmFpbmluZw%3D%3D" },
-  { "id": 26, "name": "Paddleboarding", "time": "30 min", "calories": "150 kcal", "youtube": "https://www.youtube.com/watch?v=yubSCrsmBaU&pp=ygUOUGFkZGxlYm9hcmRpbmc%3D" },
-  { "id": 27, "name": "Rollerblading", "time": "32 min", "calories": "160 kcal", "youtube": "https://www.youtube.com/watch?v=0xN1vMEWXW4&pp=ygUNUm9sbGVyYmxhZGluZw%3D%3D" },
-  { "id": 28, "name": "Surfing", "time": "34 min", "calories": "170 kcal", "youtube": "https://www.youtube.com/watch?v=ma67yOdMQfs&pp=ygUHU3VyZmluZw%3D%3D" },
-  { "id": 29, "name": "Parkour", "time": "36 min", "calories": "180 kcal", "youtube": "https://www.youtube.com/watch?v=GcKkiRl9_qE&pp=ygUHUGFya291cg%3D%3D" },
-  { "id": 30, "name": "Climbing", "time": "38 min", "calories": "190 kcal", "youtube": "https://www.youtube.com/watch?v=-DWu4HygkBU&pp=ygUIQ2xpbWJpbmc%3D" },
-  { "id": 31, "name": "Ballet", "time": "40 min", "calories": "200 kcal", "youtube": "https://www.youtube.com/watch?v=6iwZtsAZUu4&t=192s&pp=ygUOYmFsbGV0IHdvcmtvdXQ%3D" },
-  { "id": 32, "name": "Power Yoga", "time": "42 min", "calories": "210 kcal", "youtube": "https://www.youtube.com/watch?v=e8TuZbVK3h8&pp=ygUSUG93ZXIgWW9nYSB3b3Jrb3V0" },
-  { "id": 33, "name": "Aqua Aerobics", "time": "44 min", "calories": "220 kcal", "youtube": "https://www.youtube.com/watch?v=oa-RA6T_9gk&pp=ygUVQXF1YSBBZXJvYmljcyB3b3Jrb3V0" },
-  { "id": 34, "name": "Trampoline Fitness", "time": "46 min", "calories": "230 kcal", "youtube": "https://www.youtube.com/watch?v=QnTPiFm5U-w&pp=ygUaVHJhbXBvbGluZSBGaXRuZXNzIHdvcmtvdXQ%3D" },
-  { "id": 35, "name": "Water Polo", "time": "48 min", "calories": "240 kcal", "youtube": "https://www.youtube.com/watch?v=4C4t5jfQyCo&pp=ygUSd2F0ZXIgcG9sbyB3b3Jrb3V0" },
-  { "id": 36, "name": "Pole Dancing", "time": "50 min", "calories": "250 kcal", "youtube": "https://www.youtube.com/watch?v=baixcUp_Oos&pp=ygUUUG9sZSBEYW5jaW5nIHdvcmtvdXQ%3D" },
-  { "id": 37, "name": "Kickboxing", "time": "52 min", "calories": "260 kcal", "youtube": "https://www.youtube.com/watch?v=Hri2rYgOLKI&pp=ygUSS2lja2JveGluZyB3b3Jrb3V0" },
-  { "id": 38, "name": "Skateboarding", "time": "54 min", "calories": "270 kcal", "youtube": "https://www.youtube.com/watch?v=xz_KhHizVKI&pp=ygUVU2thdGVib2FyZGluZyB3b3Jrb3V0" },
-  { "id": 39, "name": "Snowboarding", "time": "56 min", "calories": "280 kcal", "youtube": "https://www.youtube.com/watch?v=Hf0Jm14DLOw&pp=ygUUU25vd2JvYXJkaW5nIHdvcmtvdXQ%3D" },
-  { "id": 40, "name": "Horse Riding", "time": "58 min", "calories": "290 kcal", "youtube": "https://www.youtube.com/watch?v=ibzyRGT8MOo&pp=ygUUSG9yc2UgUmlkaW5nIHdvcmtvdXQ%3D" },
-  { "id": 41, "name": "Beach Volleyball", "time": "60 min", "calories": "300 kcal", "youtube": "https://www.youtube.com/watch?v=489CnZhOzLI&pp=ygUYQmVhY2ggVm9sbGV5YmFsbCB3b3Jrb3V0" },
-  { "id": 42, "name": "Frisbee", "time": "62 min", "calories": "310 kcal", "youtube": "https://www.youtube.com/watch?v=gUOYj9k2i-s&pp=ygUPRnJpc2JlZSB3b3Jrb3V0" },
-  { "id": 43, "name": "Rugby", "time": "64 min", "calories": "320 kcal", "youtube": "https://www.youtube.com/watch?v=ZJmpOtT_OH8&pp=ygUNUnVnYnkgd29ya291dA%3D%3D" },
-  { "id": 44, "name": "Football", "time": "66 min", "calories": "330 kcal", "youtube": "https://www.youtube.com/watch?v=6KlR_js7SYU&pp=ygUQRm9vdGJhbGwgd29ya291dA%3D%3D" },
-  { "id": 45, "name": "Ultimate Frisbee", "time": "68 min", "calories": "340 kcal", "youtube": "https://www.youtube.com/watch?v=gUOYj9k2i-s&pp=ygUYVWx0aW1hdGUgRnJpc2JlZSB3b3Jrb3V0" },
-  { "id": 46, "name": "Basketball", "time": "70 min", "calories": "350 kcal", "youtube": "https://www.youtube.com/watch?v=oADaM2L1YLc&pp=ygUSQmFza2V0YmFsbCB3b3Jrb3V0" },
-  { "id": 47, "name": "Handball", "time": "72 min", "calories": "360 kcal", "youtube": "https://www.youtube.com/watch?v=H9HlIzJsxBk&pp=ygUQSGFuZGJhbGwgd29ya291dA%3D%3D" },
-  { "id": 48, "name": "Tennis", "time": "74 min", "calories": "370 kcal", "youtube": "https://www.youtube.com/watch?v=-QSS3RAlslM&pp=ygUOVGVubmlzIHdvcmtvdXQ%3D" },
-  { "id": 49, "name": "Badminton", "time": "76 min", "calories": "380 kcal", "youtube": "https://www.youtube.com/watch?v=sDXWaMsYJck&pp=ygURQmFkbWludG9uIHdvcmtvdXQ%3D" }
-]
+{
+  "exercises": [
+    {
+      "id": 1,
+      "title": "Yoga",
+      "duration": "10 min",
+      "coverImage": "https://example.com/yoga.jpg",
+      "level": "Beginner",
+      "description": "A relaxing yoga session to improve flexibility and mindfulness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Downward Dog",
+          "duration": "2 min",
+          "image": "https://example.com/downward_dog.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Warrior II",
+          "duration": "3 min",
+          "image": "https://example.com/warrior_ii.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Aerobics",
+      "duration": "15 min",
+      "coverImage": "https://example.com/aerobics.jpg",
+      "level": "Intermediate",
+      "description": "A high-energy aerobics workout to boost your heart rate.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Jumping Jacks",
+          "duration": "3 min",
+          "image": "https://example.com/jumping_jacks.jpg"
+        },
+        {
+          "id": 2,
+          "name": "High Knees",
+          "duration": "3 min",
+          "image": "https://example.com/high_knees.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Zumba",
+      "duration": "8 min",
+      "coverImage": "https://example.com/zumba.jpg",
+      "level": "Beginner",
+      "description": "A fun dance workout to get your heart pumping.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Basic Step",
+          "duration": "2 min",
+          "image": "https://example.com/basic_step.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Cumbia",
+          "duration": "3 min",
+          "image": "https://example.com/cumbia.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Pilates",
+      "duration": "8 min",
+      "coverImage": "https://example.com/pilates.jpg",
+      "level": "Beginner",
+      "description": "A core-strengthening Pilates routine.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "The Hundred",
+          "duration": "2 min",
+          "image": "https://example.com/the_hundred.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Roll Up",
+          "duration": "3 min",
+          "image": "https://example.com/roll_up.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Cardio Kickboxing",
+      "duration": "8 min",
+      "coverImage": "https://example.com/cardio_kickboxing.jpg",
+      "level": "Intermediate",
+      "description": "A high-energy kickboxing workout to improve strength and endurance.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Jab-Cross",
+          "duration": "2 min",
+          "image": "https://example.com/jab_cross.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Front Kick",
+          "duration": "3 min",
+          "image": "https://example.com/front_kick.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Weight Training",
+      "duration": "8 min",
+      "coverImage": "https://example.com/weight_training.jpg",
+      "level": "Intermediate",
+      "description": "A quick weight training session to build muscle.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Bicep Curl",
+          "duration": "2 min",
+          "image": "https://example.com/bicep_curl.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Squat",
+          "duration": "3 min",
+          "image": "https://example.com/squat.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Spinning",
+      "duration": "8 min",
+      "coverImage": "https://example.com/spinning.jpg",
+      "level": "Intermediate",
+      "description": "An intense spinning workout to boost your cardiovascular fitness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Warm-up",
+          "duration": "2 min",
+          "image": "https://example.com/spinning_warmup.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Sprints",
+          "duration": "3 min",
+          "image": "https://example.com/spinning_sprints.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Stretching",
+      "duration": "5 min",
+      "coverImage": "https://example.com/stretching.jpg",
+      "level": "Beginner",
+      "description": "A gentle stretching routine to improve flexibility.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Hamstring Stretch",
+          "duration": "2 min",
+          "image": "https://example.com/hamstring_stretch.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Shoulder Stretch",
+          "duration": "2 min",
+          "image": "https://example.com/shoulder_stretch.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "HIIT",
+      "duration": "10 min",
+      "coverImage": "https://example.com/hiit.jpg",
+      "level": "Advanced",
+      "description": "A high-intensity interval training session to burn calories.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Burpees",
+          "duration": "2 min",
+          "image": "https://example.com/burpees.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Mountain Climbers",
+          "duration": "3 min",
+          "image": "https://example.com/mountain_climbers.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Swimming",
+      "duration": "15 min",
+      "coverImage": "https://example.com/swimming.jpg",
+      "level": "Intermediate",
+      "description": "A refreshing swimming workout to improve endurance.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Freestyle",
+          "duration": "5 min",
+          "image": "https://example.com/freestyle.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Backstroke",
+          "duration": "5 min",
+          "image": "https://example.com/backstroke.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Running",
+      "duration": "8 min",
+      "coverImage": "https://example.com/running.jpg",
+      "level": "Beginner",
+      "description": "A quick running session to get your heart rate up.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Warm-up Jog",
+          "duration": "2 min",
+          "image": "https://example.com/warmup_jog.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Sprint",
+          "duration": "3 min",
+          "image": "https://example.com/sprint.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Cycling",
+      "duration": "8 min",
+      "coverImage": "https://example.com/cycling.jpg",
+      "level": "Beginner",
+      "description": "A short cycling workout to improve leg strength.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Flat Road",
+          "duration": "2 min",
+          "image": "https://example.com/flat_road.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Hill Climb",
+          "duration": "3 min",
+          "image": "https://example.com/hill_climb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Rowing",
+      "duration": "8 min",
+      "coverImage": "https://example.com/rowing.jpg",
+      "level": "Intermediate",
+      "description": "A rowing workout to strengthen your back and arms.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Power Stroke",
+          "duration": "2 min",
+          "image ": "https://example.com/power_stroke.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Recovery Stroke",
+          "duration": "3 min",
+          "image": "https://example.com/recovery_stroke.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Dance Fitness",
+      "duration": "8 min",
+      "coverImage": "https://example.com/dance_fitness.jpg",
+      "level": "Beginner",
+      "description": "A fun dance workout to improve coordination and fitness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Basic Dance Step",
+          "duration": "2 min",
+          "image": "https://example.com/basic_dance_step.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Freestyle",
+          "duration": "3 min",
+          "image": "https://example.com/freestyle_dance.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Tai Chi",
+      "duration": "8 min",
+      "coverImage": "https://example.com/tai_chi.jpg",
+      "level": "Beginner",
+      "description": "A gentle Tai Chi routine to improve balance and relaxation.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Commencing Form",
+          "duration": "2 min",
+          "image": "https://example.com/commencing_form.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Wave Hands Like Clouds",
+          "duration": "3 min",
+          "image": "https://example.com/wave_hands.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Jump Rope",
+      "duration": "10 min",
+      "coverImage": "https://example.com/jump_rope.jpg",
+      "level": "Intermediate",
+      "description": "A quick jump rope workout to improve cardiovascular fitness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Basic Jump",
+          "duration": "2 min",
+          "image": "https://example.com/basic_jump.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Double Unders",
+          "duration": "3 min",
+          "image": "https://example.com/double_unders.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Bodyweight Exercises",
+      "duration": "12 min",
+      "coverImage": "https://example.com/bodyweight_exercises.jpg",
+      "level": "Beginner",
+      "description": "A bodyweight workout to build strength without equipment.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Push-ups",
+          "duration": "2 min",
+          "image": "https://example.com/pushups.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Squats",
+          "duration": "3 min",
+          "image": "https://example.com/squats.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Hiking",
+      "duration": "14 min",
+      "coverImage": "https://example.com/hiking.jpg",
+      "level": "Beginner",
+      "description": "A refreshing hike to enjoy nature and improve fitness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Trail Walking",
+          "duration": "5 min",
+          "image": "https://example.com/trail_walking.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Incline Climb",
+          "duration": "5 min",
+          "image": "https://example.com/incline_climb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Stair Climbing",
+      "duration": "16 min",
+      "coverImage": "https://example.com/stair_climbing.jpg",
+      "level": "Intermediate",
+      "description": "A stair climbing workout to strengthen legs and improve endurance.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Upward Climb",
+          "duration": "5 min",
+          "image": "https://example.com/upward_climb.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Downward Climb",
+          "duration": "5 min",
+          "image": "https://example.com/down ward_climb.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "CrossFit",
+      "duration": "18 min",
+      "coverImage": "https://example.com/crossfit.jpg",
+      "level": "Advanced",
+      "description": "A high-intensity CrossFit workout to build strength and endurance.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Deadlift",
+          "duration": "5 min",
+          "image": "https://example.com/deadlift.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Box Jump",
+          "duration": "5 min",
+          "image": "https://example.com/box_jump.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Martial Arts",
+      "duration": "20 min",
+      "coverImage": "https://example.com/martial_arts.jpg",
+      "level": "Intermediate",
+      "description": "A martial arts workout to improve agility and self-defense skills.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Front Kick",
+          "duration": "5 min",
+          "image": "https://example.com/front_kick_martial_arts.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Roundhouse Kick",
+          "duration": "5 min",
+          "image": "https://example.com/roundhouse_kick.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Barre Workout",
+      "duration": "22 min",
+      "coverImage": "https://example.com/barre_workout.jpg",
+      "level": "Intermediate",
+      "description": "A barre workout to improve strength and flexibility.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Plie",
+          "duration": "5 min",
+          "image": "https://example.com/plie.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Tendu",
+          "duration": "5 min",
+          "image": "https://example.com/tendu.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Mountain Biking",
+      "duration": "24 min",
+      "coverImage": "https://example.com/mountain_biking.jpg",
+      "level": "Intermediate",
+      "description": "A mountain biking workout to improve leg strength and endurance.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Climbing",
+          "duration": "5 min",
+          "image": "https://example.com/climbing_biking.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Descending",
+          "duration": "5 min",
+          "image": "https://example.com/descending_biking.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Bootcamp Training",
+      "duration": "26 min",
+      "coverImage": "https://example.com/bootcamp_training.jpg",
+      "level": "Advanced",
+      "description": "A bootcamp workout to challenge your strength and endurance.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Burpees",
+          "duration": "5 min",
+          "image": "https://example.com/bootcamp_burpees.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Push-ups",
+          "duration": "5 min",
+          "image": "https://example.com/bootcamp_pushups.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Functional Training",
+      "duration": "28 min",
+      "coverImage": "https://example.com/functional_training.jpg",
+      "level": "Intermediate",
+      "description": "A functional training workout to improve everyday movements.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Kettlebell Swing",
+          "duration": "5 min",
+          "image": "https://example.com/kettlebell_swing.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Medicine Ball Toss",
+          "duration": "5 min",
+          "image": "https://example.com/medicine_ball_toss.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Paddleboarding",
+      "duration": "30 min",
+      "coverImage": "https://example.com /paddleboarding.jpg",
+      "level": "Beginner",
+      "description": "A relaxing paddleboarding session to enjoy the water.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Paddle Forward",
+          "duration": "10 min",
+          "image": "https://example.com/paddle_forward.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Turn",
+          "duration": "5 min",
+          "image": "https://example.com/turn.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Rollerblading",
+      "duration": "32 min",
+      "coverImage": "https://example.com/rollerblading.jpg",
+      "level": "Intermediate",
+      "description": "A fun rollerblading workout to improve balance and coordination.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Forward Glide",
+          "duration": "10 min",
+          "image": "https://example.com/forward_glide.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Backward Glide",
+          "duration": "10 min",
+          "image": "https://example.com/backward_glide.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Surfing",
+      "duration": "34 min",
+      "coverImage": "https://example.com/surfing.jpg",
+      "level": "Advanced",
+      "description": "An exhilarating surfing workout to improve balance and strength.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Paddle Out",
+          "duration": "10 min",
+          "image": "https://example.com/paddle_out.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Pop Up",
+          "duration": "10 min",
+          "image": "https://example.com/pop_up.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Parkour",
+      "duration": "36 min",
+      "coverImage": "https://example.com/parkour.jpg",
+      "level": "Advanced",
+      "description": "A parkour workout to improve agility and strength.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Vault",
+          "duration": "10 min",
+          "image": "https://example.com/vault.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Roll",
+          "duration": "10 min",
+          "image": "https://example.com/roll.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Climbing",
+      "duration": "38 min",
+      "coverImage": "https://example.com/climbing.jpg",
+      "level": "Advanced",
+      "description": "A climbing workout to build strength and endurance.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Bouldering",
+          "duration": "10 min",
+          "image": "https://example.com/bouldering.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Top Roping",
+          "duration": "10 min",
+          "image": "https://example.com/top_roping.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Ballet",
+      "duration": "40 min",
+      "coverImage": "https://example.com/ballet.jpg",
+      "level": "Intermediate",
+      "description": "A ballet workout to improve flexibility and grace.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Plie",
+          "duration": "10 min",
+          "image": "https://example.com/plie_ballet.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Tendu",
+          "duration": "10 min",
+          "image": "https://example.com/tendu_ballet.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Power Yoga",
+      "duration": "42 min",
+      "coverImage": "https://example.com/power_yoga.jpg",
+      "level": "Advanced",
+      "description": "A power yoga session to build strength and flexibility.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Warrior I",
+          "duration": "10 min",
+          "image": "https://example.com/warrior_i.jpg"
+        },
+        {
+ "id": 2,
+          "name": "Tree Pose",
+          "duration": "10 min",
+          "image": "https://example.com/tree_pose.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Aqua Aerobics",
+      "duration": "44 min",
+      "coverImage": "https://example.com/aqua_aerobics.jpg",
+      "level": "Beginner",
+      "description": "A fun aqua aerobics session to improve fitness in the water.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Water Jogging",
+          "duration": "10 min",
+          "image": "https://example.com/water_jogging.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Arm Circles",
+          "duration": "10 min",
+          "image": "https://example.com/arm_circles.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Trampoline Fitness",
+      "duration": "46 min",
+      "coverImage": "https://example.com/trampoline_fitness.jpg",
+      "level": "Intermediate",
+      "description": "A fun trampoline workout to improve cardiovascular fitness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Basic Bounce",
+          "duration": "10 min",
+          "image": "https://example.com/basic_bounce.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Jumping Jacks",
+          "duration": "10 min",
+          "image": "https://example.com/jumping_jacks_trampoline.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Water Polo",
+      "duration": "48 min",
+      "coverImage": "https://example.com/water_polo.jpg",
+      "level": "Advanced",
+      "description": "A competitive water polo workout to improve teamwork and fitness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Passing Drills",
+          "duration": "10 min",
+          "image": "https://example.com/passing_drills.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Shooting Drills",
+          "duration": "10 min",
+          "image": "https://example.com/shooting_drills.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Pole Dancing",
+      "duration": "50 min",
+      "coverImage": "https://example.com/pole_dancing.jpg",
+      "level": "Intermediate",
+      "description": "A pole dancing workout to improve strength and flexibility.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Pole Spin",
+          "duration": "10 min",
+          "image": "https://example.com/pole_spin.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Inverted Hold",
+          "duration": "10 min",
+          "image": "https://example.com/inverted_hold.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Kickboxing",
+      "duration": "52 min",
+      "coverImage": "https://example.com/kickboxing.jpg",
+      "level": "Advanced",
+      "description": "A kickboxing workout to improve strength and agility.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Roundhouse Kick",
+          "duration": "10 min",
+          "image": "https://example.com/roundhouse_kick_kickboxing.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Cross Punch",
+          "duration": "10 min",
+          "image": "https://example.com/cross_punch.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Skateboarding",
+      "duration": "54 min",
+      "coverImage": "https://example.com/skateboarding.jpg",
+      "level": "Intermediate",
+      "description": "A skateboarding workout to improve balance and coordination.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Ollie",
+          "duration": "10 min",
+          "image": "https://example.com/ollie.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Kickflip",
+          "duration": "10 min",
+          "image": "https://example.com/kickflip.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Snowboarding",
+      "duration": "56 min",
+      "coverImage": "https://example.com/snowboarding.jpg",
+      "level": "Advanced",
+      "description": "A snowboarding workout to improve balance and strength.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Carving",
+          "duration": "10 min",
+          "image": "https://example.com/carving.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Jumping",
+          "duration": "10 min",
+          "image": "https://example.com/jumping_snowboarding.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Horse Riding",
+      "duration": "58 min",
+      "coverImage": "https://example.com/horse_riding.jpg",
+      "level": "Intermediate",
+      "description": "A horse riding workout to improve balance and coordination.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Trotting",
+          "duration": "10 min",
+          "image": "https://example.com/trotting.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Cantering",
+          "duration": "10 min",
+          "image": "https://example.com/cantering.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Beach Volleyball",
+      "duration": "60 min",
+      "coverImage": "https://example.com/beach_volleyball.jpg",
+      "level": "Advanced",
+      "description": "A beach volleyball workout to improve teamwork and fitness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Serving",
+          "duration": "10 min",
+          "image": "https://example.com/serving.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Spiking",
+          "duration": "10 min",
+          "image": "https://example.com/spiking.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Frisbee",
+      "duration": "62 min",
+      "coverImage": "https://example.com/frisbee.jpg",
+      "level": "Beginner",
+      "description": "A frisbee workout to improve coordination and fitness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Throwing",
+          "duration": "10 min",
+          "image": "https://example.com/throwing.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Catching",
+          "duration": "10 min",
+          "image": "https://example.com/catching.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Rugby",
+      "duration": "64 min",
+      "coverImage": "https://example.com/rugby.jpg",
+      "level": "Advanced",
+      "description": "A rugby workout to improve teamwork and fitness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Passing",
+          "duration": "10 min",
+          "image": "https://example.com/passing_rugby.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Tackling",
+          "duration": "10 min",
+          "image": "https://example.com/tackling.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Football",
+      "duration": "66 min",
+      "coverImage": "https://example.com/football.jpg",
+      "level": "Advanced",
+      "description": "A football workout to improve teamwork and fitness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Dribbling",
+          "duration": "10 min",
+          "image": "https://example.com/dribbling.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Shooting",
+          "duration": "10 min",
+          "image": "https://example.com/shooting_football.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Ultimate Frisbee",
+      "duration": "68 min",
+      "coverImage": "https://example.com/ultimate_frisbee.jpg",
+      "level": "Intermediate",
+      "description": "An ultimate frisbee workout to improve teamwork and fitness.",
+      "poses": [
+        {
+ "id": 1,
+          "name": "Cutting",
+          "duration": "10 min",
+          "image": "https://example.com/cutting.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Hucking",
+          "duration": "10 min",
+          "image": "https://example.com/hucking.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Basketball",
+      "duration": "70 min",
+      "coverImage": "https://example.com/basketball.jpg",
+      "level": "Advanced",
+      "description": "A basketball workout to improve shooting and teamwork.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Dribbling",
+          "duration": "10 min",
+          "image": "https://example.com/dribbling_basketball.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Shooting",
+          "duration": "10 min",
+          "image": "https://example.com/shooting_basketball.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Handball",
+      "duration": "72 min",
+      "coverImage": "https://example.com/handball.jpg",
+      "level": "Advanced",
+      "description": "A handball workout to improve teamwork and fitness.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Passing",
+          "duration": "10 min",
+          "image": "https://example.com/passing_handball.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Shooting",
+          "duration": "10 min",
+          "image": "https://example.com/shooting_handball.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Tennis",
+      "duration": "74 min",
+      "coverImage": "https://example.com/tennis.jpg",
+      "level": "Intermediate",
+      "description": "A tennis workout to improve serving and volleying.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Forehand",
+          "duration": "10 min",
+          "image": "https://example.com/forehand.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Backhand",
+          "duration": "10 min",
+          "image": "https://example.com/backhand.jpg"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Badminton",
+      "duration": "76 min",
+      "coverImage": "https://example.com/badminton.jpg",
+      "level": "Intermediate",
+      "description": "A badminton workout to improve agility and reflexes.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Smash",
+          "duration": "10 min",
+          "image": "https://example.com/smash.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Drop Shot",
+          "duration": "10 min",
+          "image": "https://example.com/drop_shot.jpg"
+        }
+      ]
+    }
+  ]
+}
