@@ -25,7 +25,7 @@ const Sidebar = () => {
   }, [navigate]);
 
   return (
-    <div className="bg-gray-100 w-74 h-full p-4 flex flex-col justify-between">
+    <div className="overflow-hidden bg-gray-100 w-74 h-full p-4 flex flex-col justify-between">
       <div>
         <div className="flex items-center mb-8">
           <div className="w-12 h-12">

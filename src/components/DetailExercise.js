@@ -38,8 +38,8 @@ const ExerciseDetail = () => {
   }
 
   return (
-    <div className="flex flex-col items-center bg-white min-h-screen p-2">
-      <div className="bg-gray-50 shadow-lg rounded-lg w-full max-w-6xl p-10">
+    <div className="fixed flex flex-col items-center bg-white w-full max-w-6xl min-h-screen ml-64 mt-28">
+      <div className="bg-gray-50 shadow-lg rounded-lg w-full max-w-6xl p-8">
         <h2 className="text-3xl font-bold mb-4">{exercise.title}</h2>
 
         {/* Title and Info */}
