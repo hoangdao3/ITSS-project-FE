@@ -31,7 +31,7 @@ const LisExercises = () => {
   };
 
   const handleExerciseClick = (exerciseId) => {
-    navigate(`/list-exercises/id=${exerciseId}`);
+    navigate(`/list-exercises/${exerciseId}`);
   };
 
   return (

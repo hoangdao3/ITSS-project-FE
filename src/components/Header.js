@@ -21,13 +21,16 @@ const Header = () => {
   const fetchExercises = async () => {
     try {
       const token = localStorage.getItem("token");
-      const response = await fetch("http://localhost:8080/api/exercises/getAll", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${token}`
+      const response = await fetch(
+        "http://localhost:8080/api/exercises/getAll",
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
         }
-      });
+      );
 
       if (!response.ok) {
         throw new Error(`Failed to fetch exercises: ${response.statusText}`);
@@ -38,14 +41,18 @@ const Header = () => {
 
       const currentTime = new Date();
       const newNotifications = exercises
-        .filter(exercise => {
+        .filter((exercise) => {
           const startTime = new Date(exercise.startTime);
-          const notificationTime = new Date(startTime.getTime() - 30 * 60 * 1000);
+          const notificationTime = new Date(
+            startTime.getTime() - 30 * 60 * 1000
+          );
           return currentTime >= notificationTime && currentTime < startTime;
         })
-        .map(exercise => ({
+        .map((exercise) => ({
           id: exercise.id,
-          message: `リマインダー: ${exercise.description} が ${new Date(exercise.startTime).toLocaleTimeString()} に始まります。`,
+          message: `リマインダー: ${exercise.description} が ${new Date(
+            exercise.startTime
+          ).toLocaleTimeString()} に始まります。`,
         }));
 
       setNotifications(newNotifications);
@@ -65,8 +72,8 @@ const Header = () => {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": `Bearer ${token}`
-        }
+          Authorization: `Bearer ${token}`,
+        },
       });
 
       if (!response.ok) {
@@ -102,7 +109,7 @@ const Header = () => {
               {notifications.length > 0 && (
                 <span
                   className="absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full px-1"
-                  style={{ top: '5px', right: '5px' }} // Điều chỉnh vị trí ở đây
+                  style={{ top: "5px", right: "5px" }} // Điều chỉnh vị trí ở đây
                 >
                   {notifications.length}
                 </span>
@@ -162,8 +169,11 @@ const Header = () => {
             </div>
             <div className="mt-4">
               {notifications.length > 0 ? (
-                notifications.map(notification => (
-                  <div key={notification.id} className="w-full p-3 mt-4 bg-blue-100 rounded flex items-center">
+                notifications.map((notification) => (
+                  <div
+                    key={notification.id}
+                    className="w-full p-3 mt-4 bg-blue-100 rounded flex items-center"
+                  >
                     <div className="w-8 h-8 border rounded-full border-blue-200 flex items-center justify-center">
                       <svg
                         width={16}
@@ -179,7 +189,9 @@ const Header = () => {
                       </svg>
                     </div>
                     <div className="pl-3">
-                      <p className="text-sm leading-none">{notification.message}</p>
+                      <p className="text-sm leading-none">
+                        {notification.message}
+                      </p>
                     </div>
                   </div>
                 ))
@@ -196,8 +208,12 @@ const Header = () => {
               ユーザープロフィール
             </p>
             <div className="mt-4">
-              <p className="text-sm text-gray-600">名前: {profileData.fullname}</p>
-              <p className="text-sm text-gray-600">メール: {profileData.email}</p>
+              <p className="text-sm text-gray-600">
+                名前: {profileData.fullname}
+              </p>
+              <p className="text-sm text-gray-600">
+                メール: {profileData.email}
+              </p>
               <button
                 className="mt-3 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
                 onClick={toggleProfile}

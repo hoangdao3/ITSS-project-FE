@@ -2,1079 +2,1401 @@
   "exercises": [
     {
       "id": 1,
-      "title": "Yoga",
-      "duration": "10 min",
-      "coverImage": "https://example.com/yoga.jpg",
+      "title": "Yoga body stretching",
+      "duration": "15 mins",
       "level": "Beginner",
-      "description": "A relaxing yoga session to improve flexibility and mindfulness.",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "Greet the day with our invigorating Morning Stretch Class, where each session is a gentle dance between breath and movement.",
       "poses": [
         {
           "id": 1,
-          "name": "Downward Dog",
-          "duration": "2 min",
-          "image": "https://example.com/downward_dog.jpg"
+          "name": "Warrior 1",
+          "duration": "30 seconds",
+          "image": "data:image/jpeg;base64,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"
         },
         {
           "id": 2,
-          "name": "Warrior II",
-          "duration": "3 min",
-          "image": "https://example.com/warrior_ii.jpg"
+          "name": "Side plank",
+          "duration": "45 seconds",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOdwuAptkov028P0o4EAfhWcyQS1mqqPhqWg&s"
+        },
+        {
+          "id": 3,
+          "name": "One Leg Downward Dog",
+          "duration": "20 seconds",
+          "image": "data:image/jpeg;base64,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"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Aerobics",
-      "duration": "15 min",
-      "coverImage": "https://example.com/aerobics.jpg",
+      "title": "Core Strength Workout",
+      "duration": "20 mins",
       "level": "Intermediate",
-      "description": "A high-energy aerobics workout to boost your heart rate.",
+      "coverImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhMTBxMWFRQXFiAaGRYYFhgXFxkfGh4WGhseIhwfHSggHR4lHRsYIzEhJSkrLzMwGCAzODMsNygtMCsBCgoKDg0OGxAQGi0mHyItNS03LSs1LTUtLi0yKystLS0tLS0vKy0tLS0tNSstLS8tLSstKy0vLSstLi0tKy0tM//AABEIAMIBAwMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcDBQgEAgH/xABGEAACAQIEAwUEBQgHCQEAAAAAAQIDEQQFBiESMUEHE1FhcSKBkaEyUoKSsRQVI0JDYtHhM1OTssHS8AgWJDRUY3Kiwhf/xAAYAQEAAwEAAAAAAAAAAAAAAAAAAQMEAv/EACIRAQACAgICAQUAAAAAAAAAAAABAgMREjEEIUIiMkFhgf/aAAwDAQACEQMRAD8AvEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqjtC7VMTlObzwmm6cJVKe1SpUTcYy58MYpq7S5tu3SwFrgpnRXa5j6mcww+rIwUajUY1oJw4ZPkpK7XC3txK1r77bq5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgzTNKGXw9tpzd+GN7XfhfkuaAzY7HYfA0XLEOySuR6Gq6uLqf8DT9jxk937lyNJndXFxhUqYrinH+k2XJJNSil+6rNLwv4M8egq06uSRlV5t8S9Hy+Rlz5L1nUdNOHHWa7lNa+dVJ4BvDRtPdb8ovxt19CsMm0isunWlmzVapWvUdSSTld8ba8m24u9uj5WRMMfjoYRubS9qyfuv/M0GfZJqWOMjiZU+KknwuEXepFfW4Ve8b+G/lYo55LropSjx5no3K8bSp4fFzXfVINU2lZ38f3kvDwuWxkWDr5dk1Gli6jqzp04xlUd7zaSTe++7Nbp3LK9K1TGRSdrRi95Lzv0v4EgNeGsxHtmzWiZ9AALlIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEH1V2p6a05ie6nN1qqaUoUkpcCvveV+G6V/Zvflsrkc7fNWY3KMFRwmWzcHWUpVJxdpcCslFPpxNu9ukbdSgFstgOuJagjmODhUyWcHCauptXuvJXVvff0PHGjUnVk6yu5/S6qVuTs7cltt0KU7JdWyynMvybGTtRqv2eL6MZ/HZS5XXW3iy5p5hSg/wBKrfBr/B/IDU62xjw2n6kes1wL06/K695r9FY+H5kpxqpq8EovpyPjVLqZzioQwl5JLpvu/wCSRg0g3hqdShX2lRk4ST2aad18mjJ5XUNfi/mExwOTU8xpQ/KpLeXF7l0Xm97vzJkRfS8W8Zu27Qb9LuKt5dSUFuDXH1CnNvl7AAXKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABqNR57RyLCKdVcTb5X4dkryd/JfiRbA9sGk8ROMcVOdGbko2nBtK/KTnG8VHlu2mr7pbgRb/aNyStVw2GxlHeML0p+XE+KD9LqS96KNUjsvOstwmoMkq0MVaVOtBxurPnykvNOzT8kciajyTGabzurhsxVpwla/Scf1ZLya3+XNAeHhVRW6nQHY9gMr1Bp1VMXUnVrU3wVINuKj9Xa+6a34uu/gzn6OxMOzPVctJ6rp1KjtQrWp1l0s3tP1i9/Ti8QOosLgsLg42wsIx9Ek/iVNVrSnrXMJYdbqvyf63BGlF/3fmi4E01sVZmtH8368xKlsqnBVj9qKg//AGizP5MfQ0+LP1/xMdKKCq1OFc0r/GRIyO6NXFQqy/eUfgr/AP0SI7wRqkK833yAAtVAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkO3LOljs6pYHBzXsw4q2/LbjUfVxSbXnHxZCtM6kwGXZBXpYqlCVRcUt4x/SJ9JO17J9H0NTq/MsTPV+NqT+m69WPolKUF8I7e4kenOyLPs4wEa2LXcxlwtRf8ASSi025Nfq7WtHn7S5HNq8o06rbjO2s0v2n6k01l3c4CVOVPi4oxqQcuC+7UbSVo+Xm7WPVrPX+C1rlqWb4NU8TC/dV6U9rP9SUZK7j79nuuqdj6q7EMoxmCh/u3LuKsFZ8blONXzlveMvOKtvyKi1PoDUumYuWZUG6a/a033lP1bW8V/5JHTlGFdcz7l7VJ/E+Vuj6p34kB1P2Q55LPdB4eVV3qU06M97u9PaLfm4cD95h7Q4YWnmGGm2lUalG3VxjaV/RO6+2Qr/Zqq4ngx0N+6TpteHE+8Tt6pRv6IkXarRxGEzXDYqMZSppKElG3NOXs7tK8lN+vBbm0nXlryrMLMVuN4lqdL9oX5DmtXDT4JpVZXjwShU9nZ8LbcZ2Sv0ezsi3cLiKeLw0Z0HeMldMpPNKGW5rgYVsLB8ca0JJTi41IuM4uUfFuSTSSe/F7y29KYKtl+nqFPE/TjDdeF97e64xTuE5Y1bttgAWKgAAAAAAAAAAAAAAAAAAAAAAAAAAD4qQc47Ox9gCvcb2SZHj9TPF4ydSXFPjlS9lQlLxezbTe7XV3Jp+bY/XqfePcCNDwPLIv9pU+9/IxzyanNb1avxj/lNmBqBB817KtLZrV4sXTlxdXBxpt+vBFX95iwXZBozC1lJ0JTt0nVnKPvV7MnoJGryrTuT5PhnTyujGlBu7ULq7dld77vZc/Az4nKsDiqEoYmHFCStKLcnFp9Gr2aPaANLlmlMhyqup5fh6cJR5SSbav4Nt29xugAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMFXF0aSd3e3huYJZlSjFvpa97qwHuBosJqfDYqvanCdvrWVvxv8iJdqOvMZlNGGG03CbxFXlVVNuMEuajde1P3WSdziMlJ6l3NLR3Cygcr1NR62yXFupUxeJU07tVJynH0cJXj8jobs/wBSLVelqWJklGbvGpFclOLtK3k9mvKSOomJ6czEx2kQAJQAAAAAAAAAAAAAAAAGtznPMvyWEXmMuFSvyTlsubst7cvibIoft5zit/vBHDYb+pi5W3tG8nbyu/l6gWbHtF0tKLl+ULu1JRdXhk6ab5JySfD9q3Jknw2Io4rDxnhpRnCSTjKLUoyT3TTWzT8Tm/RmH0rj8hqPMYcVVe1Vc3K7td3jZqyV7bb+J56Xa5n2CwbpZTGnRgpfo+GCtCCd+Hgd47rZtW5vqVxfczER07mmoiZnt04DnfC9u2o6bj+U0MPNJb2VSLfnfiaXwJVlXbxlNeaWaYWrSvzlCUasV529mVvRNljhbwNbkWfZVqDBKrk9aNWD+q915OL3i/JpGwqThTg3UaSSu23ZID6MOMxWHwWFlUxk4whBXlKTtFJc22V7qjtl03k03DLuLFVF/VtKkn51Hs/sqRTOue0LOtYz4cU1ToJpqhD6N1feT5zfy22SAtPPu3TKcJWcckoTxFn9OUu6g/NXTk/ekZdN9tWEznMIUJ4KsqtSXDFU5wqL1blwWSV2/Cxz1fYmfZBiqOF19Q7/APXU4RfhKUXb42t9oDperm0Ixl3cW2ly2352/A8tXGVqz2dlbktr/wCJjmo8XtbGGc4rkwP2c7cv5Mw1aTq4VqPX/TMdTEW6nnq4idv0LVzm0bjSYnU7eGvU/NmMj7UVGXK76+B68ZOjjoWa4mrPb4kczvIXnWMgsXWq2ukoxlGMU27dI8T97M2LyzONKYu9dupQT9mtFPZdFNfqtcr8n472WC2G1Y23Uy1tP7avUOWZbiE1XlwSqezGDV7W6Lq5dfVkv7ItNZnpfJa9PMbKM67nSje8lFqKvK2ybsnbp8l58HmODxVSMrpVIu8ZO3MlGF1DQltidn4pq3wvf8Szx7xG9y58ikzEahuwY6FeliIXoyTXkfVScKcG6jSS5tuyRtYn0Dz4bHYTFSawtSE2uajKMrfBnoAAAAAAAAAAAAAAByFqHOK+aasxdaV5Sq1JqK624koRt5RjFe73nXpT2UdlmZZZ2iVMTFUp4Vuq4xlNqdqsZLhtwuzXE9/BAV32X6OxGqs8qU5SlCjTt384u212u7XS8mnv0UW/C9g6g7DcHicsi8in3NdXbjKUp0pXu0ru8o22V9+XLqSjs00bj9FYPEQqyhVdWtxKSbvwpWjdtK8ubfqTLvMX9RfeIS5P1HoXUum03mmGkqa/aw/SU/Vyjfh+1YjifgdpSq4u29JP7SIDq7szyfUClKlhO4rP9pRnCN3+9D6MvN7PzG0OccLi8Rg66nhJypzXKUJOMl707m41LrHP9UNfnmvKcVygrRp9N+FbN+buSXGdjGr6NdrC04VI9Jd5CLfqnLb4swf/AI9rb/p4f21P/MSIHcXJ4ux/W1/+Xh/bUv8AMbjKexbN5VE83U0usabo3++5v+6BVvU2GU5fnOJqqrktCtUdOaalSpTqKMo2kt0mr8nY6Lyfs7yHL8Kofm2lNrdzrTjUm35u1vckkSzB0q+CoKGDw9KnBcowajFe5RSI2I9hcZXxmXUqleEqc5QjKVOScZRk4ptNPdWdzLTwWPrv9HB+/b8SQcGJdXidKF/Hiu/wMyqY3rCP3n/AjY0tLT+IqW7+SivLdmwoZDgqT9pOXq9vketTxn1Y/ef8Bx4v6sfvP+BI+6eFw9L+jhFeiRllFSjaSujAqmK6wX3v5H33lX6nzQEQ1BoLC4qm5ZK1Rnz4d+7fp1h7tvIjFDBahy2VsxoScYu3FFOSfnsWt3lT6vzHez+q/kUX8elvcemjH5Fq+u0BoZuqTTXFF+Nmn/ryPLqeeK1DSgnVjwwTfdyvGEpWfC52auk7XStdK212WPKpJL6Dfw/iV/2i6UzDO68cRkcZxrxjwTg5RhGrC97cSleE4vdS8Ur8iK4bV6sWzVt3VGI5NqLBVadXC1Y2hv3aVNXX/bnGEOCVuX6t7Jpq5cWU4meLy2nOr9Jx3tsrrZ+66K00lkesqmPjHN++pUlBp8c8NJbqy2p8TlLrxPh/FO0sNRhhqEYUuUUkvRbFtOfyV5OPxZAAWKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/9k=",
+      "description": "Build core strength and stability with this targeted workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Jumping Jacks",
-          "duration": "3 min",
-          "image": "https://example.com/jumping_jacks.jpg"
+          "name": "Plank Hold",
+          "duration": "60 seconds",
+          "image": "data:image/jpeg;base64,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"
         },
         {
           "id": 2,
-          "name": "High Knees",
-          "duration": "3 min",
-          "image": "https://example.com/high_knees.jpg"
+          "name": "Russian Twists",
+          "duration": "45 seconds",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqAWlaMMtVda8Hn4oWqsK6CnJR8ujbPmoTbQ&s"
+        },
+        {
+          "id": 3,
+          "name": "Mountain Climbers",
+          "duration": "30 seconds",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMaCzDFPxmj47BCWLJLdMeSUp_q2Q0pqh20Q&s"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Zumba",
-      "duration": "8 min",
-      "coverImage": "https://example.com/zumba.jpg",
-      "level": "Beginner",
-      "description": "A fun dance workout to get your heart pumping.",
+      "title": "Relaxation Meditation",
+      "duration": "10 mins",
+      "level": "All Levels",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "Unwind and relax with this guided meditation session.",
       "poses": [
         {
           "id": 1,
-          "name": "Basic Step",
-          "duration": "2 min",
-          "image": "https://example.com/basic_step.jpg"
+          "name": "Seated Meditation",
+          "duration": "5 minutes",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         },
         {
           "id": 2,
-          "name": "Cumbia",
-          "duration": "3 min",
-          "image": "https://example.com/cumbia.jpg"
+          "name": "Deep Breathing",
+          "duration": "3 minutes",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+        },
+        {
+          "id": 3,
+          "name": "Body Scan",
+          "duration": "2 minutes",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Pilates",
-      "duration": "8 min",
-      "coverImage": "https://example.com/pilates.jpg",
-      "level": "Beginner",
-      "description": "A core-strengthening Pilates routine.",
+      "title": "Full Body HIIT",
+      "duration": "30 mins",
+      "level": "Advanced",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "A high-intensity interval training session that targets all major muscle groups.",
       "poses": [
         {
           "id": 1,
-          "name": "The Hundred",
-          "duration": "2 min",
-          "image": "https://example.com/the_hundred.jpg"
+          "name": "Burpees",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         },
         {
           "id": 2,
-          "name": "Roll Up",
-          "duration": "3 min",
-          "image": "https://example.com/roll_up.jpg"
+          "name": "Jump Squats",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+        },
+        {
+          "id": 3,
+          "name": "Push-Ups",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         }
       ]
     },
     {
       "id": 5,
-      "title": "Cardio Kickboxing",
-      "duration": "8 min",
-      "coverImage": "https://example.com/cardio_kickboxing.jpg",
+      "title": "Cardio Blast",
+      "duration": "25 mins",
       "level": "Intermediate",
-      "description": "A high-energy kickboxing workout to improve strength and endurance.",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "Get your heart pumping with this cardio-focused workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Jab-Cross",
-          "duration": "2 min",
-          "image": "https://example.com/jab_cross.jpg"
+          "name": "High Knees",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         },
         {
           "id": 2,
-          "name": "Front Kick",
-          "duration": "3 min",
-          "image": "https://example.com/front_kick.jpg"
+          "name": "Butt Kickers",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+        },
+        {
+          "id": 3,
+          "name": "Jumping Jacks",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         }
       ]
     },
     {
       "id": 6,
-      "title": "Weight Training",
-      "duration": "8 min",
-      "coverImage": "https://example.com/weight_training.jpg",
-      "level": "Intermediate",
-      "description": "A quick weight training session to build muscle.",
+      "title": "Strength Training Basics",
+      "duration": "40 mins",
+      "level": "Beginner",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "Learn the fundamentals of strength training with this introductory workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Bicep Curl",
-          "duration": "2 min",
-          "image": "https://example.com/bicep_curl.jpg"
+          "name": "Dumbbell Squats",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         },
         {
           "id": 2,
-          "name": "Squat",
-          "duration": "3 min",
-          "image": "https://example.com/squat.jpg"
+          "name": "Dumbbell Bench Press",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+        },
+        {
+          "id": 3,
+          "name": "Bent Over Rows",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         }
       ]
     },
     {
       "id": 7,
-      "title": "Spinning",
-      "duration": "8 min",
-      "coverImage": "https://example.com/spinning.jpg",
+      "title": "Pilates Core Workout",
+      "duration": "30 mins",
       "level": "Intermediate",
-      "description": "An intense spinning workout to boost your cardiovascular fitness.",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "Strengthen your core with this Pilates-inspired workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Warm-up",
-          "duration": "2 min",
-          "image": "https://example.com/spinning_warmup.jpg"
+          "name": "The Hundred",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         },
         {
           "id": 2,
-          "name": "Sprints",
-          "duration": "3 min",
-          "image": "https://example.com/spinning_sprints.jpg"
+          "name": "Roll Up",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+        },
+        {
+          "id": 3,
+          "name": "Leg Circles",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         }
       ]
     },
     {
       "id": 8,
-      "title": "Stretching",
-      "duration": "5 min",
-      "coverImage": "https://example.com/stretching.jpg",
-      "level": "Beginner",
-      "description": "A gentle stretching routine to improve flexibility.",
+      "title": "Zumba Dance Party",
+      "duration": "45 mins",
+      "level": "All Levels",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "Join the fun with this high-energy Zumba dance workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Hamstring Stretch",
-          "duration": "2 min",
-          "image": "https://example.com/hamstring_stretch.jpg"
+          "name": "Basic Salsa Step",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         },
         {
           "id": 2,
-          "name": "Shoulder Stretch",
-          "duration": "2 min",
-          "image": "https://example.com/shoulder_stretch.jpg"
+          "name": "Cumbia Step",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+        },
+        {
+          "id": 3,
+          "name": "Merengue March",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         }
       ]
     },
     {
       "id": 9,
-      "title": "HIIT",
-      "duration": "10 min",
-      "coverImage": "https://example.com/hiit.jpg",
-      "level": "Advanced",
-      "description": "A high-intensity interval training session to burn calories.",
+      "title": "Kickboxing Fitness",
+      "duration": "35 mins",
+      "level": "Intermediate",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "Get fit with this dynamic kickboxing workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Burpees",
-          "duration": "2 min",
-          "image": "https://example.com/burpees.jpg"
+          "name": "Jab-Cross Combo",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         },
         {
           "id": 2,
-          "name": "Mountain Climbers",
-          "duration": "3 min",
-          "image": "https://example.com/mountain_climbers.jpg"
+          "name": "Front Kicks",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+        },
+        {
+          "id": 3,
+          "name": "Roundhouse Kicks",
+          "duration": "1 minute",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
         }
       ]
     },
     {
       "id": 10,
-      "title": "Swimming",
-      "duration": "15 min",
-      "coverImage": "https://example.com/swimming.jpg",
-      "level": "Intermediate",
-      "description": "A refreshing swimming workout to improve endurance.",
+      "title": "Bodyweight Strength",
+      "duration": "30 mins",
+      "level": "Beginner",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "Build strength using your own body weight with this workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Freestyle",
-          "duration": "5 min",
-          "image": "https://example.com/freestyle.jpg"
+          "name": "Push-Ups",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Backstroke",
-          "duration": "5 min",
-          "image": "https://example.com/backstroke.jpg"
+          "name": "Bodyweight Squats",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Lunges",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 11,
-      "title": "Running",
-      "duration": "8 min",
-      "coverImage": "https://example.com/running.jpg",
-      "level": "Beginner",
-      "description": "A quick running session to get your heart rate up.",
+      "title": "Dance Cardio",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "Get your heart rate up with this fun dance cardio workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Warm-up Jog",
-          "duration": "2 min",
-          "image": "https://example.com/warmup_jog.jpg"
+          "name": "Freestyle Dance",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Sprint",
-          "duration": "3 min",
-          "image": "https://example.com/sprint.jpg"
+          "name": "Side Steps",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Hip Hop Moves",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 12,
-      "title": "Cycling",
-      "duration": "8 min",
-      "coverImage": "https://example.com/cycling.jpg",
-      "level": "Beginner",
-      "description": "A short cycling workout to improve leg strength.",
+      "title": "Barre Workout",
+      "duration": "45 mins",
+      "level": "Intermediate",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "A fusion of ballet, Pilates, and yoga for a full-body workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Flat Road",
-          "duration": "2 min",
-          "image": "https://example.com/flat_road.jpg"
+          "name": "Plie Squats",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Hill Climb",
-          "duration": "3 min",
-          "image": "https://example.com/hill_climb.jpg"
+          "name": "Tendu",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Leg Lifts",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 13,
-      "title": "Rowing",
-      "duration": "8 min",
-      "coverImage": "https://example.com/rowing.jpg",
-      "level": "Intermediate",
-      "description": "A rowing workout to strengthen your back and arms.",
+      "title": "Resistance Band Training",
+      "duration": "30 mins",
+      "level": "Beginner",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
+      "description": "Use resistance bands to build strength and flexibility.",
       "poses": [
         {
           "id": 1,
-          "name": "Power Stroke",
-          "duration": "2 min",
-          "image ": "https://example.com/power_stroke.jpg"
+          "name": "Banded Squats",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Recovery Stroke",
-          "duration": "3 min",
-          "image": "https://example.com/recovery_stroke.jpg"
+          "name": "Banded Rows",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Banded Chest Press",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 14,
-      "title": "Dance Fitness",
-      "duration": "8 min",
-      "coverImage": "https://example.com/dance_fitness.jpg",
-      "level": "Beginner",
-      "description": "A fun dance workout to improve coordination and fitness.",
+      "title": "Mobility and Flexibility",
+      "duration": "20 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "Improve your range of motion with this mobility workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Basic Dance Step",
-          "duration": "2 min",
-          "image": "https://example.com/basic_dance_step.jpg"
+          "name": "Hip Openers",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Freestyle",
-          "duration": "3 min",
-          "image": "https://example.com/freestyle_dance.jpg"
+          "name": "Shoulder Rolls",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Wrist Stretches",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 15,
-      "title": "Tai Chi",
-      "duration": "8 min",
-      "coverImage": "https://example.com/tai_chi.jpg",
-      "level": "Beginner",
-      "description": "A gentle Tai Chi routine to improve balance and relaxation.",
+      "title": "Circuit Training",
+      "duration": "30 mins",
+      "level": "Intermediate",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A high-energy workout combining strength and cardio.",
       "poses": [
         {
           "id": 1,
-          "name": "Commencing Form",
-          "duration": "2 min",
-          "image": "https://example.com/commencing_form.jpg"
+          "name": "Jump Rope",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Wave Hands Like Clouds",
-          "duration": "3 min",
-          "image": "https://example.com/wave_hands.jpg"
+          "name": "Kettlebell Swings",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Box Jumps",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 16,
-      "title": "Jump Rope",
-      "duration": "10 min",
-      "coverImage": "https://example.com/jump_rope.jpg",
-      "level": "Intermediate",
-      "description": "A quick jump rope workout to improve cardiovascular fitness.",
+      "title": "Body Combat",
+      "duration": "45 mins",
+      "level": "Advanced",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A high-energy martial arts-inspired workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Basic Jump",
-          "duration": "2 min",
-          "image": "https://example.com/basic_jump.jpg"
+          "name": "Jab-Cross",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Double Unders",
-          "duration": "3 min",
-          "image": "https://example.com/double_unders.jpg"
+          "name": "Knee Strikes",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Roundhouse Kicks",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 17,
-      "title": "Bodyweight Exercises",
-      "duration": "12 min",
-      "coverImage": "https://example.com/bodyweight_exercises.jpg",
-      "level": "Beginner",
-      "description": "A bodyweight workout to build strength without equipment.",
+      "title": "Aqua Aerobics",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A fun water-based workout for all fitness levels.",
       "poses": [
         {
           "id": 1,
-          "name": "Push-ups",
-          "duration": "2 min",
-          "image": "https://example.com/pushups.jpg"
+          "name": "Water Jogging",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Squats",
-          "duration": "3 min",
-          "image": "https://example.com/squats.jpg"
+          "name": "Arm Circles",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Leg Lifts",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 18,
-      "title": "Hiking",
-      "duration": "14 min",
-      "coverImage": "https://example.com/hiking.jpg",
-      "level": "Beginner",
-      "description": "A refreshing hike to enjoy nature and improve fitness.",
+      "title": "Kettlebell Workout",
+      "duration": "30 mins",
+      "level": "Intermediate",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "Use kettlebells to build strength and endurance.",
       "poses": [
         {
           "id": 1,
-          "name": "Trail Walking",
-          "duration": "5 min",
-          "image": "https://example.com/trail_walking.jpg"
+          "name": "Kettlebell Swings",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Incline Climb",
-          "duration": "5 min",
-          "image": "https://example.com/incline_climb.jpg"
+          "name": "Goblet Squats",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Kettlebell Deadlifts",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 19,
-      "title": "Stair Climbing",
-      "duration": "16 min",
-      "coverImage": "https://example.com/stair_climbing.jpg",
-      "level": "Intermediate",
-      "description": "A stair climbing workout to strengthen legs and improve endurance.",
+      "title": "Outdoor Bootcamp",
+      "duration": "60 mins",
+      "level": "Advanced",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A challenging outdoor workout that combines strength and cardio.",
       "poses": [
         {
           "id": 1,
-          "name": "Upward Climb",
-          "duration": "5 min",
-          "image": "https://example.com/upward_climb.jpg"
+          "name": "Sprints",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Downward Climb",
-          "duration": "5 min",
-          "image": "https://example.com/down ward_climb.jpg"
+          "name": "Burpees",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Push-Ups",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 20,
-      "title": "CrossFit",
-      "duration": "18 min",
-      "coverImage": "https://example.com/crossfit.jpg",
-      "level": "Advanced",
-      "description": "A high-intensity CrossFit workout to build strength and endurance.",
+      "title": "Yoga Flow",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A smooth flow of yoga poses to enhance flexibility and strength.",
       "poses": [
         {
           "id": 1,
-          "name": "Deadlift",
-          "duration": "5 min",
-          "image": "https://example.com/deadlift.jpg"
+          "name": "Downward Dog",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Box Jump",
-          "duration": "5 min",
-          "image": "https://example.com/box_jump.jpg"
+          "name": "Cobra Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Child's Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 21,
-      "title": "Martial Arts",
-      "duration": "20 min",
-      "coverImage": "https://example.com/martial_arts.jpg",
-      "level": "Intermediate",
-      "description": "A martial arts workout to improve agility and self-defense skills.",
+      "title": "Tai Chi for Beginners",
+      "duration": "30 mins",
+      "level": "Beginner",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "Experience the calming effects of Tai Chi with this beginner-friendly session.",
       "poses": [
         {
           "id": 1,
-          "name": "Front Kick",
-          "duration": "5 min",
-          "image": "https://example.com/front_kick_martial_arts.jpg"
+          "name": "Commencing Form",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Roundhouse Kick",
-          "duration": "5 min",
-          "image": "https://example.com/roundhouse_kick.jpg"
+          "name": "Parting the Horse's Mane",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Wave Hands Like Clouds",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 22,
-      "title": "Barre Workout",
-      "duration": "22 min",
-      "coverImage": "https://example.com/barre_workout.jpg",
+      "title": "Boxing Fitness",
+      "duration": "30 mins",
       "level": "Intermediate",
-      "description": "A barre workout to improve strength and flexibility.",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "Get fit with this boxing-inspired workout that combines cardio and strength.",
       "poses": [
         {
           "id": 1,
-          "name": "Plie",
-          "duration": "5 min",
-          "image": "https://example.com/plie.jpg"
+          "name": "Shadow Boxing",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Tendu",
-          "duration": "5 min",
-          "image": "https://example.com/tendu.jpg"
+          "name": "Heavy Bag Work",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Speed Bag Drills",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 23,
-      "title": "Mountain Biking",
-      "duration": "24 min",
-      "coverImage": "https://example.com/mountain_biking.jpg",
-      "level": "Intermediate",
-      "description": "A mountain biking workout to improve leg strength and endurance.",
+      "title": "Functional Training",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "Improve your everyday movements with this functional training workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Climbing",
-          "duration": "5 min",
-          "image": "https://example.com/climbing_biking.jpg"
+          "name": "Kettlebell Deadlifts",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Descending",
-          "duration": "5 min",
-          "image": "https://example.com/descending_biking.jpg"
+          "name": "Medicine Ball Throws",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Battle Ropes",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 24,
-      "title": "Bootcamp Training",
-      "duration": "26 min",
-      "coverImage": "https://example.com/bootcamp_training.jpg",
-      "level": "Advanced",
-      "description": "A bootcamp workout to challenge your strength and endurance.",
+      "title": "Stretch and Recover",
+      "duration": "20 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A gentle stretching routine to help your body recover.",
       "poses": [
         {
           "id": 1,
-          "name": "Burpees",
-          "duration": "5 min",
-          "image": "https://example.com/bootcamp_burpees.jpg"
+          "name": "Standing Forward Bend",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Push-ups",
-          "duration": "5 min",
-          "image": "https://example.com/bootcamp_pushups.jpg"
+          "name": "Seated Forward Bend",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Supine Twist",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 25,
-      "title": "Functional Training",
-      "duration": "28 min",
-      "coverImage": "https://example.com/functional_training.jpg",
-      "level": "Intermediate",
-      "description": "A functional training workout to improve everyday movements.",
+      "title": "Ballet Fitness",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A fun workout that combines ballet techniques with fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "Kettlebell Swing",
-          "duration": "5 min",
-          "image": "https://example.com/kettlebell_swing.jpg"
+          "name": "Plies",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Medicine Ball Toss",
-          "duration": "5 min",
-          "image": "https://example.com/medicine_ball_toss.jpg"
+          "name": "Tendus",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Releves",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 26,
-      "title": "Paddleboarding",
-      "duration": "30 min",
-      "coverImage": "https://example.com /paddleboarding.jpg",
-      "level": "Beginner",
-      "description": "A relaxing paddleboarding session to enjoy the water.",
+      "title": "Sculpt and Tone",
+      "duration": "30 mins",
+      "level": "Intermediate",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A workout designed to sculpt and tone your body.",
       "poses": [
         {
           "id": 1,
-          "name": "Paddle Forward",
-          "duration": "10 min",
-          "image": "https://example.com/paddle_forward.jpg"
+          "name": "Dumbbell Lunges",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Turn",
-          "duration": "5 min",
-          "image": "https://example.com/turn.jpg"
+          "name": "Tricep Dips",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Bicep Curls",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 27,
-      "title": "Rollerblading",
-      "duration": "32 min",
-      "coverImage": "https://example.com/rollerblading.jpg",
-      "level": "Intermediate",
-      "description": "A fun rollerblading workout to improve balance and coordination.",
+      "title": "HIIT Cardio",
+      "duration": "20 mins",
+      "level": "Advanced",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A high-intensity interval training session focused on cardio.",
       "poses": [
         {
           "id": 1,
-          "name": "Forward Glide",
-          "duration": "10 min",
-          "image": "https://example.com/forward_glide.jpg"
+          "name": "Sprint Intervals",
+          "duration": "30 seconds",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Backward Glide",
-          "duration": "10 min",
-          "image": "https://example.com/backward_glide.jpg"
+          "name": "Burpee Intervals",
+          "duration": "30 seconds",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Jump Rope",
+          "duration": "30 seconds",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 28,
-      "title": "Surfing",
-      "duration": "34 min",
-      "coverImage": "https://example.com/surfing.jpg",
-      "level": "Advanced",
-      "description": "An exhilarating surfing workout to improve balance and strength.",
+      "title": "Strength and Conditioning",
+      "duration": "45 mins",
+      "level": "Intermediate",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A balanced workout focusing on strength and conditioning.",
       "poses": [
         {
           "id": 1,
-          "name": "Paddle Out",
-          "duration": "10 min",
-          "image": "https://example.com/paddle_out.jpg"
+          "name": "Deadlifts",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Pop Up",
-          "duration": "10 min",
-          "image": "https://example.com/pop_up.jpg"
+          "name": "Bench Press",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Squat Jumps",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 29,
-      "title": "Parkour",
-      "duration": "36 min",
-      "coverImage": "https://example.com/parkour.jpg",
-      "level": "Advanced",
-      "description": "A parkour workout to improve agility and strength.",
+      "title": "Yoga for Athletes",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A yoga session designed to enhance athletic performance.",
       "poses": [
         {
           "id": 1,
-          "name": "Vault",
-          "duration": "10 min",
-          "image": "https://example.com/vault.jpg"
+          "name": "Pigeon Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Roll",
-          "duration": "10 min",
-          "image": "https://example.com/roll.jpg"
+          "name": "Reclining Bound Angle Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Bridge Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 30,
-      "title": "Climbing",
-      "duration": "38 min",
-      "coverImage": "https://example.com/climbing.jpg",
-      "level": "Advanced",
-      "description": "A climbing workout to build strength and endurance.",
+      "title": "Kettlebell Circuit",
+      "duration": "30 mins",
+      "level": "Intermediate",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A circuit workout using kettlebells for strength and endurance.",
       "poses": [
         {
           "id": 1,
-          "name": "Bouldering",
-          "duration": "10 min",
-          "image": "https://example.com/bouldering.jpg"
+          "name": "Kettlebell Swings",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Top Roping",
-          "duration": "10 min",
-          "image": "https://example.com/top_roping.jpg"
+          "name": "Kettlebell Goblet Squats",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Kettlebell Deadlifts",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 31,
-      "title": "Ballet",
-      "duration": "40 min",
-      "coverImage": "https://example.com/ballet.jpg",
-      "level": "Intermediate",
-      "description": "A ballet workout to improve flexibility and grace.",
+      "title": "Pilates for Beginners",
+      "duration": "30 mins",
+      "level": "Beginner",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "An introductory Pilates workout focusing on core strength.",
       "poses": [
         {
           "id": 1,
-          "name": "Plie",
-          "duration": "10 min",
-          "image": "https://example.com/plie_ballet.jpg"
+          "name": "The Roll Up",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Tendu",
-          "duration": "10 min",
-          "image": "https://example.com/tendu_ballet.jpg"
+          "name": "Single Leg Stretch",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "The Saw",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 32,
-      "title": "Power Yoga",
-      "duration": "42 min",
-      "coverImage": "https://example.com/power_yoga.jpg",
-      "level": "Advanced",
-      "description": "A power yoga session to build strength and flexibility.",
+      "title": "Cardio Kickboxing",
+      "duration": "40 mins",
+      "level": "Intermediate",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A fun and energetic kickboxing workout to boost your cardio.",
       "poses": [
         {
           "id": 1,
-          "name": "Warrior I",
-          "duration": "10 min",
-          "image": "https://example.com/warrior_i.jpg"
+          "name": "Jab-Cross Combo",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
- "id": 2,
-          "name": "Tree Pose",
-          "duration": "10 min",
-          "image": "https://example.com/tree_pose.jpg"
+          "id": 2,
+          "name": "Front Kicks",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Side Kicks",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 33,
-      "title": "Aqua Aerobics",
-      "duration": "44 min",
-      "coverImage": "https://example.com/aqua_aerobics.jpg",
-      "level": "Beginner",
-      "description": "A fun aqua aerobics session to improve fitness in the water.",
+      "title": "Strength Training for Women",
+      "duration": "45 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A strength training workout designed specifically for women.",
       "poses": [
         {
           "id": 1,
-          "name": "Water Jogging",
-          "duration": "10 min",
-          "image": "https://example.com/water_jogging.jpg"
+          "name": "Dumbbell Squats",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Arm Circles",
-          "duration": "10 min",
-          "image": "https://example.com/arm_circles.jpg"
+          "name": "Dumbbell Shoulder Press",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Dumbbell Deadlifts",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 34,
-      "title": "Trampoline Fitness",
-      "duration": "46 min",
-      "coverImage": "https://example.com/trampoline_fitness.jpg",
-      "level": "Intermediate",
-      "description": "A fun trampoline workout to improve cardiovascular fitness.",
+      "title": "Yoga for Relaxation",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A calming yoga session to help you unwind and relax.",
       "poses": [
         {
           "id": 1,
-          "name": "Basic Bounce",
-          "duration": "10 min",
-          "image": "https://example.com/basic_bounce.jpg"
+          "name": "Child's Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Jumping Jacks",
-          "duration": "10 min",
-          "image": "https://example.com/jumping_jacks_trampoline.jpg"
+          "name": "Cat-Cow Stretch",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Corpse Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 35,
-      "title": "Water Polo",
-      "duration": "48 min",
-      "coverImage": "https://example.com/water_polo.jpg",
+      "title": "High-Intensity Cardio",
+      "duration": "30 mins",
       "level": "Advanced",
-      "description": "A competitive water polo workout to improve teamwork and fitness.",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A high-intensity cardio workout to challenge your endurance.",
       "poses": [
         {
           "id": 1,
-          "name": "Passing Drills",
-          "duration": "10 min",
-          "image": "https://example.com/passing_drills.jpg"
+          "name": "Burpees",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Shooting Drills",
-          "duration": "10 min",
-          "image": "https://example.com/shooting_drills.jpg"
+          "name": "Jumping Jacks",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Mountain Climbers",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 36,
-      "title": "Pole Dancing",
-      "duration": "50 min",
-      "coverImage": "https://example.com/pole_dancing.jpg",
-      "level": "Intermediate",
-      "description": "A pole dancing workout to improve strength and flexibility.",
+      "title": "Yoga for Strength",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A yoga session focused on building strength and stability.",
       "poses": [
         {
           "id": 1,
-          "name": "Pole Spin",
-          "duration": "10 min",
-          "image": "https://example.com/pole_spin.jpg"
+          "name": "Chair Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Inverted Hold",
-          "duration": "10 min",
-          "image": "https://example.com/inverted_hold.jpg"
+          "name": "Warrior II",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Tree Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 37,
-      "title": "Kickboxing",
-      "duration": "52 min",
-      "coverImage": "https://example.com/kickboxing.jpg",
-      "level": "Advanced",
-      "description": "A kickboxing workout to improve strength and agility.",
+      "title": "Bodyweight Bootcamp",
+      "duration": "30 mins",
+      "level": "Intermediate",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A bootcamp-style workout using only your body weight.",
       "poses": [
         {
           "id": 1,
-          "name": "Roundhouse Kick",
-          "duration": "10 min",
-          "image": "https://example.com/roundhouse_kick_kickboxing.jpg"
+          "name": "Jump Squats",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Cross Punch",
-          "duration": "10 min",
-          "image": "https://example.com/cross_punch.jpg"
+          "name": "Push-Up Variations",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Plank Jacks",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 38,
-      "title": "Skateboarding",
-      "duration": "54 min",
-      "coverImage": "https://example.com/skateboarding.jpg",
-      "level": "Intermediate",
-      "description": "A skateboarding workout to improve balance and coordination.",
+      "title": "Cardio Dance Workout",
+      "duration": "45 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A fun dance workout to get your heart pumping.",
       "poses": [
         {
           "id": 1,
-          "name": "Ollie",
-          "duration": "10 min",
-          "image": "https://example.com/ollie.jpg"
+          "name": "Freestyle Dance",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Kickflip",
-          "duration": "10 min",
-          "image": "https://example.com/kickflip.jpg"
+          "name": "Dance Choreography",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Cool Down Dance",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 39,
-      "title": "Snowboarding",
-      "duration": "56 min",
-      "coverImage": "https://example.com/snowboarding.jpg",
-      "level": "Advanced",
-      "description": "A snowboarding workout to improve balance and strength.",
+      "title": "Strength and Balance",
+      "duration": "30 mins",
+      "level": "Intermediate",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A workout focusing on strength and balance exercises.",
       "poses": [
         {
           "id": 1,
-          "name": "Carving",
-          "duration": "10 min",
-          "image": "https://example.com/carving.jpg"
+          "name": "Single Leg Deadlift",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Jumping",
-          "duration": "10 min",
-          "image": "https://example.com/jumping_snowboarding.jpg"
+          "name": "Side Lunges",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Balance Beam Walk",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 40,
-      "title": "Horse Riding",
-      "duration": "58 min",
-      "coverImage": "https://example.com/horse_riding.jpg",
-      "level": "Intermediate",
-      "description": "A horse riding workout to improve balance and coordination.",
+      "title": "Yoga for Flexibility",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A yoga session designed to improve flexibility.",
       "poses": [
         {
           "id": 1,
-          "name": "Trotting",
-          "duration": "10 min",
-          "image": "https://example.com/trotting.jpg"
+          "name": "Forward Fold",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Cantering",
-          "duration": "10 min",
-          "image": "https://example.com/cantering.jpg"
+          "name": "Seated Forward Bend",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Pigeon Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 41,
-      "title": "Beach Volleyball",
-      "duration": "60 min",
-      "coverImage": "https://example.com/beach_volleyball.jpg",
+      "title": "HIIT Strength",
+      "duration": "30 mins",
       "level": "Advanced",
-      "description": "A beach volleyball workout to improve teamwork and fitness.",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A high-intensity interval training session focused on strength.",
       "poses": [
         {
           "id": 1,
-          "name": "Serving",
-          "duration": "10 min",
-          "image": "https://example.com/serving.jpg"
+          "name": "Kettlebell Swings",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Spiking",
-          "duration": "10 min",
-          "image": "https://example.com/spiking.jpg"
+          "name": "Push-Ups",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Squat Jumps",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 42,
-      "title": "Frisbee",
-      "duration": "62 min",
-      "coverImage": "https://example.com/frisbee.jpg",
-      "level": "Beginner",
-      "description": "A frisbee workout to improve coordination and fitness.",
+      "title": "Yoga for Core Strength",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A yoga session designed to strengthen your core.",
       "poses": [
         {
           "id": 1,
-          "name": "Throwing",
-          "duration": "10 min",
-          "image": "https://example.com/throwing.jpg"
+          "name": "Boat Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Catching",
-          "duration": "10 min",
-          "image": "https://example.com/catching.jpg"
+          "name": "Plank Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Side Plank",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 43,
-      "title": "Rugby",
-      "duration": "64 min",
-      "coverImage": "https://example.com/rugby.jpg",
-      "level": "Advanced",
-      "description": "A rugby workout to improve teamwork and fitness.",
+      "title": "Cardio Kickboxing for Beginners",
+      "duration": "30 mins",
+      "level": "Beginner",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "An introductory kickboxing workout to get you moving.",
       "poses": [
         {
           "id": 1,
-          "name": "Passing",
-          "duration": "10 min",
-          "image": "https://example.com/passing_rugby.jpg"
+          "name": "Basic Jab",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Tackling",
-          "duration": "10 min",
-          "image": "https://example.com/tackling.jpg"
+          "name": "Cross Punch",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Front Kick",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 44,
-      "title": "Football",
-      "duration": "66 min",
-      "coverImage": "https://example.com/football.jpg",
-      "level": "Advanced",
-      "description": "A football workout to improve teamwork and fitness.",
+      "title": "Strength Training for Men",
+      "duration": "45 mins",
+      "level": "Intermediate",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A strength training workout designed specifically for men.",
       "poses": [
         {
           "id": 1,
-          "name": "Dribbling",
-          "duration": "10 min",
-          "image": "https://example.com/dribbling.jpg"
+          "name": "Bench Press",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Shooting",
-          "duration": "10 min",
-          "image": "https://example.com/shooting_football.jpg"
+          "name": "Deadlifts",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Overhead Press",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 45,
-      "title": "Ultimate Frisbee",
-      "duration": "68 min",
-      "coverImage": "https://example.com/ultimate_frisbee.jpg",
-      "level": "Intermediate",
-      "description": "An ultimate frisbee workout to improve teamwork and fitness.",
+      "title": "Yoga for Stress Relief",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A calming yoga session to help relieve stress.",
       "poses": [
         {
- "id": 1,
-          "name": "Cutting",
-          "duration": "10 min",
-          "image": "https://example.com/cutting.jpg"
+          "id": 1,
+          "name": "Child's Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Hucking",
-          "duration": "10 min",
-          "image": "https://example.com/hucking.jpg"
+          "name": "Cat-Cow Stretch",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Corpse Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 46,
-      "title": "Basketball",
-      "duration": "70 min",
-      "coverImage": "https://example.com/basketball.jpg",
-      "level": "Advanced",
-      "description": "A basketball workout to improve shooting and teamwork.",
+      "title": "Functional Fitness",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A workout focusing on functional movements for everyday life.",
       "poses": [
         {
           "id": 1,
-          "name": "Dribbling",
-          "duration": "10 min",
-          "image": "https://example.com/dribbling_basketball.jpg"
+          "name": "Squat to Press",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Shooting",
-          "duration": "10 min",
-          "image": "https://example.com/shooting_basketball.jpg"
+          "name": "Lateral Lunges",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Step-Ups",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 47,
-      "title": "Handball",
-      "duration": "72 min",
-      "coverImage": "https://example.com/handball.jpg",
-      "level": "Advanced",
-      "description": "A handball workout to improve teamwork and fitness.",
+      "title": "Yoga for Mindfulness",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A yoga session focused on mindfulness and breath awareness.",
       "poses": [
         {
           "id": 1,
-          "name": "Passing",
-          "duration": "10 min",
-          "image": "https://example.com/passing_handball.jpg"
+          "name": "Mountain Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Shooting",
-          "duration": "10 min",
-          "image": "https://example.com/shooting_handball.jpg"
+          "name": "Tree Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Seated Forward Bend",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 48,
-      "title": "Tennis",
-      "duration": "74 min",
-      "coverImage": "https://example.com/tennis.jpg",
-      "level": "Intermediate",
-      "description": "A tennis workout to improve serving and volleying.",
+      "title": "HIIT for Beginners",
+      "duration": "20 mins",
+      "level": "Beginner",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A beginner-friendly high-intensity interval training workout.",
       "poses": [
         {
           "id": 1,
-          "name": "Forehand",
-          "duration": "10 min",
-          "image": "https://example.com/forehand.jpg"
+          "name": "Jumping Jacks",
+          "duration": "30 seconds",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Backhand",
-          "duration": "10 min",
-          "image": "https://example.com/backhand.jpg"
+          "name": "Bodyweight Squats",
+          "duration": "30 seconds",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "High Knees",
+          "duration": "30 seconds",
+          "image": "/api/placeholder/100/100"
         }
       ]
     },
     {
       "id": 49,
-      "title": "Badminton",
-      "duration": "76 min",
-      "coverImage": "https://example.com/badminton.jpg",
+      "title": "Strength and Cardio Fusion",
+      "duration": "45 mins",
       "level": "Intermediate",
-      "description": "A badminton workout to improve agility and reflexes.",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A fusion workout combining strength training and cardio.",
       "poses": [
         {
           "id": 1,
-          "name": "Smash",
-          "duration": "10 min",
-          "image": "https://example.com/smash.jpg"
+          "name": "Dumbbell Thrusters",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         },
         {
           "id": 2,
-          "name": "Drop Shot",
-          "duration": "10 min",
-          "image": "https://example.com/drop_shot.jpg"
+          "name": "Burpees",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Kettlebell Swings",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Yoga for Energy",
+      "duration": "30 mins",
+      "level": "All Levels",
+      "coverImage": "/api/placeholder/600/200",
+      "description": "A revitalizing yoga session to boost your energy levels.",
+      "poses": [
+        {
+          "id": 1,
+          "name": "Sun Salutations",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 2,
+          "name": "Warrior II",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
+        },
+        {
+          "id": 3,
+          "name": "Bridge Pose",
+          "duration": "1 minute",
+          "image": "/api/placeholder/100/100"
         }
       ]
     }
