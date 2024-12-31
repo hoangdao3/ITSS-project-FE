@@ -82,7 +82,7 @@ const App = () => {
           }
         />
         <Route
-          path="/list-exercises/id=:id"
+          path="/list-exercises/:id"
           element={
             <ProtectedRoute
               element={
