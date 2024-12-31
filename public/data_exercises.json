@@ -2,1401 +2,1079 @@
   "exercises": [
     {
       "id": 1,
-      "title": "Yoga body stretching",
-      "duration": "15 mins",
+      "title": "Yoga",
+      "duration": "10 min",
+      "coverImage": "https://bizweb.dktcdn.net/100/011/344/files/tac-dung-cua-yoga.webp?v=1680778752047",
       "level": "Beginner",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "Greet the day with our invigorating Morning Stretch Class, where each session is a gentle dance between breath and movement.",
+      "description": "A relaxing yoga session to improve flexibility and mindfulness.",
       "poses": [
         {
           "id": 1,
-          "name": "Warrior 1",
-          "duration": "30 seconds",
-          "image": "data:image/jpeg;base64,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"
+          "name": "Downward Dog",
+          "duration": "2 min",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Downward-Facing-Dog.JPG/1280px-Downward-Facing-Dog.JPG"
         },
         {
           "id": 2,
-          "name": "Side plank",
-          "duration": "45 seconds",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOdwuAptkov028P0o4EAfhWcyQS1mqqPhqWg&s"
-        },
-        {
-          "id": 3,
-          "name": "One Leg Downward Dog",
-          "duration": "20 seconds",
-          "image": "data:image/jpeg;base64,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"
+          "name": "Warrior II",
+          "duration": "3 min",
+          "image": "https://www.ekhartyoga.com/media/images/articles/content/Warrior-2-yoga-pose-Virabhadrasana-II-Ekhart-Yoga.jpg"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Core Strength Workout",
-      "duration": "20 mins",
+      "title": "Aerobics",
+      "duration": "15 min",
+      "coverImage": "https://5.imimg.com/data5/BQ/EW/GLADMIN-7767561/step-aerobics-exercise-services.jpg",
       "level": "Intermediate",
-      "coverImage": "data:image/jpeg;base64,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",
-      "description": "Build core strength and stability with this targeted workout.",
+      "description": "A high-energy aerobics workout to boost your heart rate.",
       "poses": [
         {
           "id": 1,
-          "name": "Plank Hold",
-          "duration": "60 seconds",
-          "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPDRUPDxAQDw8PDw8NDQ8PDw8PDw0PFRUWFhUVFRUYHSggGBomGxUVITEhJSktLi4uFx8zODMwNygtLisBCgoKDg0OFhAQFy0fHR0tKy0rLS0tLS0tLS0tLS0rKy0tLS0rLS0tLS0tLS0tKy0tLS0tLSstKy0tLS0rLS0rK//AABEIAOAA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAACAAEDBAUHBgj/xABHEAACAQIDBQQHBAYHCAMAAAABAgADEQQSIQUGEzFBIlFhcQcycoGRobEUQpLBI1KCwtHhRFNUYqKy8BUzQ3ODhJPxFhck/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAEDAgQF/8QAHxEBAAMBAQADAAMAAAAAAAAAAAECEQMhEjFBBDLh/9oADAMBAAIRAxEAPwDnIEICICEBAQEe0cCOBAVo9o4EcCAwEe0cCFaANo9oVorQBtHtCtHtAG0cCEBHtAG0VodorQAtFaHaPaBHaPaHaK0IC0VodorQoLRWh2itAjtFaSWjZYEdo1pJaNaER2iklooVSAhARAQhAQEcCOBHAgICOBHAjgQEBHAj2jgQGtHtHAhWgDaOBCtHtCBAj2j2j2gDaPaFaPaAFo9oVorQBtFaHaK0ALR7Q7RWgR2itJLRrQAtGtJLRrQI7RrSS0YiAFooVooVQAhgRgIYEBAQgIgIQEBgIVo4EcCEMBCAjgQgIAgRwIQEcCAIEK0cCEBAG0Vodo9oAWj2h2j2gR2j2h2j2gR2itJLR7QI7RWklorQI7RrSW0a0CO0a0ltGtAiyxrSW0EiBHaPCtFAzgIYEYQxCkBCAiAhAQhAQgIgIQEBARwI4EICAwEcCEBCAgBaEBCCwgsoC0cLJAsILAjyx8skyx8sCPLFlkuWLLAjyxZZLliywI8sbLJssWWBDaMRJssYrCIbRrSUrBKwqIiMRJCIJEAIodooGYBDAjKJIBIpgIQEcCGFhDAQwscCGFlABYQWSBYQWAAWEFkgSGqwIwkMJJAskCQiIJHCScJCCQIMkcJJwkfJAgyRZJYyRZIFfJHySfJFkgV8sWST5IskCuVglZZKwckCsVglZZKwCsCsVgkSwVkZWBDaKSZY8KyQJIBGUSRRIEokgESiSBYDAQwsdVkirKBCwwsJVhhYQwWGqwlWSKsAFWSqkJVkqrKAVIYSSBZIqyCHJFkljJHySor5IsksZIskgr5I2SWckbJArZIiksZI2SFVikEpLRSCUgVSkApLZSAUgU2SRssuMkiZIFXLFJ8kUDEUSRRGUSVRCiVZIojKJKBAYCGojqJIFhDKIYEdVkirAZVkqrEqyVVgMqyVVhKsp4/bOGw5K1aoDgA8MXaob8tBy98ovKkkVZ5Cpv12rU8Ncd9SrlP4Qp+sibfWvzWnQA6XWqT8Qw+kD24WLLPF099awHbpUSf7pdT8LmUsZvnimJyNTorfQKisQPEte58gITHQssWScxbebGMNcSw8lpofdlUSMbSxB1OJrnMLi9erqPImDHU8kbJOXjE1DzqVL9/Ee/xvL+E2tiafqYioR0FQioP8d4HQckbJPLYbe2qulWkj+KEofzH0m5gNvYesQuY03OgWpZbnwbl+cC2UjFJaKTH3h25RwSA1Ls7X4dJfWa3M+AHfAtlIDJPDV9+MS57FOlTHcQzsfebD5SWjvjiE1rJRqJcC6ZkbxHMj5Sa6yXsGSQski2Pteni0JQZWW2ZSb2BFwf8AXW8uOsqKuWNJ8seB5xBJkWCgkyCRRKslVYyiTIsIELDCwwsMJAFVhqI9oSiASiTIspY/aNHDJnrOEH3Rzdz3Ko1M8ntHfio3Zw1MUhy4lSz1Pcvqj35pRu72bw/Y0CUsprvY2YFlp09e0bHmSLD3nprz7EYp6rNVqsXqOQWY2uTa3IaDQACQYis9VjUZizsxLs2pY+MSep+108pFTroLd/Pxh3IPyB8Tb+Ui+6D32HwjMx1A7gw/P6CBOz6fT84+xdmVsbiFoUFzO2upsqIObMeii4+guSAatRhY3PiB45bEfMT3PowxdOhSrPoKjulO/UIoBHzY/ATm9vjGu6V+U499uxuJg8GFdlGJxGhNWqLop/uU+Q8zc+M9hiqNOrT4VVEq0yLFKiq6EeydJh7Px4flyFvjNLFVjTphzc3NgBPJ85n16vhEeQ8ntr0Z4aqC2EdsNUNyEJNSgSTfke0vdobDu6TmONwtXDVmoVlNOrTOV1uDfqCD1UjUEd8739rNh4jU9JzX0rilUSlXUrx6b8F7es9FgSL255WGnttNefX3JZdOXmw8WtTvk1BDUcU0Uu7eqiqWYjy7phNiAPHx1nXfR1soUMJxHGWvXtUqMQM60/uIO4aXPifATXp0ikMufKby85W2vitm0bYmnnzKeBTeonES3U2JOTwPhynO8Ziqlao1Wsxd2OpOp8h3Dw6Tse9NLDMWqVqIrOq2UgFjYa2y3166Tm22jh6lNalGkKL5irlQyU6y81YJmOU2tytfnbqc6dvl+Nb8Pj7Esehy16DnbX3RuNY5T1527xy1EG1usq9dZsx+m7sPaJo4lalytMupcAgAg+tf+U6mw7vdON4U5iF+9mFhfKtiRzPw5zsVClkpqn6qqvK3Idw5Sw5sHLFDtHlR5xRJVEFRJVEgNRJUlWti6dJkV2CtVbJSFiS7aC2nmPjB2ntSlhUz1D3BUXKaj69ASL2gaazPxO8GEpGzV0ve1kzVLH9gG08HtzeOtiSVBNOj0pqbFh3uRz8uX1mQrG+pJ8zeFx0o71YP+tPlwa2v+GUdo75U1QigrtUIsruoVFPfYm5t3Wnhs8FngxNiMQ9VzUqMzu3NmNz/ACHhADSO8aFGXPMfLoZNhzmB0sTfT3D+ErCSUXs3mLQLSt2PZsR7tYiQHU9GBUf6+EBD2va+sC/Zt1VtPKEKt6viCpPgCoH1Et7ExwpEqxKq1u1+qw5E+H8pTxHP2lt7xrLe7WCNfGU0AuA3Ef2U7Xz0HvnNsyddV3Yx2jdostJA3rZQW9o6megxWJzLk6AanuE8lsXGaEa3Gk0amMIB+c8Ey+jEK2Kx1aqPs6saepc1B90a287kCcr3irOK70na5pVGQkG4Zu+/z986ViNoqqu3KwAv9ZyzKMVimdmyo7tVdibWX/VgJrwj2Zn8ZfyJ8iI/U2xsAW/SsOyp/RjoxHM+76+U93R23WFPQW5A6nlqR+c899ophRqqqosulgFHIDuEzH227VGWnqmRslxfM4105HkGA853as3lzWY5w9R9uWtTy1LNmqEuTqRSFwVHieXkZl71UePXC0KXZADEi7M5tYZie4CVtmuWAuMpNiATyB1AnoKCNbl5ETn+s+O/7x68FisFUU5Spv5SlXwzIbsMvnPcYtT2nyNdWIYDtMV/WA6jy5S6u7QxKWqCw5huo8RNa3mfxhbnEb68ZunhONj6SW7IbivfUZUBOvvsPfOuNMfYG7NLBMzqzO7qFJawAF76D4fCa7mbPNMhtGjXjyowlEq7axjUMJUqoAXXKq3Fwt2ALW6kA6X085ZVxINq4UYjDvSvbPlsediDfl17/dCsLcqkcZjjVxLmoMOvGVGJPbJABVegHPTrlnntvPVbF1DXBFTOcwOuUcgB/d7rad0mwW0auEqLUpEBlS1iCVbS1iBzHaPP+EW0dutiLmtSos+uRwro1O/k1iPAySsMqFTUsbKCxPIAXJ9wm7u1iq1euuHLLwiMz0+FRyuE7QFsveBy1nvqWHI5C3kLQTLl/wDsvEf1Ff8A8NX+EsUN38Y/q4ep+2BT/wA9p1BKLSZaLS4muO4/BVKFU0qoyutri4IsRcEHrzkFp1Hefdg4xAy2WugshPquvPK35Hpc988Xg9z8dUrcI0WpW9apUtwlHgwuG8lvIusQCOROkYH0dUVINarUq2NyqgUkPgeZ+BE9Jgd3cNRH6PD0lP6xQO/4mufnGJriysDyIv3Xjv61+/6zu74FXQ02RWptoyMoKMPEcph43cHB1R2UeixN81N2I/C1xbyAjD5OSPqB3j6T2foxwyq1Ws3M2oobch6zfHs/CXMX6M6ovwcQj9y1abU/8S5vpFsjCPgGOHq5eIjXfISy9oBhYkDowmXbYq3/AI+Td6elh+G7EcmOaQ7SxGmnPlL+Gqq4APdKe0dmU3VgXZTYgEWuPGeLY/Xvx4HePbWYGjTN11FV+h71X8zMajsjFViBRoVmPeKbZfex0HvM7VszYmHVVq0sPQpM6K2anRpoRccgQLzR+yGfRrSIjIfLv0mZ9cs2b6OazANi8QtJfWZEBquo6gnRQefLMPOecwdFQyk6dpTm5lNQb2tzHlO8fYr6HkdD5TiL4c03amfWpu9JvaRip+YkvGQvOdn1roQar8AF6CtdTqCE5i4Njp5T0lDdpalNS1dmpuoqZQttGUEANfpfu1E8rsivkzDv0nTNgYfPg6TdMpUeSsVH0mXOImZiW3W01rExLM2RswYdbsQ9TUBteyvh4y69SahwMifAT0RER9PLa02nZZL1JC9SazbPkZ2fKjJzxTU/2fFIPN06EmOGsL+Xz0mkMGSOyQp6EjNb3TE2jhNpU7NTqLiFzC6JSRSANdQdSPI3hXNto34jeAI66DPbp/6lF+c9ptLdOvWZqtKjWUElmpVEenURySSqkgK69xv1maN0MY3ZXDYjMOV6eRB+02h9xkx1rK2BtAYbF065BKo36QLa5QjK1vGxM7mmEE40+5+0FOuErW62UP8A5SZ6U7X2wOa4tf8Atb/uRCTGujLhPCSLhJzRt5tpJ61Wuv8AzMKi/VY9Hf7HLzqU39qkv5Wl1MdPXCeENcKJzyl6SsSPWo0G9zr+cl/+zq39mo/ieNMl0RMKJKuFE5wPSfX/ALPR/E8MelCv/Z6P4njTHSBhvCGMNOZn0oYnpRoD8Zjr6T8T1o0D+IRpjpgw055vhh8u0aoP36dFx+AL+7FS9KlQethkPs1CP3ZQ2pt9doYgVwhpZaS0WUsGuVLNmv5MB7pl29q24eXXsHUIy69JZxlQFSTfle/WVMIua1u6Vts4tVZaTuEzkKzWLFFvq2Uamw1tPDmzj6Mzka6VsLDH7HRvzNCkx8CyhrfOXhh/CYlLf3ZQUKuIsqgKo4dTQDQD1ZKN+9mH+kj8FT+E+nHkPkT7OtcUPCcL3qRU2rilGg+0O37TdpvmxnYk3z2a39LpD2jl+s4fvviA+08S9F1dHrl1dCGVlYAixHn8pxf6acvtXXEhW5idx3Pog7NoEG4almv4liT8yZw3dvdqtjXYrUWkiECpUfMTc62VRzPmQNec67ses+A2cKFKoXAZxSq16fE4ZLZmGVLdS1h2tT15HOL1rLa3O16+PWHDQGw08id58VVpLwKi5rX7WHIqseZzBgAFAtc5R8Z6zYW01xdMnIyVKeVaynVQ5F+yb6rz52PeJpXpFvGN+NqxshOFkbYWa5pQDSnbPGT9limrwooMePSlLCU4SLJlWEClOSCnDUQ1EBlpyVUiUSQQG4YPMA+esp4vd/CVv97h6T+aC80VkiiFeVr+jzZr/wDBZPYq1B8rzPr+ivCH1K2IT3o31E96BCAgc2b0TJ93GVB7VJT9DK9T0SVPuY1P2qDfk06oIQkXXIKvomxg9XE4dvMVE/jKVX0Y7TXkMO/s1j+aiduEIRhrgGI3E2mnPDX9mpSP70h2bga9B2WvSen6tsykA2zcjyM+haua3ZtfxnJN/MVtCnXy4qkq4O5anVpIWQWBF2f7pF+Rtpec3jay752y0M/CYzKOc09mYmirFioNRhqx+g8J5yliqNT1KtM35rnW/wAOYkvFRDrUpg9AXUX+Jnimr6MWepxGyMNie0yIzHqBZre0J5/HbkHNehUKjqjgsR5Ea287yTDbXCcq1If9RP4y/R3mb7tWm37aH85K2tH1JatLfcMH/wCF4n+tpX7iW/hCfcbEJZ2qUTfQhS50+Ano02zVJvb3rTz/AEEttj3ZQAjsb9q6FdPK00+fRnHPnv8AqtsbZaYemFUhtLt0zMeZPhJ6pdlZDVyKw0VVz2PQW7vKS4ZTpmRr21OU6Shj8RVRrJh8VVPThYWs9u45wth7iZxFbTLSb1hSwtbg1CC60kqEBxSUtVqsdRqRZeenPy6zc2ZvNR2cSaiOlGp2Qik1GapzzuOYNhbv7xymfh/R1ja3/wCla9HDNXtU4VfC/paI6Am516nrr05T0OzPR2nPH1VxhAAphadSjw+/k5DA6fdHLnPTXnMTEvJfrWazDX2XvlhMT/u2J8CCCPcZt06yuNJRwO7uEoC1Kiq+QmgqAcgBN3mPaKK8UDyiyVZXVpIrwiyskWV1eGrwLIhgyuGhBoFkGGpldWhhoFi8IGVw8MPAnDQg0rh4QeBYBhAyuHhB4VZBhBvGVg8IPAmyjuHwEfKv6q/ASHPFnkE4CjkAPICGKh7z8ZWzxcSBZ4h74uJK2eLiQLHEMYvK+eLPAmzRi8hzxi8olLQS8iLwS0CbNFK+aPA8mtSSrUmWteSrXhGmKkkWpM1a0kWtA0leGHmetaGK0DQFSEKkz+PCFaBoCpDFSZ4rQhWgaAqR+JKIqx+LAvB4QeURVhcWBeFSFxJQFWOK0C9xIXElHixcaBe4kbiSnxo3GgXuJFxJR4sfiwLvEjcSU+LG4sC5xIxqSpxY3FgWzUjGpKvFgmrAt8SKU+LFA//Z"
+          "name": "Jumping Jacks",
+          "duration": "3 min",
+          "image": "https://cathe.com/wp-content/uploads/2020/02/shutterstock_502211857.jpg"
         },
         {
           "id": 2,
-          "name": "Russian Twists",
-          "duration": "45 seconds",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqAWlaMMtVda8Hn4oWqsK6CnJR8ujbPmoTbQ&s"
-        },
-        {
-          "id": 3,
-          "name": "Mountain Climbers",
-          "duration": "30 seconds",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMaCzDFPxmj47BCWLJLdMeSUp_q2Q0pqh20Q&s"
+          "name": "High Knees",
+          "duration": "3 min",
+          "image": "https://i.ytimg.com/vi/ZZZoCNMU48U/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Relaxation Meditation",
-      "duration": "10 mins",
-      "level": "All Levels",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "Unwind and relax with this guided meditation session.",
+      "title": "Zumba",
+      "duration": "8 min",
+      "coverImage": "https://tagalaxyfyc.com/wp-content/uploads/2023/03/people-taking-part-dance-therapy-class-1-min-scaled.jpg",
+      "level": "Beginner",
+      "description": "A fun dance workout to get your heart pumping.",
       "poses": [
         {
           "id": 1,
-          "name": "Seated Meditation",
-          "duration": "5 minutes",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Basic Step",
+          "duration": "2 min",
+          "image": "https://i.ytimg.com/vi/n8awM3Rz3Hg/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Deep Breathing",
-          "duration": "3 minutes",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
-        },
-        {
-          "id": 3,
-          "name": "Body Scan",
-          "duration": "2 minutes",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Cumbia",
+          "duration": "3 min",
+          "image": "https://i.ytimg.com/vi/9341rChJ_Jo/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Full Body HIIT",
-      "duration": "30 mins",
-      "level": "Advanced",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "A high-intensity interval training session that targets all major muscle groups.",
+      "title": "Pilates",
+      "duration": "8 min",
+      "coverImage": "https://file.hstatic.net/200000427195/file/pilates-la-bo-mon-gi-2_d714de7db2f143348e19c2776c4753a3.jpg",
+      "level": "Beginner",
+      "description": "A core-strengthening Pilates routine.",
       "poses": [
         {
           "id": 1,
-          "name": "Burpees",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "The Hundred",
+          "duration": "2 min",
+          "image": "https://www.verywellfit.com/thmb/clH_zlJ6XwoB6NkTFkV_ZIa8tRw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Verywell-07-2704611-Hundred01-418copy-5c631793c9e77c00016627af.jpg"
         },
         {
           "id": 2,
-          "name": "Jump Squats",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
-        },
-        {
-          "id": 3,
-          "name": "Push-Ups",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Roll Up",
+          "duration": "3 min",
+          "image": "https://www.bestphysicaltherapistnyc.com/wp-content/uploads/2015/12/The-Roll-Up-450.jpg"
         }
       ]
     },
     {
       "id": 5,
-      "title": "Cardio Blast",
-      "duration": "25 mins",
+      "title": "Cardio Kickboxing",
+      "duration": "8 min",
+      "coverImage": "https://fitcenter.vn/wp-content/uploads/2024/09/Cardio-Kickboxing-la-gi.jpg",
       "level": "Intermediate",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "Get your heart pumping with this cardio-focused workout.",
+      "description": "A high-energy kickboxing workout to improve strength and endurance.",
       "poses": [
         {
           "id": 1,
-          "name": "High Knees",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Jab-Cross",
+          "duration": "2 min",
+          "image": "https://s3assets.skimble.com/assets/11878/skimble-workout-trainer-exercise-jab-cross-elbow-hook-left-2_iphone.jpg"
         },
         {
           "id": 2,
-          "name": "Butt Kickers",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
-        },
-        {
-          "id": 3,
-          "name": "Jumping Jacks",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Front Kick",
+          "duration": "3 min",
+          "image": "https://i.pinimg.com/736x/b0/27/6a/b0276a1f0fc0cb0b0940c8a7e21ed06f.jpg"
         }
       ]
     },
     {
       "id": 6,
-      "title": "Strength Training Basics",
-      "duration": "40 mins",
-      "level": "Beginner",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "Learn the fundamentals of strength training with this introductory workout.",
+      "title": "Weight Training",
+      "duration": "8 min",
+      "coverImage": "https://tropeaka.com/cdn/shop/articles/main_image_d517c79f-4ec7-4946-bb5e-db7e80623e85_3500x.jpg?v=1571697737d",
+      "level": "Intermediate",
+      "description": "A quick weight training session to build muscle.",
       "poses": [
         {
           "id": 1,
-          "name": "Dumbbell Squats",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Bicep Curl",
+          "duration": "2 min",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/bicep-curls-1655286150.jpg"
         },
         {
           "id": 2,
-          "name": "Dumbbell Bench Press",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
-        },
-        {
-          "id": 3,
-          "name": "Bent Over Rows",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Squat",
+          "duration": "3 min",
+          "image": "https://file.hstatic.net/200000623631/file/squat__8__8ae3555256374d0a943447fb891e5de0.png"
         }
       ]
     },
     {
       "id": 7,
-      "title": "Pilates Core Workout",
-      "duration": "30 mins",
+      "title": "Spinning",
+      "duration": "8 min",
+      "coverImage": "https://domf5oio6qrcr.cloudfront.net/medialibrary/9386/iStock-119557435.jpg",
       "level": "Intermediate",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "Strengthen your core with this Pilates-inspired workout.",
+      "description": "An intense spinning workout to boost your cardiovascular fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "The Hundred",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Warm-up",
+          "duration": "2 min",
+          "image": "https://darebee.com/images/workouts/universal-warmup-workout-intro.jpg"
         },
         {
           "id": 2,
-          "name": "Roll Up",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
-        },
-        {
-          "id": 3,
-          "name": "Leg Circles",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Sprints",
+          "duration": "3 min",
+          "image": "https://blog.squashskills.com/wp-content/uploads/2022/12/Blog-Benefits-Of-Bike-Sprints.jpg"
         }
       ]
     },
     {
       "id": 8,
-      "title": "Zumba Dance Party",
-      "duration": "45 mins",
-      "level": "All Levels",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "Join the fun with this high-energy Zumba dance workout.",
+      "title": "Stretching",
+      "duration": "5 min",
+      "coverImage": "https://cdn.unityfitness.vn/2024/03/stretching.jpeg",
+      "level": "Beginner",
+      "description": "A gentle stretching routine to improve flexibility.",
       "poses": [
         {
           "id": 1,
-          "name": "Basic Salsa Step",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Hamstring Stretch",
+          "duration": "2 min",
+          "image": "https://www.verywellfit.com/thmb/XpKr4GudgBp75nmJNn6NyATbL3Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TheHurdlerHamstringStretch_annotated2-ed2c2fc7fd8940ceafec8eff879026cd-bc9821a938924e8f97ac35d8a7edcd56.jpg"
         },
         {
           "id": 2,
-          "name": "Cumbia Step",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
-        },
-        {
-          "id": 3,
-          "name": "Merengue March",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Shoulder Stretch",
+          "duration": "2 min",
+          "image": "https://res.cloudinary.com/peloton-cycle/image/fetch/f_auto,c_limit,w_3840,q_90/https://images.ctfassets.net/6ilvqec50fal/bhjroHsgbjbRMi5H3Feul/122f628916267e5ea69753f3ccbe755c/tight-shoulder-stretch.jpg"
         }
       ]
     },
     {
       "id": 9,
-      "title": "Kickboxing Fitness",
-      "duration": "35 mins",
-      "level": "Intermediate",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "Get fit with this dynamic kickboxing workout.",
+      "title": "HIIT",
+      "duration": "10 min",
+      "coverImage": "https://bizweb.dktcdn.net/100/011/344/files/khai-niem-ve-hiit-va-cardio-khi-luyen-tap-1.jpg?v=1656320687043",
+      "level": "Advanced",
+      "description": "A high-intensity interval training session to burn calories.",
       "poses": [
         {
           "id": 1,
-          "name": "Jab-Cross Combo",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Burpees",
+          "duration": "2 min",
+          "image": "https://i0.wp.com/joshuaspodek.com/wp-content/uploads/2012/12/burpees4.png?ssl=1"
         },
         {
           "id": 2,
-          "name": "Front Kicks",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
-        },
-        {
-          "id": 3,
-          "name": "Roundhouse Kicks",
-          "duration": "1 minute",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_WgP0VEJ2Yk8qVAIGbDXOAo37pKT0QYofA&s"
+          "name": "Mountain Climbers",
+          "duration": "3 min",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/rw-jess-mountain-climber-1596573079.jpg?crop=0.673xw:1.00xh;0.0993xw,0&resize=1200:*"
         }
       ]
     },
     {
       "id": 10,
-      "title": "Bodyweight Strength",
-      "duration": "30 mins",
-      "level": "Beginner",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "Build strength using your own body weight with this workout.",
+      "title": "Swimming",
+      "duration": "15 min",
+      "coverImage": "https://static01.nyt.com/images/2024/07/29/multimedia/29Olympics-douglass-pool-vqgl/29Olympics-douglass-pool-vqgl-videoSixteenByNine3000.jpg",
+      "level": "Intermediate",
+      "description": "A refreshing swimming workout to improve endurance.",
       "poses": [
         {
           "id": 1,
-          "name": "Push-Ups",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Freestyle",
+          "duration": "5 min",
+          "image": "https://i.ytimg.com/vi/gnu4AnI2nqg/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Bodyweight Squats",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Lunges",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Backstroke",
+          "duration": "5 min",
+          "image": "https://static.tildacdn.net/tild3735-3065-4934-b932-313530313736/Julie-Stupp-Arena-Te.jpg"
         }
       ]
     },
     {
       "id": 11,
-      "title": "Dance Cardio",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "Get your heart rate up with this fun dance cardio workout.",
+      "title": "Running",
+      "duration": "8 min",
+      "coverImage": "https://hips.hearstapps.com/hmg-prod/images/young-man-running-outdoors-in-morning-royalty-free-image-1717693611.jpg",
+      "level": "Beginner",
+      "description": "A quick running session to get your heart rate up.",
       "poses": [
         {
           "id": 1,
-          "name": "Freestyle Dance",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Warm-up Jog",
+          "duration": "2 min",
+          "image": "https://cms-static.asics.com/media-libraries/72130/file.png"
         },
         {
           "id": 2,
-          "name": "Side Steps",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Hip Hop Moves",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Sprint",
+          "duration": "3 min",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu0GvcPpNGr8k8NSdOYMfR1VddNLB2vkxNEQ&s"
         }
       ]
     },
     {
       "id": 12,
-      "title": "Barre Workout",
-      "duration": "45 mins",
-      "level": "Intermediate",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "A fusion of ballet, Pilates, and yoga for a full-body workout.",
+      "title": "Cycling",
+      "duration": "8 min",
+      "coverImage": "https://images.squarespace-cdn.com/content/v1/5c374028ee175942be76e84d/bf0ec5f5-6558-4e09-978d-4f9173bf5110/96302575-Gravel_Grinder_Nationals_2023-247.JPG",
+      "level": "Beginner",
+      "description": "A short cycling workout to improve leg strength.",
       "poses": [
         {
           "id": 1,
-          "name": "Plie Squats",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Flat Road",
+          "duration": "2 min",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvVWyuCNcvbpBT7l5uwbPzfk8UefU0sJDOw&s"
         },
         {
           "id": 2,
-          "name": "Tendu",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Leg Lifts",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Hill Climb",
+          "duration": "3 min",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Cycling_12.jpg"
         }
       ]
     },
     {
       "id": 13,
-      "title": "Resistance Band Training",
-      "duration": "30 mins",
-      "level": "Beginner",
-      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8uypBCkKuxHvOitPw4FZMSw3u3Gan2womw&s",
-      "description": "Use resistance bands to build strength and flexibility.",
+      "title": "Rowing",
+      "duration": "8 min",
+      "coverImage": "https://worldrowing.com/wp-content/uploads/2023/09/DSC_5611-1024x620.jpg",
+      "level": "Intermediate",
+      "description": "A rowing workout to strengthen your back and arms.",
       "poses": [
         {
           "id": 1,
-          "name": "Banded Squats",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Power Stroke",
+          "duration": "2 min",
+          "image ": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZHOmf5mZhhsAYrFZSaJ20gD-lV6N_cNgD5Q&s"
         },
         {
           "id": 2,
-          "name": "Banded Rows",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Banded Chest Press",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Recovery Stroke",
+          "duration": "3 min",
+          "image": "https://i0.wp.com/www.coachbergenroth.com/wp-content/uploads/2021/01/learn-to-row-series.png?resize=940%2C788&ssl=1"
         }
       ]
     },
     {
       "id": 14,
-      "title": "Mobility and Flexibility",
-      "duration": "20 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "Improve your range of motion with this mobility workout.",
+      "title": "Dance Fitness",
+      "duration": "8 min",
+      "coverImage": "https://i.ytimg.com/vi/Rj2IubFfEqY/maxresdefault.jpg",
+      "level": "Beginner",
+      "description": "A fun dance workout to improve coordination and fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "Hip Openers",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Basic Dance Step",
+          "duration": "2 min",
+          "image": "https://i.ytimg.com/vi/0B26kZJO5Ko/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Shoulder Rolls",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Wrist Stretches",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Freestyle",
+          "duration": "3 min",
+          "image": "https://i.ytimg.com/vi/xIWYLz82gNU/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 15,
-      "title": "Circuit Training",
-      "duration": "30 mins",
-      "level": "Intermediate",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A high-energy workout combining strength and cardio.",
+      "title": "Tai Chi",
+      "duration": "8 min",
+      "coverImage": "https://aarp.widen.net/content/e6pfcin0sm/jpeg/GettyImages-1663808463.jpg?crop=true&anchor=0,28&q=80&color=ffffffff&u=mh5igy&w=2048&h=1177",
+      "level": "Beginner",
+      "description": "A gentle Tai Chi routine to improve balance and relaxation.",
       "poses": [
         {
           "id": 1,
-          "name": "Jump Rope",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Commencing Form",
+          "duration": "2 min",
+          "image": "https://i0.wp.com/dralexheyne.com/wp-content/uploads/2024/09/Tai-Chi-4.png?resize=555%2C416&ssl=1"
         },
         {
           "id": 2,
-          "name": "Kettlebell Swings",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Box Jumps",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Wave Hands Like Clouds",
+          "duration": "3 min",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQihm2ChtoaIWkfsr9n7lPPCE48we-fjDVWRA&s"
         }
       ]
     },
     {
       "id": 16,
-      "title": "Body Combat",
-      "duration": "45 mins",
-      "level": "Advanced",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A high-energy martial arts-inspired workout.",
+      "title": "Jump Rope",
+      "duration": "10 min",
+      "coverImage": "https://i0.wp.com/kimabbagehart.com/wp-content/uploads/2024/02/1.png?resize=1024%2C683&ssl=1",
+      "level": "Intermediate",
+      "description": "A quick jump rope workout to improve cardiovascular fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "Jab-Cross",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Basic Jump",
+          "duration": "2 min",
+          "image": "https://cdn.shopify.com/s/files/1/1142/3440/articles/how-to-jump-rope-top-6-tips-for-getting-started-745210.jpg?v=1698148873"
         },
         {
           "id": 2,
-          "name": "Knee Strikes",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Roundhouse Kicks",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Double Unders",
+          "duration": "3 min",
+          "image": "https://www.wikihow.com/images/thumb/8/8c/Do-Double-Unders-Step-7.jpg/v4-460px-Do-Double-Unders-Step-7.jpg.webp"
         }
       ]
     },
     {
       "id": 17,
-      "title": "Aqua Aerobics",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A fun water-based workout for all fitness levels.",
+      "title": "Bodyweight Exercises",
+      "duration": "12 min",
+      "coverImage": "https://www.puregym.com/media/sqflb0zc/bodyweight.jpg?quality=80",
+      "level": "Beginner",
+      "description": "A bodyweight workout to build strength without equipment.",
       "poses": [
         {
           "id": 1,
-          "name": "Water Jogging",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Push-ups",
+          "duration": "2 min",
+          "image": "https://www.fitnesseducation.edu.au/wp-content/uploads/2020/10/Pushups.jpg"
         },
         {
           "id": 2,
-          "name": "Arm Circles",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Leg Lifts",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Squats",
+          "duration": "3 min",
+          "image": "https://file.hstatic.net/200000623631/file/squat__8__8ae3555256374d0a943447fb891e5de0.png"
         }
       ]
     },
     {
       "id": 18,
-      "title": "Kettlebell Workout",
-      "duration": "30 mins",
-      "level": "Intermediate",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "Use kettlebells to build strength and endurance.",
+      "title": "Hiking",
+      "duration": "14 min",
+      "coverImage": "https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/1518801341-1701245791021.jpg",
+      "level": "Beginner",
+      "description": "A refreshing hike to enjoy nature and improve fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "Kettlebell Swings",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Trail Walking",
+          "duration": "5 min",
+          "image": "https://static.independent.co.uk/2021/06/10/15/iStock-1174494913.jpg"
         },
         {
           "id": 2,
-          "name": "Goblet Squats",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Kettlebell Deadlifts",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Incline Climb",
+          "duration": "5 min",
+          "image": "https://i.ytimg.com/vi/hIK8-ZoP48Y/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 19,
-      "title": "Outdoor Bootcamp",
-      "duration": "60 mins",
-      "level": "Advanced",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A challenging outdoor workout that combines strength and cardio.",
+      "title": "Stair Climbing",
+      "duration": "16 min",
+      "coverImage": "https://static.wixstatic.com/media/490a53_d84027f2a1904696b52c4c2387344293~mv2_d_2124_1413_s_2.jpg/v1/fill/w_568,h_378,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/490a53_d84027f2a1904696b52c4c2387344293~mv2_d_2124_1413_s_2.jpg",
+      "level": "Intermediate",
+      "description": "A stair climbing workout to strengthen legs and improve endurance.",
       "poses": [
         {
           "id": 1,
-          "name": "Sprints",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Upward Climb",
+          "duration": "5 min",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkIIUzdI6lxyCvLAlfAgBUL0JqPvTMKDKvIg&s"
         },
         {
           "id": 2,
-          "name": "Burpees",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Push-Ups",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Downward Climb",
+          "duration": "5 min",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN1Qp8jW46WBle-09GSWS4nIsOhlALh4VzDg&s"
         }
       ]
     },
     {
       "id": 20,
-      "title": "Yoga Flow",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A smooth flow of yoga poses to enhance flexibility and strength.",
+      "title": "CrossFit",
+      "duration": "18 min",
+      "coverImage": "https://www.atreq.com/cdn/shop/articles/Cross_fit_Training_2df2e098-2b67-4e03-8ec6-3a27ce4e240d.jpg?v=1588854724",
+      "level": "Advanced",
+      "description": "A high-intensity CrossFit workout to build strength and endurance.",
       "poses": [
         {
           "id": 1,
-          "name": "Downward Dog",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Deadlift",
+          "duration": "5 min",
+          "image": "https://cali.vn/storage/app/media/deadlift-dung-cach-thumb.jpg"
         },
         {
           "id": 2,
-          "name": "Cobra Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Child's Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Box Jump",
+          "duration": "5 min",
+          "image": "https://i.ytimg.com/vi/NBY9-kTuHEk/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 21,
-      "title": "Tai Chi for Beginners",
-      "duration": "30 mins",
-      "level": "Beginner",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "Experience the calming effects of Tai Chi with this beginner-friendly session.",
+      "title": "Martial Arts",
+      "duration": "20 min",
+      "coverImage": "https://cdn.britannica.com/07/145407-050-8DBD77E9/belts.jpg",
+      "level": "Intermediate",
+      "description": "A martial arts workout to improve agility and self-defense skills.",
       "poses": [
         {
           "id": 1,
-          "name": "Commencing Form",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Front Kick",
+          "duration": "5 min",
+          "image": "https://i.ytimg.com/vi/rDAIlfTFDqU/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Parting the Horse's Mane",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Wave Hands Like Clouds",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Roundhouse Kick",
+          "duration": "5 min",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlPcJAWLXhFN_XmMpbRVHWGb9rY1abDCgB9g&s"
         }
       ]
     },
     {
       "id": 22,
-      "title": "Boxing Fitness",
-      "duration": "30 mins",
+      "title": "Barre Workout",
+      "duration": "22 min",
+      "coverImage": "https://flexit.fit/assets/images/vptimages/barre1large.jpg",
       "level": "Intermediate",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "Get fit with this boxing-inspired workout that combines cardio and strength.",
+      "description": "A barre workout to improve strength and flexibility.",
       "poses": [
         {
           "id": 1,
-          "name": "Shadow Boxing",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Plie",
+          "duration": "5 min",
+          "image": "https://www.wikihow.com/images/thumb/6/60/Do-a-Plie-in-Ballet-Step-2-Version-3.jpg/v4-460px-Do-a-Plie-in-Ballet-Step-2-Version-3.jpg"
         },
         {
           "id": 2,
-          "name": "Heavy Bag Work",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Speed Bag Drills",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Tendu",
+          "duration": "5 min",
+          "image": "https://static.wikia.nocookie.net/dance/images/d/d4/3f1cddf7ac6e2c413533236501e8b65b.jpg/revision/latest?cb=20201121190456"
         }
       ]
     },
     {
       "id": 23,
-      "title": "Functional Training",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "Improve your everyday movements with this functional training workout.",
+      "title": "Mountain Biking",
+      "duration": "24 min",
+      "coverImage": "https://www.polygonbikes.com/wp-content/uploads/2023/08/2022_EWS_Whistler_byKikeAbelleira-05570-1.jpg",
+      "level": "Intermediate",
+      "description": "A mountain biking workout to improve leg strength and endurance.",
       "poses": [
         {
           "id": 1,
-          "name": "Kettlebell Deadlifts",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Climbing",
+          "duration": "5 min",
+          "image": "https://i.ytimg.com/vi/WkS8nzvqfPA/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Medicine Ball Throws",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Battle Ropes",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Descending",
+          "duration": "5 min",
+          "image": "https://i.ytimg.com/vi/uG2-0bZImVs/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 24,
-      "title": "Stretch and Recover",
-      "duration": "20 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A gentle stretching routine to help your body recover.",
+      "title": "Bootcamp Training",
+      "duration": "26 min",
+      "coverImage": "https://mirafit.co.uk/wp/wp-content/uploads/2019/05/mirafit-bootcamp-promotion-image-of-man-running-with-sandbag.jpg",
+      "level": "Advanced",
+      "description": "A bootcamp workout to challenge your strength and endurance.",
       "poses": [
         {
           "id": 1,
-          "name": "Standing Forward Bend",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Burpees",
+          "duration": "5 min",
+          "image": "https://i0.wp.com/joshuaspodek.com/wp-content/uploads/2012/12/burpees4.png?ssl=1"
         },
         {
           "id": 2,
-          "name": "Seated Forward Bend",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Supine Twist",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Push-ups",
+          "duration": "5 min",
+          "image": "https://functionalpatterns.com/cdn/shop/articles/Screenshot_2024-03-13_at_10.39.10_AM.png?v=1710351696"
         }
       ]
     },
     {
       "id": 25,
-      "title": "Ballet Fitness",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A fun workout that combines ballet techniques with fitness.",
+      "title": "Functional Training",
+      "duration": "28 min",
+      "coverImage": "https://img1.wsimg.com/isteam/ip/83b0087d-bb3e-4c7d-b4fa-e175641720aa/7-Functional%20Fitness.jpg",
+      "level": "Intermediate",
+      "description": "A functional training workout to improve everyday movements.",
       "poses": [
         {
           "id": 1,
-          "name": "Plies",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Kettlebell Swing",
+          "duration": "5 min",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/kettlebell-swing-russian-65a545944fe15.jpg?resize=980:*"
         },
         {
           "id": 2,
-          "name": "Tendus",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Releves",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Medicine Ball Toss",
+          "duration": "5 min",
+          "image": "https://www.crossfitmva.com/wp-content/uploads/2016/05/Med-Ball-Toss.jpg"
         }
       ]
     },
     {
       "id": 26,
-      "title": "Sculpt and Tone",
-      "duration": "30 mins",
-      "level": "Intermediate",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A workout designed to sculpt and tone your body.",
+      "title": "Paddleboarding",
+      "duration": "30 min",
+      "coverImage": "https://www.scuba.com/blog/wp-content/uploads/2018/08/shutterstock_179451803.jpg",
+      "level": "Beginner",
+      "description": "A relaxing paddleboarding session to enjoy the water.",
       "poses": [
         {
           "id": 1,
-          "name": "Dumbbell Lunges",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Paddle Forward",
+          "duration": "10 min",
+          "image": "https://cdn.thursosurf.com/wp-content/uploads/2018/12/11133011/Thurso-Surf-Blog-Best-Paddleboard-Stroke-Elements-of-a-Perfect-Stroke-Infographic-1080px-squashed-1.jpg.webp"
         },
         {
           "id": 2,
-          "name": "Tricep Dips",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Bicep Curls",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Turn",
+          "duration": "5 min",
+          "image": "https://www.mensjournal.com/.image/t_share/MTk2MTM2Nzk5OTQ1NTY1MzI5/grindturn2.jpg"
         }
       ]
     },
     {
       "id": 27,
-      "title": "HIIT Cardio",
-      "duration": "20 mins",
-      "level": "Advanced",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A high-intensity interval training session focused on cardio.",
+      "title": "Rollerblading",
+      "duration": "32 min",
+      "coverImage": "https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/h_484,c_limit/c90c775c-e3f1-4657-922e-098ac3f07f4e/5-health-benefits-of-rollerblading-according-to-experts.jpg",
+      "level": "Intermediate",
+      "description": "A fun rollerblading workout to improve balance and coordination.",
       "poses": [
         {
           "id": 1,
-          "name": "Sprint Intervals",
-          "duration": "30 seconds",
-          "image": "/api/placeholder/100/100"
+          "name": "Forward Glide",
+          "duration": "10 min",
+          "image": "https://i.ytimg.com/vi/fg1eMFnl61U/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Burpee Intervals",
-          "duration": "30 seconds",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Jump Rope",
-          "duration": "30 seconds",
-          "image": "/api/placeholder/100/100"
+          "name": "Backward Glide",
+          "duration": "10 min",
+          "image": "https://www.wikihow.com/images/thumb/e/e2/Rollerblade-Backwards-Step-4-Version-2.jpg/v4-460px-Rollerblade-Backwards-Step-4-Version-2.jpg.webp"
         }
       ]
     },
     {
       "id": 28,
-      "title": "Strength and Conditioning",
-      "duration": "45 mins",
-      "level": "Intermediate",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A balanced workout focusing on strength and conditioning.",
+      "title": "Surfing",
+      "duration": "34 min",
+      "coverImage": "https://cdn.britannica.com/07/230807-050-626BFA84/Australian-surfer-Tyler-Wright-2010.jpg",
+      "level": "Advanced",
+      "description": "An exhilarating surfing workout to improve balance and strength.",
       "poses": [
         {
           "id": 1,
-          "name": "Deadlifts",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Paddle Out",
+          "duration": "10 min",
+          "image": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/3259/images/rruAgyuZSsWX37VoHT9a_Surfing_Paddling_Academy_Longboard_paddling.jpg"
         },
         {
           "id": 2,
-          "name": "Bench Press",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Squat Jumps",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Pop Up",
+          "duration": "10 min",
+          "image": "https://i.ytimg.com/vi/W1JvoHNJvoU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLACoq0yOvms6Pj8dchu7onBzbMq9w"
         }
       ]
     },
     {
       "id": 29,
-      "title": "Yoga for Athletes",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A yoga session designed to enhance athletic performance.",
+      "title": "Parkour",
+      "duration": "36 min",
+      "coverImage": "https://cdn.britannica.com/91/198191-050-D2791AFC/Parkour-athlete-jumping-walls.jpg",
+      "level": "Advanced",
+      "description": "A parkour workout to improve agility and strength.",
       "poses": [
         {
           "id": 1,
-          "name": "Pigeon Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Vault",
+          "duration": "10 min",
+          "image": "https://i.ytimg.com/vi/hbas1G_9JrI/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Reclining Bound Angle Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Bridge Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Roll",
+          "duration": "10 min",
+          "image": "https://fightorflightacademy.com/wp-content/uploads/2021/10/Kong-to-PK-Roll-Chad-Zwadlo-Composite-scaled.jpg"
         }
       ]
     },
     {
       "id": 30,
-      "title": "Kettlebell Circuit",
-      "duration": "30 mins",
-      "level": "Intermediate",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A circuit workout using kettlebells for strength and endurance.",
+      "title": "Climbing",
+      "duration": "38 min",
+      "coverImage": "https://gripped.com/wp-content/uploads/2018/11/rock-climbing-gym-1087x675.jpg",
+      "level": "Advanced",
+      "description": "A climbing workout to build strength and endurance.",
       "poses": [
         {
           "id": 1,
-          "name": "Kettlebell Swings",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Bouldering",
+          "duration": "10 min",
+          "image": "https://www.climbingfacts.com/wp-content/uploads/2022/09/flag-climbing-technique.jpg"
         },
         {
           "id": 2,
-          "name": "Kettlebell Goblet Squats",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Kettlebell Deadlifts",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Top Roping",
+          "duration": "10 min",
+          "image": "https://centralrockgym.com/manhattan/wp-content/uploads/sites/25/Staff-Belay.jpg"
         }
       ]
     },
     {
       "id": 31,
-      "title": "Pilates for Beginners",
-      "duration": "30 mins",
-      "level": "Beginner",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "An introductory Pilates workout focusing on core strength.",
+      "title": "Ballet",
+      "duration": "40 min",
+      "coverImage": "https://www.danceflavors.com/wp-content/uploads/2022/09/woman-and-little-girl-dancing-ballet-2022-02-01-22-39-15-utc.jpg",
+      "level": "Intermediate",
+      "description": "A ballet workout to improve flexibility and grace.",
       "poses": [
         {
           "id": 1,
-          "name": "The Roll Up",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Plie",
+          "duration": "10 min",
+          "image": "https://www.wikihow.com/images/thumb/6/60/Do-a-Plie-in-Ballet-Step-2-Version-3.jpg/v4-460px-Do-a-Plie-in-Ballet-Step-2-Version-3.jpg"
         },
         {
           "id": 2,
-          "name": "Single Leg Stretch",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "The Saw",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Tendu",
+          "duration": "10 min",
+          "image": "https://static.wikia.nocookie.net/dance/images/d/d4/3f1cddf7ac6e2c413533236501e8b65b.jpg/revision/latest?cb=20201121190456"
         }
       ]
     },
     {
       "id": 32,
-      "title": "Cardio Kickboxing",
-      "duration": "40 mins",
-      "level": "Intermediate",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A fun and energetic kickboxing workout to boost your cardio.",
+      "title": "Power Yoga",
+      "duration": "42 min",
+      "coverImage": "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/loi_ich_cua_viec_luyen_tap_power_yoga_3_9c0bbbc2f4.jpg",
+      "level": "Advanced",
+      "description": "A power yoga session to build strength and flexibility.",
       "poses": [
         {
           "id": 1,
-          "name": "Jab-Cross Combo",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Warrior I",
+          "duration": "10 min",
+          "image": "https://cdn.shopify.com/s/files/1/2545/5984/files/39_286185d9-beee-4da5-9feb-21c25eacb6e9_600x600.png?v=1650613825"
         },
         {
-          "id": 2,
-          "name": "Front Kicks",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Side Kicks",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+ "id": 2,
+          "name": "Tree Pose",
+          "duration": "10 min",
+          "image": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/34-treepose.jpg"
         }
       ]
     },
     {
       "id": 33,
-      "title": "Strength Training for Women",
-      "duration": "45 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A strength training workout designed specifically for women.",
+      "title": "Aqua Aerobics",
+      "duration": "44 min",
+      "coverImage": "https://images.squarespace-cdn.com/content/v1/5eceb6aa1863cd37fca21e02/7e366588-1c94-4d25-9648-598dd21e5bed/iStock-612838644.jpg",
+      "level": "Beginner",
+      "description": "A fun aqua aerobics session to improve fitness in the water.",
       "poses": [
         {
           "id": 1,
-          "name": "Dumbbell Squats",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Water Jogging",
+          "duration": "10 min",
+          "image": "https://d1s9j44aio5gjs.cloudfront.net/2016/09/Aqua_Jogging_Equipment_Bene.jpg"
         },
         {
           "id": 2,
-          "name": "Dumbbell Shoulder Press",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Dumbbell Deadlifts",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Arm Circles",
+          "duration": "10 min",
+          "image": "https://www.wikihow.com/images/thumb/8/8b/Work-Out-in-the-Pool-Step-21-Version-3.jpg/v4-460px-Work-Out-in-the-Pool-Step-21-Version-3.jpg.webp"
         }
       ]
     },
     {
       "id": 34,
-      "title": "Yoga for Relaxation",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A calming yoga session to help you unwind and relax.",
+      "title": "Trampoline Fitness",
+      "duration": "46 min",
+      "coverImage": "https://contents.mediadecathlon.com/p2612727/k$44f002bd71b81e7b6bd2e8bf285a1216/cardio-fitness-trampoline-fit-trampo-100-domyos-8862325.jpg?f=1920x0&format=auto",
+      "level": "Intermediate",
+      "description": "A fun trampoline workout to improve cardiovascular fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "Child's Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Basic Bounce",
+          "duration": "10 min",
+          "image": "https://i.ytimg.com/vi/lhXXRZt4bIU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD-YJC5puC-T6SnV-NsfRan8aIytw"
         },
         {
           "id": 2,
-          "name": "Cat-Cow Stretch",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Corpse Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Jumping Jacks",
+          "duration": "10 min",
+          "image": "https://i.ytimg.com/vi/suw5ZGVQwLI/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEwgZShDMA8=&rs=AOn4CLDFQkcmRDuxEe7_08dUxhLN3HPFew"
         }
       ]
     },
     {
       "id": 35,
-      "title": "High-Intensity Cardio",
-      "duration": "30 mins",
+      "title": "Water Polo",
+      "duration": "48 min",
+      "coverImage": "https://ohmyfacts.com/wp-content/uploads/2024/10/27-facts-about-water-polo-1730389871.jpg",
       "level": "Advanced",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A high-intensity cardio workout to challenge your endurance.",
+      "description": "A competitive water polo workout to improve teamwork and fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "Burpees",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Passing Drills",
+          "duration": "10 min",
+          "image": "https://www.swimoutlet.com/cdn/shop/articles/Water-Polo-Basic-Passing-Drills-300x212.jpg?v=1598410644"
         },
         {
           "id": 2,
-          "name": "Jumping Jacks",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Mountain Climbers",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Shooting Drills",
+          "duration": "10 min",
+          "image": "https://elitewaterpolotraining.files.wordpress.com/2013/11/cropped-0801-world-londonolympics-speedyobjects-waterpolo_full_600.jpg"
         }
       ]
     },
     {
       "id": 36,
-      "title": "Yoga for Strength",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A yoga session focused on building strength and stability.",
+      "title": "Pole Dancing",
+      "duration": "50 min",
+      "coverImage": "https://tiki.vn/blog/wp-content/uploads/2023/10/pole-dance.jpg",
+      "level": "Intermediate",
+      "description": "A pole dancing workout to improve strength and flexibility.",
       "poses": [
         {
           "id": 1,
-          "name": "Chair Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Pole Spin",
+          "duration": "10 min",
+          "image": "https://www.onlinepolestudio.com/images/lessons/35.jpg"
         },
         {
           "id": 2,
-          "name": "Warrior II",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Tree Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Inverted Hold",
+          "duration": "10 min",
+          "image": "https://studioverve.com.au/sites/default/files/styles/media_responsive_widest/public/briana_leg_hang2.jpg?itok=kob9lhDN"
         }
       ]
     },
     {
       "id": 37,
-      "title": "Bodyweight Bootcamp",
-      "duration": "30 mins",
-      "level": "Intermediate",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A bootcamp-style workout using only your body weight.",
+      "title": "Kickboxing",
+      "duration": "52 min",
+      "coverImage": "https://tinhhoavothuat.com/wp-content/uploads/2023/07/loi-ich-cua-kickboxing-2.jpeg",
+      "level": "Advanced",
+      "description": "A kickboxing workout to improve strength and agility.",
       "poses": [
         {
           "id": 1,
-          "name": "Jump Squats",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Roundhouse Kick",
+          "duration": "10 min",
+          "image": "https://i.ytimg.com/vi/vICrwtnmM6w/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Push-Up Variations",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Plank Jacks",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Cross Punch",
+          "duration": "10 min",
+          "image": "https://i.ytimg.com/vi/k4gudMyiddI/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 38,
-      "title": "Cardio Dance Workout",
-      "duration": "45 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A fun dance workout to get your heart pumping.",
+      "title": "Skateboarding",
+      "duration": "54 min",
+      "coverImage": "https://img.redbull.com/images/c_crop,x_1638,y_0,h_2560,w_2048/c_fill,w_800,h_889/q_auto:low,f_auto/redbullcom/tv/FO-1YSE763FN5N11/abc-of-skateboarding-kickflip-skatepark",
+      "level": "Intermediate",
+      "description": "A skateboarding workout to improve balance and coordination.",
       "poses": [
         {
           "id": 1,
-          "name": "Freestyle Dance",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Ollie",
+          "duration": "10 min",
+          "image": "https://annex.exploratorium.edu/skateboarding/images/alt/olllieHump_seq.png"
         },
         {
           "id": 2,
-          "name": "Dance Choreography",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Cool Down Dance",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Kickflip",
+          "duration": "10 min",
+          "image": "https://img.redbull.com/images/c_crop,x_1638,y_0,h_2560,w_2048/c_fill,w_800,h_889/q_auto:low,f_auto/redbullcom/tv/FO-1YSE763FN5N11/abc-of-skateboarding-kickflip-skatepark"
         }
       ]
     },
     {
       "id": 39,
-      "title": "Strength and Balance",
-      "duration": "30 mins",
-      "level": "Intermediate",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A workout focusing on strength and balance exercises.",
+      "title": "Snowboarding",
+      "duration": "56 min",
+      "coverImage": "https://cdn.britannica.com/21/233221-050-A0038475/torah-bright-Australia-snowboarder-2014.jpg",
+      "level": "Advanced",
+      "description": "A snowboarding workout to improve balance and strength.",
       "poses": [
         {
           "id": 1,
-          "name": "Single Leg Deadlift",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Carving",
+          "duration": "10 min",
+          "image": "https://www.thesnowboardersjournal.com/wp-content/uploads/2016/09/tsnj-review-k2-01.jpg"
         },
         {
           "id": 2,
-          "name": "Side Lunges",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Balance Beam Walk",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Jumping",
+          "duration": "10 min",
+          "image": "https://asomammoth.com/wp-content/uploads/2022/11/A-Snowboarder-Jumping.jpg"
         }
       ]
     },
     {
       "id": 40,
-      "title": "Yoga for Flexibility",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A yoga session designed to improve flexibility.",
+      "title": "Horse Riding",
+      "duration": "58 min",
+      "coverImage": "https://www.vitafloor.com/wp-content/uploads/2021/06/woman-riding-brown-horse-during-daytime-1200x900.png",
+      "level": "Intermediate",
+      "description": "A horse riding workout to improve balance and coordination.",
       "poses": [
         {
           "id": 1,
-          "name": "Forward Fold",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Trotting",
+          "duration": "10 min",
+          "image": "https://ihearthorses.com/wp-content/uploads/2020/06/Canva-Young-Caucasian-woman-in-formal-clothing-horseback-riding-across-the-sandy-arena-scaled.jpg"
         },
         {
           "id": 2,
-          "name": "Seated Forward Bend",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Pigeon Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Cantering",
+          "duration": "10 min",
+          "image": "https://signin.juliegoodnight.com/wp-content/uploads/2021/01/julie-canter-az.jpg"
         }
       ]
     },
     {
       "id": 41,
-      "title": "HIIT Strength",
-      "duration": "30 mins",
+      "title": "Beach Volleyball",
+      "duration": "60 min",
+      "coverImage": "https://www.allvolleyball.com/cdn/shop/articles/beach-volleyball-faq_0376d8f4-9999-4701-880c-be8d22b5eb29.jpg?v=1717684316&width=1600",
       "level": "Advanced",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A high-intensity interval training session focused on strength.",
+      "description": "A beach volleyball workout to improve teamwork and fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "Kettlebell Swings",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Serving",
+          "duration": "10 min",
+          "image": "https://i.ytimg.com/vi/vtlbUxWIQXw/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Push-Ups",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Squat Jumps",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Spiking",
+          "duration": "10 min",
+          "image": "https://i.ytimg.com/vi/wclUZcI-mig/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 42,
-      "title": "Yoga for Core Strength",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A yoga session designed to strengthen your core.",
+      "title": "Frisbee",
+      "duration": "62 min",
+      "coverImage": "https://wham-o.com/cdn/shop/files/52000_LS_01.webp?v=1694402319&width=2400",
+      "level": "Beginner",
+      "description": "A frisbee workout to improve coordination and fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "Boat Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Throwing",
+          "duration": "10 min",
+          "image": "https://whyy.org/wp-content/uploads/2017/08bs0/bs0751_02.jpg"
         },
         {
           "id": 2,
-          "name": "Plank Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Side Plank",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Catching",
+          "duration": "10 min",
+          "image": "https://www.activesgcircle.gov.sg/hs-fs/hubfs/Circle%202.0%20-%202021/images/Gendermah%202014%20Frisbee_2014_04_19_Boon%20Ping%20Chua_AH3U3778.jpeg?width=800&name=Gendermah%202014%20Frisbee_2014_04_19_Boon%20Ping%20Chua_AH3U3778.jpeg"
         }
       ]
     },
     {
       "id": 43,
-      "title": "Cardio Kickboxing for Beginners",
-      "duration": "30 mins",
-      "level": "Beginner",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "An introductory kickboxing workout to get you moving.",
+      "title": "Rugby",
+      "duration": "64 min",
+      "coverImage": "https://www.sportsboom.com/_next/image?url=https%3A%2F%2Fassets.sportsboom.com%2FGetty_Images_1737884024_42cc74838b.jpg&w=3840&q=75",
+      "level": "Advanced",
+      "description": "A rugby workout to improve teamwork and fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "Basic Jab",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Passing",
+          "duration": "10 min",
+          "image": "https://passport.world.rugby/media/4lnpq5yz/passing.jpg"
         },
         {
           "id": 2,
-          "name": "Cross Punch",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Front Kick",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Tackling",
+          "duration": "10 min",
+          "image": "https://s.wsj.net/public/resources/images/BN-KH700_RUGBYT_M_20150915113800.jpg"
         }
       ]
     },
     {
       "id": 44,
-      "title": "Strength Training for Men",
-      "duration": "45 mins",
-      "level": "Intermediate",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A strength training workout designed specifically for men.",
+      "title": "Football",
+      "duration": "66 min",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
+      "level": "Advanced",
+      "description": "A football workout to improve teamwork and fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "Bench Press",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Dribbling",
+          "duration": "10 min",
+          "image": "https://miro.medium.com/v2/resize:fit:1400/1*a9nUs6t87Fez3s81ZVjMtQ.jpeg"
         },
         {
           "id": 2,
-          "name": "Deadlifts",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Overhead Press",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Shooting",
+          "duration": "10 min",
+          "image": "https://brand.assets.adidas.com/capi/enGB/Images/how-to-shoot-a-soccer-ball-body-image-7_143-866059.jpg"
         }
       ]
     },
     {
       "id": 45,
-      "title": "Yoga for Stress Relief",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A calming yoga session to help relieve stress.",
+      "title": "Ultimate Frisbee",
+      "duration": "68 min",
+      "coverImage": "https://www.kidzherald.com/wp-content/uploads/2024/01/F-4.webp",
+      "level": "Intermediate",
+      "description": "An ultimate frisbee workout to improve teamwork and fitness.",
       "poses": [
         {
-          "id": 1,
-          "name": "Child's Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+ "id": 1,
+          "name": "Cutting",
+          "duration": "10 min",
+          "image": "https://cdn.ultiworld.com/wordpress/wp-content/uploads/2015/07/USOpen_2015_JJL_20150704_174743-0500_copy-ZF-0779-21271-1-001.jpg"
         },
         {
           "id": 2,
-          "name": "Cat-Cow Stretch",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Corpse Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Hucking",
+          "duration": "10 min",
+          "image": "https://content.instructables.com/F17/WVSP/K18JOUSO/F17WVSPK18JOUSO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024&auto=webp&frame=1&height=300"
         }
       ]
     },
     {
       "id": 46,
-      "title": "Functional Fitness",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A workout focusing on functional movements for everyday life.",
+      "title": "Basketball",
+      "duration": "70 min",
+      "coverImage": "https://superblog.supercdn.cloud/site_cuid_clr6oh1no0006rmr89yhkxgu8/images/basketball-1716813325458-compressed.jpeg",
+      "level": "Advanced",
+      "description": "A basketball workout to improve shooting and teamwork.",
       "poses": [
         {
           "id": 1,
-          "name": "Squat to Press",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Dribbling",
+          "duration": "10 min",
+          "image": "https://i.pinimg.com/736x/1d/b1/76/1db1766c78e444bfc35fc304253f4077.jpg"
         },
         {
           "id": 2,
-          "name": "Lateral Lunges",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Step-Ups",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Shooting",
+          "duration": "10 min",
+          "image": "https://scholarbasketball.com/wp-content/uploads/2024/09/image-10.png"
         }
       ]
     },
     {
       "id": 47,
-      "title": "Yoga for Mindfulness",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A yoga session focused on mindfulness and breath awareness.",
+      "title": "Handball",
+      "duration": "72 min",
+      "coverImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/05/14/USAT/73687428007-handball.jpg?crop=4179,2351,x5,y153",
+      "level": "Advanced",
+      "description": "A handball workout to improve teamwork and fitness.",
       "poses": [
         {
           "id": 1,
-          "name": "Mountain Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Passing",
+          "duration": "10 min",
+          "image": "https://a.storyblok.com/f/73553/1200x745/f1dd310497/technique-passing-on-the-move-triangle.png/m/3840x0/filters:quality(75)"
         },
         {
           "id": 2,
-          "name": "Tree Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Seated Forward Bend",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Shooting",
+          "duration": "10 min",
+          "image": "https://i.redd.it/my-first-time-shooting-sports-and-handball-feedbacks-would-v0-qiby642ssuu81.jpg?width=1440&format=pjpg&auto=webp&s=710b38afe745b8f0772819e8fa4b1abbf2577c1e"
         }
       ]
     },
     {
       "id": 48,
-      "title": "HIIT for Beginners",
-      "duration": "20 mins",
-      "level": "Beginner",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A beginner-friendly high-intensity interval training workout.",
+      "title": "Tennis",
+      "duration": "74 min",
+      "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tennis_Racket_and_Balls.jpg",
+      "level": "Intermediate",
+      "description": "A tennis workout to improve serving and volleying.",
       "poses": [
         {
           "id": 1,
-          "name": "Jumping Jacks",
-          "duration": "30 seconds",
-          "image": "/api/placeholder/100/100"
+          "name": "Forehand",
+          "duration": "10 min",
+          "image": "https://vietthethao.com/public/cuploads/images/Forehand.jpg"
         },
         {
           "id": 2,
-          "name": "Bodyweight Squats",
-          "duration": "30 seconds",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "High Knees",
-          "duration": "30 seconds",
-          "image": "/api/placeholder/100/100"
+          "name": "Backhand",
+          "duration": "10 min",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-elk-gNGvbFmDKoPz-wAma6p7uLolQfFUQ&s"
         }
       ]
     },
     {
       "id": 49,
-      "title": "Strength and Cardio Fusion",
-      "duration": "45 mins",
+      "title": "Badminton",
+      "duration": "76 min",
+      "coverImage": "https://seumelhorjogo.com/wp-content/uploads/2024/02/badminton.jpg",
       "level": "Intermediate",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A fusion workout combining strength training and cardio.",
+      "description": "A badminton workout to improve agility and reflexes.",
       "poses": [
         {
           "id": 1,
-          "name": "Dumbbell Thrusters",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Smash",
+          "duration": "10 min",
+          "image": "https://e4bd5yn4if9.exactdn.com/wp-content/uploads/2021/08/Badminton-Lady-Jump-Smash.jpg?strip=all&lossy=1&ssl=1"
         },
         {
           "id": 2,
-          "name": "Burpees",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Kettlebell Swings",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        }
-      ]
-    },
-    {
-      "id": 50,
-      "title": "Yoga for Energy",
-      "duration": "30 mins",
-      "level": "All Levels",
-      "coverImage": "/api/placeholder/600/200",
-      "description": "A revitalizing yoga session to boost your energy levels.",
-      "poses": [
-        {
-          "id": 1,
-          "name": "Sun Salutations",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 2,
-          "name": "Warrior II",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
-        },
-        {
-          "id": 3,
-          "name": "Bridge Pose",
-          "duration": "1 minute",
-          "image": "/api/placeholder/100/100"
+          "name": "Drop Shot",
+          "duration": "10 min",
+          "image": "https://blog.badmintonjustin.com/wp-content/uploads/2021/01/image.jpeg"
         }
       ]
     }
