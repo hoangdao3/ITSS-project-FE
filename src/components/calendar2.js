@@ -89,6 +89,12 @@ const Calendar2 = () => {
     "縄跳び 5分"
   ];
 
+  const exerciseTypeMap = {
+    'WORK': '仕事',
+    'HINT': 'ヒント練習',
+    'YOUR': 'あなたのエクササイズ'
+  };
+
   const dayNames = ["日","月","火","水","秋","金","土"];
 
   useEffect(() => {
@@ -113,6 +119,94 @@ const Calendar2 = () => {
     const start = new Date(`${startDate}T${startTime}`);
     const end = new Date(`${endDate}T${endTime}`);
     return start < end;
+  };
+  const renderExerciseDetails = (exercise) => {
+    const commonDetails = (
+      <>
+        <p><strong>タイプ:</strong> {exerciseTypeMap[exercise.type]}</p>
+        <p><strong>開始時間:</strong> {new Date(exercise.startTime).toLocaleString()}</p>
+        <p><strong>終了時間:</strong> {new Date(exercise.endTime).toLocaleString()}</p>
+      </>
+    );
+
+    switch (exercise.type) {
+      case 'WORK':
+        return (
+          <>
+            {commonDetails}
+            <div className="mt-4">
+              <p><strong>作業説明：</strong></p>
+              <p className="mt-2 p-2 bg-gray-50 rounded">{exercise.description}</p>
+              {exercise.note && (
+                <>
+                  <p className="mt-4"><strong>注意事項：</strong></p>
+                  <p className="mt-2 p-2 bg-gray-50 rounded">{exercise.note}</p>
+                </>
+              )}
+            </div>
+          </>
+        );
+      
+      case 'HINT':
+        return (
+          <>
+            {commonDetails}
+            <div className="mt-4">
+              <p><strong>提案された運動：</strong></p>
+              <p className="mt-2 p-2 bg-gray-50 rounded">{exercise.description}</p>
+            </div>
+          </>
+        );
+      
+      case 'YOUR':
+        const [exerciseName, exerciseDesc] = exercise.description.split(': ');
+        return (
+          <>
+            {commonDetails}
+            <div className="mt-4">
+              <p><strong>演習名：</strong></p>
+              <p className="mt-2 p-2 bg-gray-50 rounded">{exerciseName}</p>
+              
+              <p className="mt-4"><strong>説明：</strong></p>
+              <p className="mt-2 p-2 bg-gray-50 rounded">{exerciseDesc}</p>
+              
+              {exercise.note && (
+                <>
+                  <p className="mt-4"><strong>注意事項：</strong></p>
+                  <p className="mt-2 p-2 bg-gray-50 rounded">{exercise.note}</p>
+                </>
+              )}
+            </div>
+          </>
+        );
+      
+      default:
+        return commonDetails;
+    }
+  };
+  const ExerciseDetailDialog = ({ exercise, onClose }) => {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center">
+        <div className="bg-white p-6 rounded-lg shadow-lg w-[32rem] max-h-[80vh] overflow-y-auto">
+          <h2 className="text-xl font-bold mb-6 pb-2 border-b">
+            {exerciseTypeMap[exercise.type]}の詳細
+          </h2>
+          
+          <div className="space-y-4">
+            {renderExerciseDetails(exercise)}
+          </div>
+
+          <div className="mt-6 pt-4 border-t flex justify-end">
+            <button
+              className="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded transition duration-200"
+              onClick={onClose}
+            >
+              閉じる
+            </button>
+          </div>
+        </div>
+      </div>
+    );
   };
 
   const renderExerciseIndicators = (date) => {
@@ -621,24 +715,11 @@ const Calendar2 = () => {
           </div>
         </div>
       )}
-      {selectedExercise && (
-        <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center">
-          <div className="bg-white p-6 rounded shadow-lg w-96">
-            <h2 className="text-lg font-bold mb-4">演習の詳細</h2>
-            <p><strong>説明：</strong> {selectedExercise.description}</p>
-            <p><strong>タイプ:</strong> {selectedExercise.type}</p>
-            <p><strong>開始時間:</strong> {new Date(selectedExercise.startTime).toLocaleString()}</p>
-            <p><strong>終了時間:</strong> {new Date(selectedExercise.endTime).toLocaleString()}</p>
-            <div className="flex justify-between">
-              <button
-                className="bg-gray-200 px-4 py-2 rounded"
-                onClick={() => setSelectedExercise(null)}
-              >
-                近い
-              </button>
-            </div>
-          </div>
-        </div>
+     {selectedExercise && (
+        <ExerciseDetailDialog 
+          exercise={selectedExercise} 
+          onClose={() => setSelectedExercise(null)} 
+        />
       )}
     </div>
   );

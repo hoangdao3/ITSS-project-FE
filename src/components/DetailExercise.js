@@ -27,63 +27,64 @@ const ExerciseDetail = () => {
 
   if (loading) {
     return (
-      <div className="max-w-4xl mx-auto p-4 flex justify-center items-center">
+      <div className="flex justify-center items-center h-screen">
         Loading...
       </div>
     );
   }
 
   if (!exercise) {
-    return <div className="max-w-4xl mx-auto p-4">Exercise not found</div>;
+    return (
+      <div className="flex justify-center items-center h-screen">
+        Exercise not found
+      </div>
+    );
   }
 
   return (
-    <div className="fixed flex flex-col items-center bg-white w-full max-w-6xl min-h-screen ml-64 mt-28">
-      <div className="bg-gray-50 shadow-lg rounded-lg w-full max-w-6xl p-8">
-        <h2 className="text-3xl font-bold mb-4">{exercise.title}</h2>
+    <div className="flex justify-center bg-gray-100 h-screen overflow-y-auto">
+      <div className="w-full max-w-4xl mx-auto px-4 py-6">
+        <div className="bg-white shadow-lg rounded-lg w-full p-6">
+          <h2 className="text-2xl font-bold mb-3">{exercise.title}</h2>
 
-        {/* Title and Info */}
-        <div className="flex justify-between items-center mb-6">
-          <div>
-            <h3 className="text-xl font-semibold">{exercise.title}</h3>
-            <p className="text-sm text-gray-500">Total: {exercise.duration}</p>
+          {/* Title and Info */}
+          <div className="flex justify-between items-center mb-4">
+            <div>
+              <h3 className="text-lg font-semibold">{exercise.title}</h3>
+              <p className="text-sm text-gray-500">Total: {exercise.duration}</p>
+            </div>
+          </div>
+
+          {/* Image */}
+          <img
+            src={exercise.coverImage}
+            alt={exercise.title}
+            className="rounded-lg mb-4 object-cover h-40 w-full"
+          />
+
+          {/* Description */}
+          <p className="text-gray-600 text-sm mb-4">{exercise.description}</p>
+
+          {/* Exercise List */}
+          <div className="space-y-3">
+            {exercise.poses.map((pose) => (
+              <div
+                key={pose.id}
+                className="flex justify-between items-center border-b border-gray-200 pb-3"
+              >
+                <div className="flex items-center space-x-3">
+                  <img
+                    src={pose.image}
+                    alt={pose.name}
+                    className="rounded-lg w-16 h-16 object-cover"
+                  />
+                  <p className="text-gray-800 text-sm">{pose.name}</p>
+                </div>
+                <span className="text-gray-500 text-sm">{pose.duration}</span>
+              </div>
+            ))}
           </div>
         </div>
-
-        {/* Image */}
-        <img
-          src={exercise.coverImage}
-          alt={exercise.title}
-          className="rounded-lg mb-5 object-cover h-48"
-        />
-
-        {/* Description */}
-        <p className="text-gray-600 text-sm mb-5">{exercise.description}</p>
-
-        {/* Exercise List */}
-        <div className="space-y-4">
-          {exercise.poses.map((pose) => (
-            <div
-              key={pose.id}
-              className="flex justify-between items-center border-b border-gray-200 pb-4"
-            >
-              <div className="flex items-center space-x-3">
-                <img
-                  src={pose.image}
-                  alt={pose.name}
-                  className="rounded-lg w-20 h-20 object-cover"
-                />
-                <p className="text-gray-800 text-sm">{pose.name}</p>
-              </div>
-              <span className="text-gray-500 text-sm">{pose.duration}</span>
-            </div>
-          ))}
-        </div>
-
-        {/* Start Button */}
-        <button className="mt-6 w-full bg-black text-white text-base py-3 rounded-lg hover:bg-gray-800">
-          Start
-        </button>
       </div>
     </div>
   );

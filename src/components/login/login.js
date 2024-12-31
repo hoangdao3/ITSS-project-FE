@@ -132,18 +132,18 @@ const Login = () => {
 
               <div className="flex flex-wrap items-center justify-between gap-4">
                 <div className="flex items-center">
-                  <input
+                  {/* <input
                     id="私を覚えてますか"
                     name="私を覚えてますか"
                     type="checkbox"
                     className="h-4 w-4 shrink-0 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-                  />
-                  <label
+                  /> */}
+                  {/* <label
                     htmlFor="私を覚えてますか"
                     className="ml-3 block text-sm text-gray-800"
                   >
                     私を覚えてますか
-                  </label>
+                  </label> */}
                 </div>
                 <div className="text-sm">
                   <a

@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const ChangePassword = () => {
@@ -7,31 +7,51 @@ const ChangePassword = () => {
   const [oldPassword, setOldPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [error, setError] = useState("");
+  const [errorNewPassword, setErrorNewPassword] = useState("");
 
-const handleResetPassword = async () => {
-    try {
-        const response = await fetch("http://localhost:8080/api/auth/change-password", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ username, oldPassword, newPassword }),
-        });
+  const isValidPassword = (password) => {
+    return password.length >= 8;
+  };
 
-        if (!response.ok) {
-            const errorData = await response.json();
-            throw new Error(errorData.message || "パスワードの変更に失敗しました");
-        }
+  const handleResetPassword = async () => {
+    setError("");
+    setErrorNewPassword("");
 
-        const data = await response.json();
-        alert(data.message); 
-        if (data.message === "パスワードが正常に変更されました") {
-            navigate("/login"); 
-        }
-    } catch (err) {
-        setError(err.message); 
+    // Validate new password
+    if (!isValidPassword(newPassword)) {
+      setErrorNewPassword("新しいパスワードは8文字以上である必要があります。");
+      return;
     }
-};
+
+    try {
+      const response = await fetch("http://localhost:8080/api/auth/change-password", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ username, oldPassword, newPassword }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        if (data.message.includes("incorrect")) {
+          alert("現在のパスワードが間違っています。もう一度お試しください。");
+        } else if (data.message.includes("not found")) {
+          alert("ユーザーが見つかりません。ユーザー名を確認してください。");
+        } else {
+          alert(data.message || "パスワードの変更に失敗しました。もう一度お試しください。");
+        }
+        return;
+      }
+
+      alert("パスワードが正常に変更されました！");
+      navigate("/login");
+    } catch (err) {
+      alert("エラーが発生しました。もう一度お試しください。");
+      setError(err.message);
+    }
+  };
 
   const handleLogin = () => {
     navigate("/login");
@@ -43,12 +63,12 @@ const handleResetPassword = async () => {
         <div className="max-w-md w-full">
           <div className="p-8 rounded-2xl bg-white shadow">
             <div className="text-gray-800 text-3xl font-bold flex items-center">
-            パスワードを変更する
+              パスワードを変更する
             </div>
             <form className="mt-8 space-y-4">
               <div>
                 <label className="text-gray-800 text-sm mb-2 block">
-                あなたのユーザー名
+                  あなたのユーザー名
                 </label>
                 <div className="relative flex items-center">
                   <input
@@ -67,12 +87,7 @@ const handleResetPassword = async () => {
                     className="w-4 h-4 absolute right-4"
                     viewBox="0 0 24 24"
                   >
-                    <circle
-                      cx="10"
-                      cy="7"
-                      r="6"
-                      data-original="#000000"
-                    ></circle>
+                    <circle cx="10" cy="7" r="6" data-original="#000000"></circle>
                     <path
                       d="M14 15H6a5 5 0 0 0-5 5 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 5 5 0 0 0-5-5zm8-4h-2.59l.3-.29a1 1 0 0 0-1.42-1.42l-2 2a1 1 0 0 0 0 1.42l2 2a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42l-.3-.29H22a1 1 0 0 0 0-2z"
                       data-original="#000000"
@@ -91,7 +106,7 @@ const handleResetPassword = async () => {
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                     placeholder="古いパスワードを入力してください"
                     value={oldPassword}
-                  onChange={(e) => setOldPassword(e.target.value)}
+                    onChange={(e) => setOldPassword(e.target.value)}
                   />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +125,7 @@ const handleResetPassword = async () => {
 
               <div>
                 <label className="text-gray-800 text-sm mb-2 block">
-                パスワードを認証する
+                  新しいパスワード
                 </label>
                 <div className="relative flex items-center">
                   <input
@@ -120,7 +135,7 @@ const handleResetPassword = async () => {
                     className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                     placeholder="新しいパスワードを入力してください"
                     value={newPassword}
-                  onChange={(e) => setNewPassword(e.target.value)}
+                    onChange={(e) => setNewPassword(e.target.value)}
                   />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -135,8 +150,10 @@ const handleResetPassword = async () => {
                     ></path>
                   </svg>
                 </div>
+                {errorNewPassword && (
+                  <p className="text-red-500 text-sm mt-1">{errorNewPassword}</p>
+                )}
               </div>
-        
 
               <div className="!mt-8">
                 <button
@@ -148,7 +165,7 @@ const handleResetPassword = async () => {
                 </button>
               </div>
               <p className="text-gray-800 text-sm !mt-8 text-center">
-              ログインに戻る?{" "}
+                ログインに戻る?{" "}
                 <a
                   onClick={handleLogin}
                   href="javascript:void(0);"

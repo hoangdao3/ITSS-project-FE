@@ -174,7 +174,7 @@ const SettingPage = () => {
             <div className="flex items-center border rounded">
               <FaUser  className="text-gray-400 ml-2" />
               <input
-                className={`shadow appearance-none border-none rounded w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${!isEditing ? 'bg-gray-200' : 'bg-white'}`}
+                className={`shadow appearance-none border-none rounded w-full py-4 pl-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${!isEditing ? 'bg-gray-200' : 'bg-white'}`}
                 id="fullName"
                 type="text"
                 value={formData.fullName}
@@ -191,7 +191,7 @@ const SettingPage = () => {
             <div className="flex items-center border rounded">
               <FaUser  className="text-gray-400 ml-2" />
               <input
-                className={`shadow appearance-none border-none rounded w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${!isEditing ? 'bg-gray-200' : 'bg-white'}`}
+                className={`shadow appearance-none border-none rounded w-full py-4 pl-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${!isEditing ? 'bg-gray-200' : 'bg-white'}`}
                 id="username"
                 type="text"
                 value={formData.username}
@@ -209,7 +209,7 @@ const SettingPage = () => {
             <div className="flex items-center border rounded">
               <FaEnvelope className="text-gray-400 ml-2" />
               <input
-                className="shadow appearance-none border-none rounded w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-200"
+                className="shadow appearance-none border-none rounded w-full py-4 pl-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-200"
                 id="email"
                 type="email"
                 value={formData.email}
@@ -225,7 +225,7 @@ const SettingPage = () => {
             <div className="flex items-center border rounded">
               <FaPhone className="text-gray-400 ml-2" />
               <input
-                className={`shadow appearance-none border-none rounded w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${!isEditing ? 'bg-gray-200' : 'bg-white'}`}
+                className={`shadow appearance-none border-none rounded w-full py-4 pl-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${!isEditing ? 'bg-gray-200' : 'bg-white'}`}
                 id="phone"
                 type="tel"
                 value={formData.phone}

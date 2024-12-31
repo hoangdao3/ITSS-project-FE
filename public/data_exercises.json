@@ -2,176 +2,176 @@
   "exercises": [
     {
       "id": 1,
-      "title": "Yoga",
-      "duration": "10 min",
+      "title": "ヨガ",
+      "duration": "10 分",
       "coverImage": "https://bizweb.dktcdn.net/100/011/344/files/tac-dung-cua-yoga.webp?v=1680778752047",
-      "level": "Beginner",
-      "description": "A relaxing yoga session to improve flexibility and mindfulness.",
+      "level": "初心者",
+      "description": "柔軟性とマインドフルネスを向上させるためのリラックスしたヨガセッションです。このセッションでは、心と体を調和させ、ストレスを軽減することを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Downward Dog",
-          "duration": "2 min",
+          "name": "ダウンドッグ",
+          "duration": "2 分",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Downward-Facing-Dog.JPG/1280px-Downward-Facing-Dog.JPG"
         },
         {
           "id": 2,
-          "name": "Warrior II",
-          "duration": "3 min",
+          "name": "ウォリアー II",
+          "duration": "3 分",
           "image": "https://www.ekhartyoga.com/media/images/articles/content/Warrior-2-yoga-pose-Virabhadrasana-II-Ekhart-Yoga.jpg"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Aerobics",
-      "duration": "15 min",
+      "title": "エアロビクス",
+      "duration": "15 分",
       "coverImage": "https://5.imimg.com/data5/BQ/EW/GLADMIN-7767561/step-aerobics-exercise-services.jpg",
-      "level": "Intermediate",
-      "description": "A high-energy aerobics workout to boost your heart rate.",
+      "level": "中級者",
+      "description": "心拍数を上げるための高エネルギーのエアロビクスワークアウトです。このセッションでは、リズミカルな動きと音楽に合わせて全身を使い、持久力を高めることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Jumping Jacks",
-          "duration": "3 min",
+          "name": "ジャンピングジャック",
+          "duration": "3 分",
           "image": "https://cathe.com/wp-content/uploads/2020/02/shutterstock_502211857.jpg"
         },
         {
           "id": 2,
-          "name": "High Knees",
-          "duration": "3 min",
+          "name": "ハイニーズ",
+          "duration": "3 分",
           "image": "https://i.ytimg.com/vi/ZZZoCNMU48U/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Zumba",
-      "duration": "8 min",
+      "title": "ズンバ",
+      "duration": "8 分",
       "coverImage": "https://tagalaxyfyc.com/wp-content/uploads/2023/03/people-taking-part-dance-therapy-class-1-min-scaled.jpg",
-      "level": "Beginner",
-      "description": "A fun dance workout to get your heart pumping.",
+      "level": "初心者",
+      "description": "心拍数を上げるための楽しいダンスワークアウトです。ズンバは、ラテン音楽に合わせて体を動かし、楽しみながらフィットネスを向上させることを目的としています。",
       "poses": [
         {
           "id": 1,
-          "name": "Basic Step",
-          "duration": "2 min",
+          "name": "基本ステップ",
+          "duration": "2 分",
           "image": "https://i.ytimg.com/vi/n8awM3Rz3Hg/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Cumbia",
-          "duration": "3 min",
+          "name": "クンビア",
+          "duration": "3 分",
           "image": "https://i.ytimg.com/vi/9341rChJ_Jo/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Pilates",
-      "duration": "8 min",
+      "title": "ピラティス",
+      "duration": "8 分",
       "coverImage": "https://file.hstatic.net/200000427195/file/pilates-la-bo-mon-gi-2_d714de7db2f143348e19c2776c4753a3.jpg",
-      "level": "Beginner",
-      "description": "A core-strengthening Pilates routine.",
+      "level": "初心者",
+      "description": "コアを強化するためのピラティスルーチンです。このセッションでは、体幹を鍛え、姿勢を改善し、全体的な体のバランスを向上させることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "The Hundred",
-          "duration": "2 min",
-          "image": "https://www.verywellfit.com/thmb/clH_zlJ6XwoB6NkTFkV_ZIa8tRw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Verywell-07-2704611-Hundred01-418copy-5c631793c9e77c00016627af.jpg"
+          "name": "ハンドレッド",
+          "duration": "2 分",
+          "image": "https://www.verywellfit.com/th mb/clH_zlJ6XwoB6NkTFkV_ZIa8tRw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Verywell-07-2704611-Hundred01-418copy-5c631793c9e77c00016627af.jpg"
         },
         {
           "id": 2,
-          "name": "Roll Up",
-          "duration": "3 min",
+          "name": "ロールアップ",
+          "duration": "3 分",
           "image": "https://www.bestphysicaltherapistnyc.com/wp-content/uploads/2015/12/The-Roll-Up-450.jpg"
         }
       ]
     },
     {
       "id": 5,
-      "title": "Cardio Kickboxing",
-      "duration": "8 min",
+      "title": "カーディオキックボクシング",
+      "duration": "8 分",
       "coverImage": "https://fitcenter.vn/wp-content/uploads/2024/09/Cardio-Kickboxing-la-gi.jpg",
-      "level": "Intermediate",
-      "description": "A high-energy kickboxing workout to improve strength and endurance.",
+      "level": "中級者",
+      "description": "筋力と持久力を向上させるための高エネルギーのキックボクシングワークアウトです。このセッションでは、パンチやキックを組み合わせて全身を鍛え、心拍数を上げることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Jab-Cross",
-          "duration": "2 min",
+          "name": "ジャブ・クロス",
+          "duration": "2 分",
           "image": "https://s3assets.skimble.com/assets/11878/skimble-workout-trainer-exercise-jab-cross-elbow-hook-left-2_iphone.jpg"
         },
         {
           "id": 2,
-          "name": "Front Kick",
-          "duration": "3 min",
+          "name": "フロントキック",
+          "duration": "3 分",
           "image": "https://i.pinimg.com/736x/b0/27/6a/b0276a1f0fc0cb0b0940c8a7e21ed06f.jpg"
         }
       ]
     },
     {
       "id": 6,
-      "title": "Weight Training",
-      "duration": "8 min",
+      "title": "ウェイトトレーニング",
+      "duration": "8 分",
       "coverImage": "https://tropeaka.com/cdn/shop/articles/main_image_d517c79f-4ec7-4946-bb5e-db7e80623e85_3500x.jpg?v=1571697737d",
-      "level": "Intermediate",
-      "description": "A quick weight training session to build muscle.",
+      "level": "中級者",
+      "description": "筋肉を構築するための短時間のウェイトトレーニングセッションです。このセッションでは、さまざまなウェイトを使用して全身を鍛え、筋力を向上させることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Bicep Curl",
-          "duration": "2 min",
+          "name": "バイセップカール",
+          "duration": "2 分",
           "image": "https://hips.hearstapps.com/hmg-prod/images/bicep-curls-1655286150.jpg"
         },
         {
           "id": 2,
-          "name": "Squat",
-          "duration": "3 min",
+          "name": "スクワット",
+          "duration": "3 分",
           "image": "https://file.hstatic.net/200000623631/file/squat__8__8ae3555256374d0a943447fb891e5de0.png"
         }
       ]
     },
     {
       "id": 7,
-      "title": "Spinning",
-      "duration": "8 min",
+      "title": "スピニング",
+      "duration": "8 分",
       "coverImage": "https://domf5oio6qrcr.cloudfront.net/medialibrary/9386/iStock-119557435.jpg",
-      "level": "Intermediate",
-      "description": "An intense spinning workout to boost your cardiovascular fitness.",
+      "level": "中級者",
+      "description": "心肺機能を向上させるための強度の高いスピニングワークアウトです。このセッションでは、ペダルを漕ぎながら心拍数を上げ、持久力を高めることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Warm-up",
-          "duration": "2 min",
+          "name": "ウォームアップ",
+          "duration": "2 分",
           "image": "https://darebee.com/images/workouts/universal-warmup-workout-intro.jpg"
         },
         {
           "id": 2,
-          "name": "Sprints",
-          "duration": "3 min",
+          "name": "スプリント",
+          "duration": "3 分",
           "image": "https://blog.squashskills.com/wp-content/uploads/2022/12/Blog-Benefits-Of-Bike-Sprints.jpg"
         }
       ]
     },
     {
       "id": 8,
-      "title": "Stretching",
-      "duration": "5 min",
+      "title": "ストレッチ",
+      "duration": "5 分",
       "coverImage": "https://cdn.unityfitness.vn/2024/03/stretching.jpeg",
-      "level": "Beginner",
-      "description": "A gentle stretching routine to improve flexibility.",
+      "level": "初心者",
+      "description": "柔軟性を向上させるための穏やかなストレッチルーチンです。このセッションでは、体の各部位を優しく伸ばし、筋肉の緊張を和らげ、リラックスを促進します。",
       "poses": [
         {
           "id": 1,
-          "name": "Hamstring Stretch",
-          "duration": "2 min",
+          "name": "ハムストリングストレッチ",
+          "duration": "2 分",
           "image": "https://www.verywellfit.com/thmb/XpKr4GudgBp75nmJNn6NyATbL3Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TheHurdlerHamstringStretch_annotated2-ed2c2fc7fd8940ceafec8eff879026cd-bc9821a938924e8f97ac35d8a7edcd56.jpg"
         },
         {
           "id": 2,
-          "name": "Shoulder Stretch",
-          "duration": "2 min",
+          "name": "ショルダーストレッチ",
+          "duration": "2 分",
           "image": "https://res.cloudinary.com/peloton-cycle/image/fetch/f_auto,c_limit,w_3840,q_90/https://images.ctfassets.net/6ilvqec50fal/bhjroHsgbjbRMi5H3Feul/122f628916267e5ea69753f3ccbe755c/tight-shoulder-stretch.jpg"
         }
       ]
@@ -179,901 +179,902 @@
     {
       "id": 9,
       "title": "HIIT",
-      "duration": "10 min",
+      "duration": "10 分",
       "coverImage": "https://bizweb.dktcdn.net/100/011/344/files/khai-niem-ve-hiit-va-cardio-khi-luyen-tap-1.jpg?v=1656320687043",
-      "level": "Advanced",
-      "description": "A high-intensity interval training session to burn calories.",
+      "level": "上級者",
+      "description": "カロリーを燃焼させるための高強度インターバルトレーニングセッションです。このセッションでは、短時間で最大限の効果を得るために、強度の高いエクササイズを繰り返します。",
       "poses": [
         {
           "id": 1,
-          "name": "Burpees",
-          "duration": "2 min",
+          "name": "バーピー",
+          "duration": "2 分",
           "image": "https://i0.wp.com/joshuaspodek.com/wp-content/uploads/2012/12/burpees4.png?ssl=1"
         },
         {
           "id": 2,
-          "name": "Mountain Climbers",
-          "duration": "3 min",
+          "name": "マウンテンクライマー",
+          "duration": "3 分",
           "image": "https://hips.hearstapps.com/hmg-prod/images/rw-jess-mountain-climber-1596573079.jpg?crop=0.673xw:1.00xh;0.0993xw,0&resize=1200:*"
         }
       ]
     },
     {
       "id": 10,
-      "title": "Swimming",
-      "duration": "15 min",
+      "title": "水泳",
+      "duration": "15 分",
       "coverImage": "https://static01.nyt.com/images/2024/07/29/multimedia/29Olympics-douglass-pool-vqgl/29Olympics-douglass-pool-vqgl-videoSixteenByNine3000.jpg",
-      "level": "Intermediate",
-      "description": "A refreshing swimming workout to improve endurance.",
+      "level": "中級者",
+      "description": "持久力を向上させるためのリフレッシュできる水泳ワークアウトです。このセッションでは、さまざまな泳ぎ方を練習し、全身を使って心肺機能を高めることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Freestyle",
-          "duration": "5 min",
+          "name": "フリースタイル",
+          "duration": "5 分",
           "image": "https://i.ytimg.com/vi/gnu4AnI2nqg/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Backstroke",
-          "duration": "5 min",
+          "name": "バックストローク",
+          "duration": "5 分",
           "image": "https://static.tildacdn.net/tild3735-3065-4934-b932-313530313736/Julie-Stupp-Arena-Te.jpg"
         }
       ]
     },
     {
       "id": 11,
-      "title": "Running",
-      "duration": "8 min",
+      "title": "ランニング",
+      "duration": "8 分",
       "coverImage": "https://hips.hearstapps.com/hmg-prod/images/young-man-running-outdoors-in-morning-royalty-free-image-1717693611.jpg",
-      "level": "Beginner",
-      "description": "A quick running session to get your heart rate up.",
+      "level": "初心者",
+      "description": "心拍数を上げるための短時間のランニングセッションです。このセッションでは、ウォームアップとして軽いジョギングを行い、その後スプリントを行うことで、持久力とスピードを向上させることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Warm-up Jog",
-          "duration": "2 min",
+          "name": "ウォームアップジョグ",
+          "duration": "2 分",
           "image": "https://cms-static.asics.com/media-libraries/72130/file.png"
         },
         {
           "id": 2,
-          "name": "Sprint",
-          "duration": "3 min",
+          "name": "スプリント",
+          "duration": "3 分",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu0GvcPpNGr8k8NSdOYMfR1VddNLB2vkxNEQ&s"
         }
       ]
     },
     {
       "id": 12,
-      "title": "Cycling",
-      "duration": "8 min",
+      "title": "サイクリング",
+      "duration": "8 分",
       "coverImage": "https://images.squarespace-cdn.com/content/v1/5c374028ee175942be76e84d/bf0ec5f5-6558-4e09-978d-4f9173bf5110/96302575-Gravel_Grinder_Nationals_2023-247.JPG",
-      "level": "Beginner",
-      "description": "A short cycling workout to improve leg strength.",
+      "level": "初心者",
+      "description": "脚の筋力を向上させるための短時間のサイクリングワークアウトです。このセッションでは、平坦な道と丘を交互に走行し、持久力と脚力を鍛えることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Flat Road",
-          "duration": "2 min",
+          "name": "フラットロード",
+          "duration": "2 分",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvVWyuCNcvbpBT7l5uwbPzfk8UefU0sJDOw&s"
         },
         {
           "id": 2,
-          "name": "Hill Climb",
-          "duration": "3 min",
+          "name": "ヒルクライム",
+          "duration": "3 分",
           "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Cycling_12.jpg"
         }
       ]
     },
     {
       "id": 13,
-      "title": "Rowing",
-      "duration": "8 min",
+      "title": "ローイング",
+      "duration": "8 分",
       "coverImage": "https://worldrowing.com/wp-content/uploads/2023/09/DSC_5611-1024x620.jpg",
-      "level": "Intermediate",
-      "description": "A rowing workout to strengthen your back and arms.",
+      "level": "中級者",
+      "description": "背中と腕を強化するためのローイングワークアウトです。このセッションでは、正しいフォームでの漕ぎ方を学び、全身の筋肉を効果的に鍛えることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Power Stroke",
-          "duration": "2 min",
-          "image ": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZHOmf5mZhhsAYrFZSaJ20gD-lV6N_cNgD5Q&s"
+          "name": "パワーストローク",
+          "duration": "2 分",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZHOmf5mZhhsAYrFZSaJ20gD-lV6N_cNgD5Q&s"
         },
         {
           "id": 2,
-          "name": "Recovery Stroke",
-          "duration": "3 min",
+          "name": "リカバリーストローク",
+          "duration": "3 分",
           "image": "https://i0.wp.com/www.coachbergenroth.com/wp-content/uploads/2021/01/learn-to-row-series.png?resize=940%2C788&ssl=1"
         }
       ]
     },
     {
       "id": 14,
-      "title": "Dance Fitness",
-      "duration": "8 min",
+      "title": "ダンスフィットネス",
+      "duration": "8 分",
       "coverImage": "https://i.ytimg.com/vi/Rj2IubFfEqY/maxresdefault.jpg",
-      "level": "Beginner",
-      "description": "A fun dance workout to improve coordination and fitness.",
-      "poses": [
+      "level": "初心者",
+      "description": "協調性とフィットネスを向上させるための楽しいダンスワークアウトです。このセッションでは、リズムに合わせて体を動かし、楽しみながらカロリーを消費することを目指します。",
+      "poses":
+      [
         {
           "id": 1,
-          "name": "Basic Dance Step",
-          "duration": "2 min",
+          "name": "基本ダンスステップ",
+          "duration": "2 分",
           "image": "https://i.ytimg.com/vi/0B26kZJO5Ko/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Freestyle",
-          "duration": "3 min",
+          "name": "フリースタイル",
+          "duration": "3 分",
           "image": "https://i.ytimg.com/vi/xIWYLz82gNU/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 15,
-      "title": "Tai Chi",
-      "duration": "8 min",
+      "title": "太極拳",
+      "duration": "8 分",
       "coverImage": "https://aarp.widen.net/content/e6pfcin0sm/jpeg/GettyImages-1663808463.jpg?crop=true&anchor=0,28&q=80&color=ffffffff&u=mh5igy&w=2048&h=1177",
-      "level": "Beginner",
-      "description": "A gentle Tai Chi routine to improve balance and relaxation.",
+      "level": "初心者",
+      "description": "バランスとリラクゼーションを向上させるための穏やかな太極拳ルーチンです。このセッションでは、ゆっくりとした動きと呼吸法を通じて、心と体の調和を図ります。",
       "poses": [
         {
           "id": 1,
-          "name": "Commencing Form",
-          "duration": "2 min",
+          "name": "開始の形",
+          "duration": "2 分",
           "image": "https://i0.wp.com/dralexheyne.com/wp-content/uploads/2024/09/Tai-Chi-4.png?resize=555%2C416&ssl=1"
         },
         {
           "id": 2,
-          "name": "Wave Hands Like Clouds",
-          "duration": "3 min",
+          "name": "雲のように手を振る",
+          "duration": "3 分",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQihm2ChtoaIWkfsr9n7lPPCE48we-fjDVWRA&s"
         }
       ]
     },
     {
       "id": 16,
-      "title": "Jump Rope",
-      "duration": "10 min",
+      "title": "縄跳び",
+      "duration": "10 分",
       "coverImage": "https://i0.wp.com/kimabbagehart.com/wp-content/uploads/2024/02/1.png?resize=1024%2C683&ssl=1",
-      "level": "Intermediate",
-      "description": "A quick jump rope workout to improve cardiovascular fitness.",
+      "level": "中級者",
+      "description": "心肺機能を向上させるための短時間の縄跳びワークアウトです。このセッションでは、基本的なジャンプからダブルアンダーまで、さまざまなテクニックを練習します。",
       "poses": [
         {
           "id": 1,
-          "name": "Basic Jump",
-          "duration": "2 min",
+          "name": "基本ジャンプ",
+          "duration": "2 分",
           "image": "https://cdn.shopify.com/s/files/1/1142/3440/articles/how-to-jump-rope-top-6-tips-for-getting-started-745210.jpg?v=1698148873"
         },
         {
           "id": 2,
-          "name": "Double Unders",
-          "duration": "3 min",
+          "name": "ダブルアンダー",
+          "duration": "3 分",
           "image": "https://www.wikihow.com/images/thumb/8/8c/Do-Double-Unders-Step-7.jpg/v4-460px-Do-Double-Unders-Step-7.jpg.webp"
         }
       ]
     },
     {
       "id": 17,
-      "title": "Bodyweight Exercises",
-      "duration": "12 min",
+      "title": "自重トレーニング",
+      "duration": "12 分",
       "coverImage": "https://www.puregym.com/media/sqflb0zc/bodyweight.jpg?quality=80",
-      "level": "Beginner",
-      "description": "A bodyweight workout to build strength without equipment.",
+      "level": "初心者",
+      "description": "器具なしで筋力を構築するための自重ワークアウトです。このセッションでは、プッシュアップやスクワットなどの基本的なエクササイズを通じて、全身を鍛えることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Push-ups",
-          "duration": "2 min",
+          "name": "プッシュアップ",
+          "duration": "2 分",
           "image": "https://www.fitnesseducation.edu.au/wp-content/uploads/2020/10/Pushups.jpg"
         },
         {
           "id": 2,
-          "name": "Squats",
-          "duration": "3 min",
-          "image": "https://file.hstatic.net/200000623631/file/squat__8__8ae3555256374d0a943447fb891e5de0.png"
+          "name": "スクワット",
+          "duration": "3 分",
+          "image": "https://file.hstatic.net/200000623631/file/squat__8__8ae3555256374d0a943447fb891e5de0"
         }
       ]
     },
     {
       "id": 18,
-      "title": "Hiking",
-      "duration": "14 min",
+      "title": "ハイキング",
+      "duration": "14 分",
       "coverImage": "https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/1518801341-1701245791021.jpg",
-      "level": "Beginner",
-      "description": "A refreshing hike to enjoy nature and improve fitness.",
+      "level": "初心者",
+      "description": "自然を楽しみながらフィットネスを向上させるためのリフレッシュできるハイキングです。このセッションでは、さまざまなトレイルを歩きながら、心肺機能を高め、ストレスを軽減することを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Trail Walking",
-          "duration": "5 min",
+          "name": "トレイルウォーキング",
+          "duration": "5 分",
           "image": "https://static.independent.co.uk/2021/06/10/15/iStock-1174494913.jpg"
         },
         {
           "id": 2,
-          "name": "Incline Climb",
-          "duration": "5 min",
+          "name": "インクラインクライム",
+          "duration": "5 分",
           "image": "https://i.ytimg.com/vi/hIK8-ZoP48Y/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 19,
-      "title": "Stair Climbing",
-      "duration": "16 min",
+      "title": "階段昇降",
+      "duration": "16 分",
       "coverImage": "https://static.wixstatic.com/media/490a53_d84027f2a1904696b52c4c2387344293~mv2_d_2124_1413_s_2.jpg/v1/fill/w_568,h_378,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/490a53_d84027f2a1904696b52c4c2387344293~mv2_d_2124_1413_s_2.jpg",
-      "level": "Intermediate",
-      "description": "A stair climbing workout to strengthen legs and improve endurance.",
+      "level": "中級者",
+      "description": "脚を強化し持久力を向上させるための階段昇降ワークアウトです。このセッションでは、階段を上り下りすることで、心拍数を上げ、下半身の筋力を鍛えることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Upward Climb",
-          "duration": "5 min",
+          "name": "上昇クライム",
+          "duration": "5 分",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkIIUzdI6lxyCvLAlfAgBUL0JqPvTMKDKvIg&s"
         },
         {
           "id": 2,
-          "name": "Downward Climb",
-          "duration": "5 min",
+          "name": "下降クライム",
+          "duration": "5 分",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN1Qp8jW46WBle-09GSWS4nIsOhlALh4VzDg&s"
         }
       ]
     },
     {
       "id": 20,
-      "title": "CrossFit",
-      "duration": "18 min",
+      "title": "クロスフィット",
+      "duration": "18 分",
       "coverImage": "https://www.atreq.com/cdn/shop/articles/Cross_fit_Training_2df2e098-2b67-4e03-8ec6-3a27ce4e240d.jpg?v=1588854724",
-      "level": "Advanced",
-      "description": "A high-intensity CrossFit workout to build strength and endurance.",
+      "level": "上級者",
+      "description": "筋力と持久力を構築するための高強度のクロスフィットワークアウトです。このセッションでは、さまざまなエクササイズを組み合わせて全身を鍛え、フィットネスレベルを向上させることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Deadlift",
-          "duration": "5 min",
+          "name": "デッドリフト",
+          "duration": "5 分",
           "image": "https://cali.vn/storage/app/media/deadlift-dung-cach-thumb.jpg"
         },
         {
           "id": 2,
-          "name": "Box Jump",
-          "duration": "5 min",
+          "name": "ボックスジャンプ",
+          "duration": "5 分",
           "image": "https://i.ytimg.com/vi/NBY9-kTuHEk/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 21,
-      "title": "Martial Arts",
-      "duration": "20 min",
-      "coverImage": "https://cdn.britannica.com/07/145407-050-8DBD77E9/belts.jpg",
-      "level": "Intermediate",
-      "description": "A martial arts workout to improve agility and self-defense skills.",
+      "title": "武道",
+      "duration": "20 分",
+      "coverImage": "https://cdn.britannica.com/07/145407-050 -8DBD77E9/belts.jpg",
+      "level": "中級者",
+      "description": "アジリティと自己防衛スキルを向上させるための武道ワークアウトです。このセッションでは、基本的な技術を学び、体力を高めることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Front Kick",
-          "duration": "5 min",
+          "name": "フロントキック",
+          "duration": "5 分",
           "image": "https://i.ytimg.com/vi/rDAIlfTFDqU/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Roundhouse Kick",
-          "duration": "5 min",
+          "name": "ラウンドハウスキック",
+          "duration": "5 分",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlPcJAWLXhFN_XmMpbRVHWGb9rY1abDCgB9g&s"
         }
       ]
     },
     {
       "id": 22,
-      "title": "Barre Workout",
-      "duration": "22 min",
+      "title": "バレエワークアウト",
+      "duration": "22 分",
       "coverImage": "https://flexit.fit/assets/images/vptimages/barre1large.jpg",
-      "level": "Intermediate",
-      "description": "A barre workout to improve strength and flexibility.",
+      "level": "中級者",
+      "description": "筋力と柔軟性を向上させるためのバレエワークアウトです。このセッションでは、バレエの基本的な動きを通じて、全身を鍛え、優雅さを身につけることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Plie",
-          "duration": "5 min",
+          "name": "プリエ",
+          "duration": "5 分",
           "image": "https://www.wikihow.com/images/thumb/6/60/Do-a-Plie-in-Ballet-Step-2-Version-3.jpg/v4-460px-Do-a-Plie-in-Ballet-Step-2-Version-3.jpg"
         },
         {
           "id": 2,
-          "name": "Tendu",
-          "duration": "5 min",
+          "name": "タンデュ",
+          "duration": "5 分",
           "image": "https://static.wikia.nocookie.net/dance/images/d/d4/3f1cddf7ac6e2c413533236501e8b65b.jpg/revision/latest?cb=20201121190456"
         }
       ]
     },
     {
       "id": 23,
-      "title": "Mountain Biking",
-      "duration": "24 min",
+      "title": "マウンテンバイキング",
+      "duration": "24 分",
       "coverImage": "https://www.polygonbikes.com/wp-content/uploads/2023/08/2022_EWS_Whistler_byKikeAbelleira-05570-1.jpg",
-      "level": "Intermediate",
-      "description": "A mountain biking workout to improve leg strength and endurance.",
+      "level": "中級者",
+      "description": "脚力と持久力を向上させるためのマウンテンバイキングワークアウトです。このセッションでは、さまざまな地形を走行し、バランスとコントロールを鍛えることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Climbing",
-          "duration": "5 min",
+          "name": "クライミング",
+          "duration": "5 分",
           "image": "https://i.ytimg.com/vi/WkS8nzvqfPA/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Descending",
-          "duration": "5 min",
+          "name": "降下",
+          "duration": "5 分",
           "image": "https://i.ytimg.com/vi/uG2-0bZImVs/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 24,
-      "title": "Bootcamp Training",
-      "duration": "26 min",
+      "title": "ブートキャンプトレーニング",
+      "duration": "26 分",
       "coverImage": "https://mirafit.co.uk/wp/wp-content/uploads/2019/05/mirafit-bootcamp-promotion-image-of-man-running-with-sandbag.jpg",
-      "level": "Advanced",
-      "description": "A bootcamp workout to challenge your strength and endurance.",
+      "level": "上級者",
+      "description": "筋力と持久力を挑戦するためのブートキャンプワークアウトです。このセッションでは、さまざまなエクササイズを組み合わせて、全身を鍛え、フィットネスレベルを向上させることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Burpees",
-          "duration": "5 min",
-          "image": "https://i0.wp.com/joshuaspodek.com/wp-content/uploads/2012/12/burpees4.png?ssl=1"
+          "name": "バーピー",
+          "duration": "5 分",
+          "image": "https://i0.wp.com/joshuaspodek.com/wp-content/uploads/2012/12/burpees5.png?ssl=1"
         },
         {
           "id": 2,
-          "name": "Push-ups",
-          "duration": "5 min",
+          "name": "プッシュアップ",
+          "duration": "5 分",
           "image": "https://functionalpatterns.com/cdn/shop/articles/Screenshot_2024-03-13_at_10.39.10_AM.png?v=1710351696"
         }
       ]
     },
     {
       "id": 25,
-      "title": "Functional Training",
-      "duration": "28 min",
+      "title": "ファンクショナルトレーニング",
+      "duration": "28 分",
       "coverImage": "https://img1.wsimg.com/isteam/ip/83b0087d-bb3e-4c7d-b4fa-e175641720aa/7-Functional%20Fitness.jpg",
-      "level": "Intermediate",
-      "description": "A functional training workout to improve everyday movements.",
+      "level": "中級者",
+      "description": "日常の動作を改善するためのファンクショナルトレーニングワークアウトです。このセッションでは、さまざまなエクササイズを通じて、全身の筋力と持久力を向上させることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Kettlebell Swing",
-          "duration": "5 min",
+          "name": "ケトルベルスイング",
+          "duration": "5 分",
           "image": "https://hips.hearstapps.com/hmg-prod/images/kettlebell-swing-russian-65a545944fe15.jpg?resize=980:*"
         },
         {
           "id": 2,
-          "name": "Medicine Ball Toss",
-          "duration": "5 min",
+          "name": "メディスンボールトス",
+          "duration": "5 分",
           "image": "https://www.crossfitmva.com/wp-content/uploads/2016/05/Med-Ball-Toss.jpg"
         }
       ]
     },
     {
       "id": 26,
-      "title": "Paddleboarding",
-      "duration": "30 min",
+      "title": "パドルボーディング",
+      "duration": "30 分",
       "coverImage": "https://www.scuba.com/blog/wp-content/uploads/2018/08/shutterstock_179451803.jpg",
-      "level": "Beginner",
-      "description": "A relaxing paddleboarding session to enjoy the water.",
+      "level": "初心者",
+      "description": "水を楽しむためのリラックスしたパドルボーディングセッションです。このセッションでは、穏やかな水面でのパドリングを通じて、全身の筋肉を使い、心を落ち着けることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Paddle Forward",
-          "duration": "10 min",
+          "name": "前方パドル",
+          "duration": "10 分",
           "image": "https://cdn.thursosurf.com/wp-content/uploads/2018/12/11133011/Thurso-Surf-Blog-Best-Paddleboard-Stroke-Elements-of-a-Perfect-Stroke-Infographic-1080px-squashed-1.jpg.webp"
         },
         {
           "id": 2,
-          "name": "Turn",
-          "duration": "5 min",
+          "name": "ターン",
+          "duration": "5 分",
           "image": "https://www.mensjournal.com/.image/t_share/MTk2MTM2Nzk5OTQ1NTY1MzI5/grindturn2.jpg"
         }
       ]
     },
     {
       "id": 27,
-      "title": "Rollerblading",
-      "duration": "32 min",
+      "title": "ローラーブレーディング",
+      "duration": "32 分",
       "coverImage": "https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/h_484,c_limit/c90c775c-e3f1-4657-922e-098ac3f07f4e/5-health-benefits-of-rollerblading-according-to-experts.jpg",
-      "level": "Intermediate",
-      "description": "A fun rollerblading workout to improve balance and coordination.",
+      "level": "中級者",
+      "description": "バランスと協調性を向上させるための楽しいローラーブレーディングワークアウトです。このセッションでは、さまざまなテクニックを練習しながら、全身を鍛えることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Forward Glide",
-          "duration": "10 min",
+          "name": "前方グライド",
+          "duration": "10 分",
           "image": "https://i.ytimg.com/vi/fg1eMFnl61U/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Backward Glide",
-          "duration": "10 min",
-          "image": "https://www.wikihow.com/images/thumb/e/e2/Rollerblade-Backwards-Step-4-Version-2.jpg/v4-460px-Rollerblade-Backwards-Step-4-Version-2.jpg.webp"
+          "name": "後方グライド",
+          "duration": "10 分",
+          "image": "https://www.wikihow.com/images/thumb/e/e2/Rollerblade-Backwards-Step-4-Version-2.jpg/v4-460px-Rollerblade-Backwards-Step-4-Version-2.jpg"
         }
       ]
     },
     {
       "id": 28,
-      "title": "Surfing",
-      "duration": "34 min",
+      "title": "サーフィン",
+      "duration": "34 分",
       "coverImage": "https://cdn.britannica.com/07/230807-050-626BFA84/Australian-surfer-Tyler-Wright-2010.jpg",
-      "level": "Advanced",
-      "description": "An exhilarating surfing workout to improve balance and strength.",
+      "level": "上級者",
+      "description": "バランスと強さを向上させるための刺激的なサーフィンワークアウトです。このセッションでは、波に乗る技術を磨き、全身の筋肉を使ってフィットネスを向上させることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Paddle Out",
-          "duration": "10 min",
+          "name": "パドルアウト",
+          "duration": "10 分",
           "image": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/3259/images/rruAgyuZSsWX37VoHT9a_Surfing_Paddling_Academy_Longboard_paddling.jpg"
         },
         {
           "id": 2,
-          "name": "Pop Up",
-          "duration": "10 min",
+          "name": "ポップアップ",
+          "duration": "10 分",
           "image": "https://i.ytimg.com/vi/W1JvoHNJvoU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLACoq0yOvms6Pj8dchu7onBzbMq9w"
         }
       ]
     },
     {
       "id": 29,
-      "title": "Parkour",
-      "duration": "36 min",
+      "title": "パルクール",
+      "duration": "36 分",
       "coverImage": "https://cdn.britannica.com/91/198191-050-D2791AFC/Parkour-athlete-jumping-walls.jpg",
-      "level": "Advanced",
-      "description": "A parkour workout to improve agility and strength.",
+      "level": "上級者",
+      "description": "アジリティと強さを向上させるためのパルクールワークアウトです。このセッションでは、障害物を乗り越える技術を学び、全身を鍛えることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Vault",
-          "duration": "10 min",
+          "name": "ボールト",
+          "duration": "10 分",
           "image": "https://i.ytimg.com/vi/hbas1G_9JrI/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Roll",
-          "duration": "10 min",
+          "name": "ロール",
+          "duration": "10 分",
           "image": "https://fightorflightacademy.com/wp-content/uploads/2021/10/Kong-to-PK-Roll-Chad-Zwadlo-Composite-scaled.jpg"
         }
       ]
     },
     {
       "id": 30,
-      "title": "Climbing",
-      "duration": "38 min",
+      "title": "クライミング",
+      "duration": "38 分",
       "coverImage": "https://gripped.com/wp-content/uploads/2018/11/rock-climbing-gym-1087x675.jpg",
-      "level": "Advanced",
-      "description": "A climbing workout to build strength and endurance.",
+      "level": "上級者",
+      "description": "強さと持久力を構築するためのクライミングワークアウトです。このセッションでは、さまざまなクライミング技術を練習し、全身の筋肉を鍛えることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Bouldering",
-          "duration": "10 min",
+          "name": "ボルダリング",
+          "duration": "10 分",
           "image": "https://www.climbingfacts.com/wp-content/uploads/2022/09/flag-climbing-technique.jpg"
         },
         {
           "id": 2,
-          "name": "Top Roping",
-          "duration": "10 min",
+          "name": "トップロープ",
+          "duration": "10 分",
           "image": "https://centralrockgym.com/manhattan/wp-content/uploads/sites/25/Staff-Belay.jpg"
         }
       ]
     },
     {
       "id": 31,
-      "title": "Ballet",
-      "duration": "40 min",
+      "title": "バレエ",
+      "duration": "40 分",
       "coverImage": "https://www.danceflavors.com/wp-content/uploads/2022/09/woman-and-little-girl-dancing-ballet-2022-02-01-22-39-15-utc.jpg",
-      "level": "Intermediate",
-      "description": "A ballet workout to improve flexibility and grace.",
+      "level": "中級者",
+      "description": "柔軟性と優雅さを向上させるためのバレエワークアウトです。このセッションでは、バレエの基本動きを通じて、全身を鍛え、バランスとコントロールを向上させることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Plie",
-          "duration": "10 min",
+          "name": "プリエ",
+          "duration": "10 分",
           "image": "https://www.wikihow.com/images/thumb/6/60/Do-a-Plie-in-Ballet-Step-2-Version-3.jpg/v4-460px-Do-a-Plie-in-Ballet-Step-2-Version-3.jpg"
         },
         {
           "id": 2,
-          "name": "Tendu",
-          "duration": "10 min",
+          "name": "タンデュ",
+          "duration": "10 分",
           "image": "https://static.wikia.nocookie.net/dance/images/d/d4/3f1cddf7ac6e2c413533236501e8b65b.jpg/revision/latest?cb=20201121190456"
         }
       ]
     },
     {
       "id": 32,
-      "title": "Power Yoga",
-      "duration": "42 min",
+      "title": "パワーヨガ",
+      "duration": "42 分",
       "coverImage": "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/loi_ich_cua_viec_luyen_tap_power_yoga_3_9c0bbbc2f4.jpg",
-      "level": "Advanced",
-      "description": "A power yoga session to build strength and flexibility.",
+      "level": "上級者",
+      "description": "筋力と柔軟性を構築するためのパワーヨガセッションです。このセッションでは、強度の高いポーズを通じて、全身を鍛え、心と体の調和を図ります。",
       "poses": [
         {
           "id": 1,
-          "name": "Warrior I",
-          "duration": "10 min",
+          "name": "ウォリアー I",
+          "duration": "10 分",
           "image": "https://cdn.shopify.com/s/files/1/2545/5984/files/39_286185d9-beee-4da5-9feb-21c25eacb6e9_600x600.png?v=1650613825"
         },
         {
- "id": 2,
-          "name": "Tree Pose",
-          "duration": "10 min",
+          "id": 2,
+          "name": "ツリーポーズ",
+          "duration": "10 分",
           "image": "https://www.yogaclassplan.com/wp-content/uploads/2021/01/34-treepose.jpg"
         }
       ]
     },
     {
       "id": 33,
-      "title": "Aqua Aerobics",
-      "duration": "44 min",
+      "title": "アクアエアロビクス",
+      "duration": "44 分",
       "coverImage": "https://images.squarespace-cdn.com/content/v1/5eceb6aa1863cd37fca21e02/7e366588-1c94-4d25-9648-598dd21e5bed/iStock-612838644.jpg",
-      "level": "Beginner",
-      "description": "A fun aqua aerobics session to improve fitness in the water.",
+      "level": "初心者",
+      "description": "水中でのフィットネスを楽しむための楽しいアクアエアロビクスセッションです。このセッションでは、水の抵抗を利用して全身を鍛え、心肺機能を向上させることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Water Jogging",
-          "duration": "10 min",
+          "name": "水中ジョギング",
+          "duration": "10 分",
           "image": "https://d1s9j44aio5gjs.cloudfront.net/2016/09/Aqua_Jogging_Equipment_Bene.jpg"
         },
         {
           "id": 2,
-          "name": "Arm Circles",
-          "duration": "10 min",
+          "name": "腕の円",
+          "duration": "10 分",
           "image": "https://www.wikihow.com/images/thumb/8/8b/Work-Out-in-the-Pool-Step-21-Version-3.jpg/v4-460px-Work-Out-in-the-Pool-Step-21-Version-3.jpg.webp"
         }
       ]
     },
     {
       "id": 34,
-      "title": "Trampoline Fitness",
-      "duration": "46 min",
+      "title": "トランポリンフィットネス",
+      "duration": "46 分",
       "coverImage": "https://contents.mediadecathlon.com/p2612727/k$44f002bd71b81e7b6bd2e8bf285a1216/cardio-fitness-trampoline-fit-trampo-100-domyos-8862325.jpg?f=1920x0&format=auto",
-      "level": "Intermediate",
-      "description": "A fun trampoline workout to improve cardiovascular fitness.",
+      "level": "中級者",
+      "description": "心肺機能を向上させるための楽しいトランポリンワークアウトです。このセ では、さまざまなジャンプや動きを通じて、楽しみながらフィットネスを向上させることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Basic Bounce",
-          "duration": "10 min",
+          "name": "基本バウンス",
+          "duration": "10 分",
           "image": "https://i.ytimg.com/vi/lhXXRZt4bIU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD-YJC5puC-T6SnV-NsfRan8aIytw"
         },
         {
           "id": 2,
-          "name": "Jumping Jacks",
-          "duration": "10 min",
+          "name": "ジャンピングジャック",
+          "duration": "10 分",
           "image": "https://i.ytimg.com/vi/suw5ZGVQwLI/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEwgZShDMA8=&rs=AOn4CLDFQkcmRDuxEe7_08dUxhLN3HPFew"
         }
       ]
     },
     {
       "id": 35,
-      "title": "Water Polo",
-      "duration": "48 min",
+      "title": "水球",
+      "duration": "48 分",
       "coverImage": "https://ohmyfacts.com/wp-content/uploads/2024/10/27-facts-about-water-polo-1730389871.jpg",
-      "level": "Advanced",
-      "description": "A competitive water polo workout to improve teamwork and fitness.",
+      "level": "上級者",
+      "description": "チームワークとフィットネスを向上させるための競技水球ワークアウトです。このセッションでは、パスやシュートの技術を磨き、全身を使って体力を高めることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Passing Drills",
-          "duration": "10 min",
+          "name": "パッシングドリル",
+          "duration": "10 分",
           "image": "https://www.swimoutlet.com/cdn/shop/articles/Water-Polo-Basic-Passing-Drills-300x212.jpg?v=1598410644"
         },
         {
           "id": 2,
-          "name": "Shooting Drills",
-          "duration": "10 min",
+          "name": "シューティングドリル",
+          "duration": "10 分",
           "image": "https://elitewaterpolotraining.files.wordpress.com/2013/11/cropped-0801-world-londonolympics-speedyobjects-waterpolo_full_600.jpg"
         }
       ]
     },
     {
       "id": 36,
-      "title": "Pole Dancing",
-      "duration": "50 min",
+      "title": "ポールダンス",
+      "duration": "50 分",
       "coverImage": "https://tiki.vn/blog/wp-content/uploads/2023/10/pole-dance.jpg",
-      "level": "Intermediate",
-      "description": "A pole dancing workout to improve strength and flexibility.",
+      "level": "中級者",
+      "description": "筋力と柔軟性を向上させるためのポールダンスワークアウトです。このセッションでは、ポールを使ったさまざまな技術を学び、全身を鍛えることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Pole Spin",
-          "duration": "10 min",
+          "name": "ポールスピン",
+          "duration": "10 分",
           "image": "https://www.onlinepolestudio.com/images/lessons/35.jpg"
         },
         {
           "id": 2,
-          "name": "Inverted Hold",
-          "duration": "10 min",
+          "name": "逆さまのホールド",
+          "duration": "10 分",
           "image": "https://studioverve.com.au/sites/default/files/styles/media_responsive_widest/public/briana_leg_hang2.jpg?itok=kob9lhDN"
         }
       ]
     },
     {
       "id": 37,
-      "title": "Kickboxing",
-      "duration": "52 min",
+      "title": "キックボクシング",
+      "duration": "52 分",
       "coverImage": "https://tinhhoavothuat.com/wp-content/uploads/2023/07/loi-ich-cua-kickboxing-2.jpeg",
-      "level": "Advanced",
-      "description": "A kickboxing workout to improve strength and agility.",
+      "level": "上級者",
+      "description": "筋力と敏捷性を向上させるためのキックボクシングワークアウトです。このセッションでは、さまざまなキックやパンチを組み合わせて全身を鍛え、心拍数を上げることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Roundhouse Kick",
-          "duration": "10 min",
+          "name": "ラウンドハウスキック",
+          "duration": "10 分",
           "image": "https://i.ytimg.com/vi/vICrwtnmM6w/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Cross Punch",
-          "duration": "10 min",
+          "name": "クロスパンチ",
+          "duration": "10 分",
           "image": "https://i.ytimg.com/vi/k4gudMyiddI/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 38,
-      "title": "Skateboarding",
-      "duration": "54 min",
+      "title": "スケートボード",
+      "duration": "54 分",
       "coverImage": "https://img.redbull.com/images/c_crop,x_1638,y_0,h_2560,w_2048/c_fill,w_800,h_889/q_auto:low,f_auto/redbullcom/tv/FO-1YSE763FN5N11/abc-of-skateboarding-kickflip-skatepark",
-      "level": "Intermediate",
-      "description": "A skateboarding workout to improve balance and coordination.",
+      "level": "中級者",
+      "description": "バランスと協調性を向上させるためのスケートボードワークアウトです。このセッションでは、基本的なトリックを練習しながら、楽しみながらフィットネスを向上させることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Ollie",
-          "duration": "10 min",
+          "name": "オリー",
+          "duration": "10 分",
           "image": "https://annex.exploratorium.edu/skateboarding/images/alt/olllieHump_seq.png"
         },
         {
           "id": 2,
-          "name": "Kickflip",
-          "duration": "10 min",
+          "name": "キックフリップ",
+          "duration": "10 分",
           "image": "https://img.redbull.com/images/c_crop,x_1638,y_0,h_2560,w_2048/c_fill,w_800,h_889/q_auto:low,f_auto/redbullcom/tv/FO-1YSE763FN5N11/abc-of-skateboarding-kickflip-skatepark"
         }
       ]
     },
     {
       "id": 39,
-      "title": "Snowboarding",
-      "duration": "56 min",
+      "title": "スノーボード",
+      "duration": "56 分",
       "coverImage": "https://cdn.britannica.com/21/233221-050-A0038475/torah-bright-Australia-snowboarder-2014.jpg",
-      "level": "Advanced",
-      "description": "A snowboarding workout to improve balance and strength.",
+      "level": "上級者",
+      "description": "バランスと強さを向上させるためのスノーボードワークアウトです。このセッションでは、さまざまな技術を練習し、雪の上での動きを改善することを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Carving",
-          "duration": "10 min",
+          "name": "カービング",
+          "duration": "10 分",
           "image": "https://www.thesnowboardersjournal.com/wp-content/uploads/2016/09/tsnj-review-k2-01.jpg"
         },
         {
           "id": 2,
-          "name": "Jumping",
-          "duration": "10 min",
+          "name": "ジャンプ",
+          "duration": "10 分",
           "image": "https://asomammoth.com/wp-content/uploads/2022/11/A-Snowboarder-Jumping.jpg"
         }
       ]
     },
     {
       "id": 40,
-      "title": "Horse Riding",
-      "duration": "58 min",
+      "title": "乗馬",
+      "duration": "58 分",
       "coverImage": "https://www.vitafloor.com/wp-content/uploads/2021/06/woman-riding-brown-horse-during-daytime-1200x900.png",
-      "level": "Intermediate",
-      "description": "A horse riding workout to improve balance and coordination.",
+      "level": "中級者",
+      "description": "バランスと協調性を向上させるための乗馬ワークアウトです。このセッションでは、馬に乗る技術を学び、心と体の調和を図ることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Trotting",
-          "duration": "10 min",
+          "name": "トロッティング",
+          "duration": "10 分",
           "image": "https://ihearthorses.com/wp-content/uploads/2020/06/Canva-Young-Caucasian-woman-in-formal-clothing-horseback-riding-across-the-sandy-arena-scaled.jpg"
         },
         {
           "id": 2,
-          "name": "Cantering",
-          "duration": "10 min",
+          "name": "キャンター",
+          "duration": "10 分",
           "image": "https://signin.juliegoodnight.com/wp-content/uploads/2021/01/julie-canter-az.jpg"
         }
       ]
     },
     {
       "id": 41,
-      "title": "Beach Volleyball",
-      "duration": "60 min",
+      "title": "ビーチバレーボール",
+      "duration": "60 分",
       "coverImage": "https://www.allvolleyball.com/cdn/shop/articles/beach-volleyball-faq_0376d8f4-9999-4701-880c-be8d22b5eb29.jpg?v=1717684316&width=1600",
-      "level": "Advanced",
-      "description": "A beach volleyball workout to improve teamwork and fitness.",
+      "level": "上級者",
+      "description": "チームワークとフィットネスを向上させるためのビーチバレーボールワークアウトです。このセッションでは、サーブやスパイクの技術を磨き、楽しみながら体力を高めることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Serving",
-          "duration": "10 min",
+          "name": "サービング",
+          "duration": "10 分",
           "image": "https://i.ytimg.com/vi/vtlbUxWIQXw/maxresdefault.jpg"
         },
         {
           "id": 2,
-          "name": "Spiking",
-          "duration": "10 min",
+          "name": "スパイキング",
+          "duration": "10 分",
           "image": "https://i.ytimg.com/vi/wclUZcI-mig/maxresdefault.jpg"
         }
       ]
     },
     {
       "id": 42,
-      "title": "Frisbee",
-      "duration": "62 min",
+      "title": "フリスビー",
+      "duration": "62 分",
       "coverImage": "https://wham-o.com/cdn/shop/files/52000_LS_01.webp?v=1694402319&width=2400",
-      "level": "Beginner",
-      "description": "A frisbee workout to improve coordination and fitness.",
+      "level": "初心者",
+      "description": "協調性とフィットネスを向上させるためのフリスビーワークアウトです。このセッションでは、投げる技術やキャッチする技術を練習し、楽しみながら体を動かすことを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Throwing",
-          "duration": "10 min",
+          "name": "投げる",
+          "duration": "10 分",
           "image": "https://whyy.org/wp-content/uploads/2017/08bs0/bs0751_02.jpg"
         },
         {
           "id": 2,
-          "name": "Catching",
-          "duration": "10 min",
+          "name": "キャッチ",
+          "duration": "10 分",
           "image": "https://www.activesgcircle.gov.sg/hs-fs/hubfs/Circle%202.0%20-%202021/images/Gendermah%202014%20Frisbee_2014_04_19_Boon%20Ping%20Chua_AH3U3778.jpeg?width=800&name=Gendermah%202014%20Frisbee_2014_04_19_Boon%20Ping%20Chua_AH3U3778.jpeg"
         }
       ]
     },
     {
       "id": 43,
-      "title": "Rugby",
-      "duration": "64 min",
+      "title": "ラグビー",
+      "duration": "64 分",
       "coverImage": "https://www.sportsboom.com/_next/image?url=https%3A%2F%2Fassets.sportsboom.com%2FGetty_Images_1737884024_42cc74838b.jpg&w=3840&q=75",
-      "level": "Advanced",
-      "description": "A rugby workout to improve teamwork and fitness.",
+      "level": "上級者",
+      "description": "チームワークとフィットネスを向上させるためのラグビーワークアウトです。このセッションでは、パスやタックルの技術を磨き、全身を使って体力を高めることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Passing",
-          "duration": "10 min",
+          "name": "パッシング",
+          "duration": "10 分",
           "image": "https://passport.world.rugby/media/4lnpq5yz/passing.jpg"
         },
         {
           "id": 2,
-          "name": "Tackling",
-          "duration": "10 min",
+          "name": "タックル",
+          "duration": "10 分",
           "image": "https://s.wsj.net/public/resources/images/BN-KH700_RUGBYT_M_20150915113800.jpg"
         }
       ]
     },
     {
       "id": 44,
-      "title": "Football",
-      "duration": "66 min",
+      "title": "サッカー",
+      "duration": "66 分",
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
-      "level": "Advanced",
-      "description": "A football workout to improve teamwork and fitness.",
+      "level": "上級者",
+      "description": "チームワークとフィットネスを向上させるための サッカーのワークアウトです。このセッションでは、ドリブルやシュートの技術を磨き、楽しみながら体力を高めることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Dribbling",
-          "duration": "10 min",
+          "name": "ドリブル",
+          "duration": "10 分",
           "image": "https://miro.medium.com/v2/resize:fit:1400/1*a9nUs6t87Fez3s81ZVjMtQ.jpeg"
         },
         {
           "id": 2,
-          "name": "Shooting",
-          "duration": "10 min",
+          "name": "シュート",
+          "duration": "10 分",
           "image": "https://brand.assets.adidas.com/capi/enGB/Images/how-to-shoot-a-soccer-ball-body-image-7_143-866059.jpg"
         }
       ]
     },
     {
       "id": 45,
-      "title": "Ultimate Frisbee",
-      "duration": "68 min",
+      "title": "アルティメットフリスビー",
+      "duration": "68 分",
       "coverImage": "https://www.kidzherald.com/wp-content/uploads/2024/01/F-4.webp",
-      "level": "Intermediate",
-      "description": "An ultimate frisbee workout to improve teamwork and fitness.",
+      "level": "中級者",
+      "description": "チームワークとフィットネスを向上させるためのアルティメットフリスビーのワークアウトです。このセッションでは、カッティングやハッキングの技術を磨き、楽しみながら体を動かすことを目指します。",
       "poses": [
         {
- "id": 1,
-          "name": "Cutting",
-          "duration": "10 min",
+          "id": 1,
+          "name": "カッティング",
+          "duration": "10 分",
           "image": "https://cdn.ultiworld.com/wordpress/wp-content/uploads/2015/07/USOpen_2015_JJL_20150704_174743-0500_copy-ZF-0779-21271-1-001.jpg"
         },
         {
           "id": 2,
-          "name": "Hucking",
-          "duration": "10 min",
+          "name": "ハッキング",
+          "duration": "10 分",
           "image": "https://content.instructables.com/F17/WVSP/K18JOUSO/F17WVSPK18JOUSO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024&auto=webp&frame=1&height=300"
         }
       ]
     },
     {
       "id": 46,
-      "title": "Basketball",
-      "duration": "70 min",
+      "title": "バスケットボール",
+      "duration": "70 分",
       "coverImage": "https://superblog.supercdn.cloud/site_cuid_clr6oh1no0006rmr89yhkxgu8/images/basketball-1716813325458-compressed.jpeg",
-      "level": "Advanced",
-      "description": "A basketball workout to improve shooting and teamwork.",
+      "level": "上級者",
+      "description": "シューティングとチームワークを向上させるためのバスケットボールワークアウトです。このセッションでは、ドリブルやシュートの技術を磨き、楽しみながら体力を高めることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Dribbling",
-          "duration": "10 min",
+          "name": "ドリブル",
+          "duration": "10 分",
           "image": "https://i.pinimg.com/736x/1d/b1/76/1db1766c78e444bfc35fc304253f4077.jpg"
         },
         {
           "id": 2,
-          "name": "Shooting",
-          "duration": "10 min",
+          "name": "シュート",
+          "duration": "10 分",
           "image": "https://scholarbasketball.com/wp-content/uploads/2024/09/image-10.png"
         }
       ]
     },
     {
       "id": 47,
-      "title": "Handball",
-      "duration": "72 min",
+      "title": "ハンドボール",
+      "duration": "72 分",
       "coverImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/05/14/USAT/73687428007-handball.jpg?crop=4179,2351,x5,y153",
-      "level": "Advanced",
-      "description": "A handball workout to improve teamwork and fitness.",
+      "level": "上級者",
+      "description": "チームワークとフィットネスを向上させるためのハンドボールワークアウトです。このセッションでは、パスやシュートの技術を磨き、全身を使って体力を高めることを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Passing",
-          "duration": "10 min",
+          "name": "パッシング",
+          "duration": "10 分",
           "image": "https://a.storyblok.com/f/73553/1200x745/f1dd310497/technique-passing-on-the-move-triangle.png/m/3840x0/filters:quality(75)"
         },
         {
           "id": 2,
-          "name": "Shooting",
-          "duration": "10 min",
+          "name": "シューティング",
+          "duration": "10 分",
           "image": "https://i.redd.it/my-first-time-shooting-sports-and-handball-feedbacks-would-v0-qiby642ssuu81.jpg?width=1440&format=pjpg&auto=webp&s=710b38afe745b8f0772819e8fa4b1abbf2577c1e"
         }
       ]
     },
     {
       "id": 48,
-      "title": "Tennis",
-      "duration": "74 min",
+      "title": "テニス",
+      "duration": "74 分",
       "coverImage": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tennis_Racket_and_Balls.jpg",
-      "level": "Intermediate",
-      "description": "A tennis workout to improve serving and volleying.",
+      "level": "中級者",
+      "description": "サーブとボレーを向上させるためのテニスワークアウトです。このセッションでは、さまざまなショットを練習し、試合の状況をシミュレーションしながら技術を磨くことを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Forehand",
-          "duration": "10 min",
+          "name": "フォアハンド",
+          "duration": "10 分",
           "image": "https://vietthethao.com/public/cuploads/images/Forehand.jpg"
         },
         {
           "id": 2,
-          "name": "Backhand",
-          "duration": "10 min",
+          "name": "バックハンド",
+          "duration": "10 分",
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-elk-gNGvbFmDKoPz-wAma6p7uLolQfFUQ&s"
         }
       ]
     },
     {
       "id": 49,
-      "title": "Badminton",
-      "duration": "76 min",
+      "title": "バドミントン",
+      "duration": "76 分",
       "coverImage": "https://seumelhorjogo.com/wp-content/uploads/2024/02/badminton.jpg",
-      "level": "Intermediate",
-      "description": "A badminton workout to improve agility and reflexes.",
+      "level": "中級者",
+      "description": "敏捷性と反射神経を向上させるためのバドミントンワークアウトです。このセッションでは、さまざまなショットを練習し、試合の状況をシミュレーションしながら技術を磨くことを目指します。",
       "poses": [
         {
           "id": 1,
-          "name": "Smash",
-          "duration": "10 min",
+          "name": "スマッシュ",
+          "duration": "10 分",
           "image": "https://e4bd5yn4if9.exactdn.com/wp-content/uploads/2021/08/Badminton-Lady-Jump-Smash.jpg?strip=all&lossy=1&ssl=1"
         },
         {
           "id": 2,
-          "name": "Drop Shot",
-          "duration": "10 min",
+          "name": "ドロップショット",
+          "duration": "10 分",
           "image": "https://blog.badmintonjustin.com/wp-content/uploads/2021/01/image.jpeg"
         }
       ]
